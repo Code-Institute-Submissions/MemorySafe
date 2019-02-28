@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
+
 body, html {
   height: 100%;
   margin: 0;
+  padding: 0;
 }
 
 .bg {
-  background-image: url("background5.jpg");
+  background-image: url("background4.png");
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
@@ -36,17 +39,17 @@ right: 20px;
 background: #036299a8;
 color: #fafafa;
 border-radius: 3px;
-margin-left:15px;
-margin-right:15px;
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link {
 color: #fafafa;
 padding: 5px 15px;
+background-color: #032031a8;
 }
 
 
-/*----------Media Queries----------------*/
+
+
 
 
 
