@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Ropa+Sans:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
+Jura|Ropa+Sans
 
 
 body, html {
@@ -8,6 +8,11 @@ body, html {
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
+
+body {
+  padding-top: 70px;
+}
+
 /*
 .bg {
   background-image: url("background4.png");
@@ -18,12 +23,19 @@ body, html {
 }
 */
 
-.container .navbar {
-top: 0;
-left: 0;
-right: 20px;
-
+.page-title {
+  text-align: center;
+  letter-spacing: 1.2px;
+  font-weight: 700;
+  margin-top: 25px;
+  font-family: "Raleway", sans-serif;
 }
+
+.navbar {
+  background-color: #011720d5;
+  box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.2);
+}
+
 .navbar-brand {
   font-weight: 800;
   text-transform: uppercase;
@@ -32,13 +44,18 @@ right: 20px;
 }
 
 .nav-item {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 .fa.fa-navicon {
   color: #010507a8;
+}
+
+.brand-name {
+  color: #fafafa;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link:hover,
@@ -54,6 +71,7 @@ padding: 5px 15px;
 background-color: #032031a8;
 }
 
+/* ----Carousel---------------------------*/
 
 #braincarousel {
   background-color: transparent;
@@ -70,12 +88,48 @@ background-color: #032031a8;
   width: 100%;
 }
 
-.page-title {
-  text-align: center;
-  letter-spacing: 1.2px;
-  font-weight: 700;
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 10px;
+  height: 10px;
+ 
+} 
+
+
+
+
+/*----Media Queries----------------------------------------------------------------*/
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
 }
 
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel-control-prev-icon .carousel-control-next-icon {
+font-size: 0.5rem;
+  }
+  
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .carousel-control-prev-icon .carousel-control-next-icon {
+    font-size: 0.5rem;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
 
 
 
