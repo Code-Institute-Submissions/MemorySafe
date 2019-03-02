@@ -70,7 +70,6 @@ border-radius: 4px;
 .navbar-light .navbar-nav .nav-item .nav-link {
 color: #fafafa;
 padding: 5px 20px;
-border-left: #fafafa;
 /*background-color: #032031a8;*/
 border-radius: 4px;
 }
@@ -80,8 +79,9 @@ border-radius: 4px;
   background-color: rgb(18, 224, 252);
 }
 
-.nav-item.nav-item.active {
-  background-color:  rgba(32, 107, 117, 0.884);
+#navbarSupportedContent .navbar .nav-item a .nav-link .active {
+color:  rgb(18, 224, 252);
+  
 }
 /* ----Carousel---------------------------*/
 
