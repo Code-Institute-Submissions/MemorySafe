@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Ropa+Sans:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
-Jura|Ropa+Sans
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
 
 
 body, html {
@@ -11,17 +10,14 @@ body, html {
 
 body {
   padding-top: 70px;
-}
-
-/*
-.bg {
-  background-image: url("background4.png");
-  height: 100%; 
+  background-image: url("background8.png");
+  height: 100%;
+  width: 100%; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-*/
+
 
 .page-title {
   text-align: center;
@@ -57,20 +53,14 @@ body {
 }
 
 .fa.fa-navicon {
-  color: #010507a8;
+  border-color: #fafafa !important;
 }
 
-.navbar-light .navbar-nav .nav-item .nav-link:hover,
-.navbar-light .navbar-nav .nav-item.active .nav-link {
-/*background: #036299a8;*/
-color: #fafafa;
-border-radius: 4px;
-}
 
 .navbar-light .navbar-nav .nav-item .nav-link {
 color: #fafafa;
+font-weight: 600;
 padding: 5px 20px;
-/*background-color: #032031a8;*/
 border-radius: 4px;
 }
 
@@ -81,8 +71,39 @@ border-radius: 4px;
 
 .active .nav-link {
   color:rgb(18, 224, 252) !important;
+  font-weight: 800 !important;
 }
   
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+
+
+/*----nav hover stroke-------------------*/
+nav.stroke ul li a {
+  position: relative;
+}
+
+nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: rgb(18, 224, 252);
+  height: 1.5px;
+}
+nav.stroke ul li a:hover:after {
+  width: 70%;
+}
+
+
 /* ----Carousel---------------------------*/
 
 #braincarousel {
@@ -142,6 +163,11 @@ border-radius: 4px;
     .quote {
       display: none;
     }
+
+    nav.stroke ul li a:hover:after,
+    nav.stroke ul li a:after {
+      display: none;
+    }
 }
 
 /* Portrait phones and smaller */
@@ -156,6 +182,11 @@ border-radius: 4px;
     }
 
     .quote {
+      display: none;
+    }
+
+    nav.stroke ul li a:hover:after,
+    nav.stroke ul li a:after {
       display: none;
     }
 }
