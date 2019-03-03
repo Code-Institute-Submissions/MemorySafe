@@ -79,10 +79,10 @@ border-radius: 4px;
   background-color: rgb(18, 224, 252);
 }
 
-#navbarSupportedContent .navbar .nav-item a .nav-link .active {
-color:  rgb(18, 224, 252);
-  
+.active .nav-link {
+  color:rgb(18, 224, 252) !important;
 }
+  
 /* ----Carousel---------------------------*/
 
 #braincarousel {
