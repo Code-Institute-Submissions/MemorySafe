@@ -129,6 +129,7 @@ form {
   margin-top: 30px;
 }
 
+
   .mx-auto .map {
    width: 200px;
   
@@ -245,6 +246,11 @@ footer ul li {
   .brand-slogan {
     display: none;
   }
+
+  .hero-image .hero-text, h4 {
+    font-size: calc(14px + (38 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+  }
 }
 
 /* Landscape tablets and medium desktops */
@@ -253,15 +259,24 @@ footer ul li {
     display: none;
   }
 
+  .hero-image .hero-text, h4 {
+    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1200 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1000 - 300)));
+  }
 
 }
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
 
-  .hero-image .hero-text, h5, h6 {
+  .hero-image .hero-text, h4 {
     font-size: calc(14px + (24 - 14) * ((100vw - 300px) / (1200 - 300)));
-    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1200 - 300)));
+  }
+
+  .navbar {
+    padding-top: 20 px;
+    padding-bottom: 20 px;
   }
   } 
 
@@ -274,11 +289,11 @@ footer ul li {
   }
 
   .navbar {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 35 px;
+    padding-bottom: 35 px;
   }
 
-  .hero-image .hero-text, h5 {
+  .hero-image .hero-text, h4 {
       font-size: calc(14px + (34 - 14) * ((100vw - 300px) / (1600 - 300)));
       line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
     }
