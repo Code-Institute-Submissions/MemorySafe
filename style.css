@@ -211,7 +211,9 @@ footer .social-icons a:hover {
 }
 /* Portrait tablets and small desktops */
  @media (min-width: 768px) and (max-width: 991px) {
-    
+    .brand-slogan {
+        display: none;
+   }
      .hero-image .hero-text, h4 {
          font-size: calc(14px + (38 - 14) * ((100vw - 300px) / (1600 - 300)));
          line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
@@ -221,7 +223,9 @@ footer .social-icons a:hover {
 
 /* Landscape tablets and medium desktops */
  @media (min-width: 992px) and (max-width: 1199px) {
-    
+    .brand-slogan {
+        display: none;
+   }
      .hero-image .hero-text, h4 {
          font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1200 - 300)));
          line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1000 - 300)));
@@ -229,13 +233,15 @@ footer .social-icons a:hover {
 }
 /* Large desktops and laptops */
  @media (min-width: 1200px) {
-     .hero-image .hero-text, h4 {
+   
+    
+    .hero-image .hero-text, h4 {
          font-size: calc(14px + (24 - 14) * ((100vw - 300px) / (1200 - 300)));
          line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1200 - 300)));
     }
      .navbar {
-         padding-top: 20 px;
-         padding-bottom: 20 px;
+         padding-top: 10 px;
+         padding-bottom: 10 px;
     }
 }
 /*--XL screens----*/
@@ -245,8 +251,8 @@ footer .social-icons a:hover {
          line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
     }
      .navbar {
-         padding-top: 35 px;
-         padding-bottom: 35 px;
+         padding-top: 60 px;
+         padding-bottom: 60 px;
     }
      .hero-image .hero-text, h4 {
          font-size: calc(14px + (34 - 14) * ((100vw - 300px) / (1600 - 300)));
