@@ -149,7 +149,13 @@
      padding: 10px 10px;
      margin-top: 70px;
 }
+
+footer ul {
+    margin-bottom: 7px !important;
+
+}
  footer p {
+     margin-top: 7px !important;
      text-align: center;
 }
  footer ul li {
@@ -159,6 +165,19 @@
      padding-right: 5%;
      font-size: 13px;
 }
+
+footer .social-icons a {
+
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 140%;
+    color: rgb(18, 224, 252);
+}
+
+footer .social-icons a:hover {
+    color: rgba(53, 206, 226, 0.795);
+}
+
  footer p {
      font-size: 10px;
 }
@@ -172,9 +191,7 @@
          font-weight: 800;
          font-size: 1em;
     }
-     .quote {
-         display: none;
-    }
+    
      nav.stroke ul li a:hover:after, nav.stroke ul li a:after {
          display: none;
     }
@@ -184,9 +201,7 @@
      .brand-slogan {
          display: none;
     }
-     .quote {
-         display: none;
-    }
+    
      nav.stroke ul li a:hover:after, nav.stroke ul li a:after {
          display: none;
     }
@@ -196,19 +211,17 @@
 }
 /* Portrait tablets and small desktops */
  @media (min-width: 768px) and (max-width: 991px) {
-     .brand-slogan {
-         display: none;
-    }
+    
      .hero-image .hero-text, h4 {
          font-size: calc(14px + (38 - 14) * ((100vw - 300px) / (1600 - 300)));
          line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
     }
+  
 }
+
 /* Landscape tablets and medium desktops */
  @media (min-width: 992px) and (max-width: 1199px) {
-     .brand-slogan {
-         display: none;
-    }
+    
      .hero-image .hero-text, h4 {
          font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1200 - 300)));
          line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1000 - 300)));

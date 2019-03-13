@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Mind</title>
-    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -22,10 +21,10 @@
             <nav class="navbar navbar-expand-sm navbar-light fixed-top stroke">
                 <a class="navbar-brand" href="index.html"><img src="logo.png" width="70" height="30" alt="logo"></a>
                 <div class="row">
-                    <div class="col-auto mr-auto brand-slogan">Call 01 23546879 <span>Book Here</span></div>
+                    <div class="col-auto mr-auto brand-slogan"> Call 01 23546879</div>
                 </div>
                 <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"><i class="fa fa-navicon"></i>
+                <span class="navbar-toggler-icon">
               </span>
               </button>
 
@@ -53,43 +52,13 @@
         <!-----------Navbar ends---------------->
     </header>
 
-    <body>
+   
 
-        <div class="hero-image">
-            <div class="hero-text">
-                <ul class="fa-ul">
-                  <div class="contact-us">
-                    <li><strong>CONTACT US</strong></li> 
-                  </div>
-                    <div class="envelope">
-                        <li><span class="fa-li"><i class="far fa-envelope"></i></span>hello@mindsafe.com</li>
-                    </div>
-                    <div class="phone-number">
-                        <li><span class="fa-li"><i class="fas fa-phone"></i></span>00353 123546987</li>
-                    </div>
-                </ul>
-            </div>
-        </div>
-
-        <!-------address---------------------------------->
-        <div class="container address-contact">
-            <div class="row">
-                <div class="address col-md-6">
-                    <h6>MindSafe</h6>
-                    <p>356 Grafton Road <br> Dublin 2<br> Ireland</p>
-                </div>
-
-
-                <div class="mx-auto map text-center col-md-4">
-                    <img src="map.jpg" class="img-fluid contact-map" alt="map of MindSafe">
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid col-md-6 col-lg-6">
+        
             <!--contact form------------------------------------------------------->
-
+            <div class="container-fluid col-md-6 col-lg-6">
             <form role="form">
-                <h6>You've got questions, we've got answers.</h6>
+                <h5>Book an assessment</h5>
                 <br>
                 <div class="form-group">
 
@@ -110,20 +79,44 @@
                     <label for="Phone number">
 						Phone number
 					</label>
-                    <input type="text" class="form-control" name="Phone number" placeholder="Phone number" />
+                    <input type="text" class="form-control" name="Phone number" placeholder="Phone number" required />
                 </div>
                 <div class="form-group">
 
-                    <label for="comment">Message:</label>
-                    <textarea class="form-control" rows="5" placeholder="How can we help you?"></textarea>
+                    <label for="Date and Time">
+						Date and Time
+					</label>
+                    <input type="datetime-local" value="2019-03-13T13:00" class="form-control" name="Date and Time" required />
                 </div>
+
+                <div class="form-group">
+
+                    <label for="comment">Message:</label>
+                    <textarea class="form-control" rows="5" placeholder="Optional"></textarea>
+                </div>
+                <div class="form-group">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                          <label class="form-check-label" for="gridCheck">
+                            Do you wish a confirmation of your booking by text?
+                          </label>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="gridCheck">
+                              <label class="form-check-label" for="gridCheck">
+                                Do you wish a reminder of your appointment by text with a day before?
+                              </label>
+                            </div>
+                          </div>
 
               <button type="submit" class="btn btn-success submit-button">
 				  	Submit
 				      </button>
             </form>
         </div>
-
+    </div>
         <!--------------JQuery------------>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
