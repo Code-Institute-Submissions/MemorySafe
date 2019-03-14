@@ -27,7 +27,7 @@
      background-color: #06212c;
      padding-right: 30px;
 }
- .brand-slogan {
+ .brand-phone {
      color: #fafafa;
      font-family: "Montserrat", sans-serif;
      padding-left: 15px;
@@ -90,9 +90,7 @@
      margin-bottom: 15px;
      margin-top: 15px;
 }
- .img-responsive {
-     width: 100%;
-}
+ 
  .carousel-control-prev-icon, .carousel-control-next-icon {
      width: 10px;
      height: 10px;
@@ -138,7 +136,7 @@
   margin-bottom: 40px;
 }
 /*---------Footer----------------------------------------------------*/
- .footer {
+ footer {
      position: scroll;
      left: 0;
      bottom: 0;
@@ -146,8 +144,12 @@
      background-color:#06212c;
      color: white;
      text-align: center;
-     padding: 10px 10px;
-     margin-top: 70px;
+     padding-top: 20px;
+     padding-bottom: 10px;
+     padding-right: 10px;
+     padding-left: 10px;
+     margin-top: 30px;
+     
 }
 
 footer ul {
@@ -175,16 +177,17 @@ footer .social-icons a {
 }
 
 footer .social-icons a:hover {
-    color: rgba(53, 206, 226, 0.795);
+    color: rgba(53, 206, 226, 0.514);
 }
 
  footer p {
      font-size: 10px;
 }
 /*----Media Queries----------------------------------------------------------------*/
+
 /* Portrait phones and smaller */
  @media (max-width: 480px) {
-     .brand-slogan {
+     .brand-phone {
          display: none;
     }
      .navbar-brand {
@@ -198,7 +201,7 @@ footer .social-icons a:hover {
 }
 /* Landscape phones and portrait tablets */
  @media (max-width: 767px) {
-     .brand-slogan {
+     .brand-phone {
          display: none;
     }
     
@@ -211,7 +214,7 @@ footer .social-icons a:hover {
 }
 /* Portrait tablets and small desktops */
  @media (min-width: 768px) and (max-width: 991px) {
-    .brand-slogan {
+    .brand-phone {
         display: none;
    }
      .hero-image .hero-text, h4 {
@@ -223,7 +226,7 @@ footer .social-icons a:hover {
 
 /* Landscape tablets and medium desktops */
  @media (min-width: 992px) and (max-width: 1199px) {
-    .brand-slogan {
+    .brand-phone {
         display: none;
    }
      .hero-image .hero-text, h4 {
@@ -243,11 +246,15 @@ footer .social-icons a:hover {
          padding-top: 10 px;
          padding-bottom: 10 px;
     }
+    footer .footer-text h6 {
+        font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
+        line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+    }
 }
-/*--XL screens----*/
+/*--XL screens------------------*/
  @media screen and (min-width: 1600px) {
      body {
-         font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+         font-size: calc(14px + (24 - 14) * ((100vw - 300px) / (1600 - 300)));
          line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
     }
      .navbar {
@@ -257,6 +264,20 @@ footer .social-icons a:hover {
      .hero-image .hero-text, h4 {
          font-size: calc(14px + (34 - 14) * ((100vw - 300px) / (1600 - 300)));
          line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+    }
+
+    footer .footer-text h6 {
+        font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+        line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+    }
+
+    .navbar .navbar-brand img {
+        width: 105px;
+        height: 45px;
+    }
+    #navbarSupportedContent {
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 }
  
