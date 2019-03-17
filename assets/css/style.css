@@ -212,6 +212,8 @@ footer .copyright {
     .address-contact {
          font-size: 14px;
     }
+
+ 
     .map {
         width: 60%;
         margin-bottom: 1rem;
@@ -222,7 +224,7 @@ footer .copyright {
        margin-bottom: 1rem;;
    }
    .hero-text {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
@@ -242,12 +244,12 @@ footer .copyright {
          padding-left: 0;
     }
     .hero-image {
-        height: 70%;
+        height: 50%;
     }
 
     form {
         width: 70%;
-       margin-left: 100px;
+       margin-left: 50px;
     }
    
   
