@@ -239,16 +239,9 @@ footer .copyright {
     margin-bottom: 30px;
 }
 
-.doctor{
-    padding: 20px;
-  
-    display: inline;
-}
-
-.bio {
-    padding-top: 20px;
-   
-   
+.doctor>img {
+    width: 180px;
+    height: 180px;
 }
 
 
