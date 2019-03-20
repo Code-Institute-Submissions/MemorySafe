@@ -241,12 +241,13 @@ footer .copyright {
 
 .doctor{
     padding: 20px;
-    padding-left: 10px;
+  
+    display: inline;
 }
 
 .bio {
     padding-top: 20px;
-    display: block;
+   
    
 }
 
