@@ -235,15 +235,49 @@ footer .copyright {
 
 
 .founders {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 40px;
+   
+}
+.card {
+    border:0;
 }
 
+.card-body {
+    padding-left: 15px;
+    padding-bottom: 40px;
+}
 .doctor>img {
     width: 180px;
     height: 180px;
+    margin-left: 20px;
 }
 
+.logo-partners {
+    text-align: center !important;
+}
+
+.logo-partners>img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+
+.list-logos {
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center !important;
+}
+
+.bio {
+    margin-left: 10px;
+    position: relative;
+}
+/*--.building>img {
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+}*/
 
 /*----Media Queries----------------------------------------------------------------*/
 
