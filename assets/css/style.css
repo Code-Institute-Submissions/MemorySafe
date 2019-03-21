@@ -86,7 +86,7 @@
      height: 10px;
 }
 
-.carousel-caption h6 {
+.carousel-caption>h6 {
     background: #40585c9d;
 }
 
@@ -108,7 +108,7 @@
     margin-top: 20px;
 }
 
-.client img {
+.client>img {
     float: left;
     margin-right: 20px;
     border-radius: 50%;
@@ -120,7 +120,7 @@
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-.testimonials .client p {
+.testimonials .client>p {
     
 }
 /*contact page------------------------------------------------*/
@@ -139,7 +139,7 @@
     
 }
 
-.address p {
+.address>p {
     padding-left: 40px;
 
 }
@@ -162,7 +162,7 @@
      color: white;
      font-size: 22px;
 }
- .hero-image .hero-text ul li {
+ .hero-image .hero-text>ul>li {
      display: inline-block;
      text-decoration: none;
      padding-right: 5%;
@@ -176,7 +176,7 @@
   margin-bottom: 40px;
 }
 
- .opening-hours ul li {
+ .opening-hours>ul>li {
     display: inline-block;
     text-decoration: none;
     padding-left: 0;
@@ -198,16 +198,16 @@
      
 }
 
-footer ul {
+footer>ul {
     margin-bottom: 7px !important;
 
 }
- footer p {
+ footer>p {
      margin-top: 7px !important;
      text-align: center;
      line-height: 1 rem;
 }
- footer ul li {
+ footer>ul>li {
      display: inline-block;
      text-decoration: none;
      padding-left: 5%;
