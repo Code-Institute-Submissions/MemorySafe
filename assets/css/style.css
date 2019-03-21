@@ -51,7 +51,7 @@
      transition: all .5s;
 }
 /*----nav hover stroke-------------------*/
- nav.stroke ul li a {
+ nav.stroke>ul>li>a {
      position: relative;
 }
  nav.stroke ul li a:after {
@@ -66,7 +66,7 @@
      background: rgb(18, 224, 252);
      height: 1.5px;
 }
- nav.stroke ul li a:hover:after {
+ nav.stroke>ul>li>a:hover:after {
      width: 70%;
 }
 /* ----Carousel---------------------------*/
@@ -86,7 +86,7 @@
      height: 10px;
 }
 
-.carousel-caption h6 {
+.carousel-caption>h6 {
     background: #40585c9d;
 }
 
@@ -108,7 +108,7 @@
     margin-top: 20px;
 }
 
-.client img {
+.client>img {
     float: left;
     margin-right: 20px;
     border-radius: 50%;
@@ -120,7 +120,7 @@
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-.testimonials .client p {
+.testimonials .client>p {
     
 }
 /*contact page------------------------------------------------*/
@@ -139,7 +139,7 @@
     
 }
 
-.address p {
+.address>p {
     padding-left: 40px;
 
 }
@@ -162,13 +162,13 @@
      color: white;
      font-size: 22px;
 }
- .hero-image .hero-text ul li {
+ .hero-text>ul>li {
      display: inline-block;
      text-decoration: none;
      padding-right: 5%;
      text-align: center;
 }
- .hero-image .hero-text .fa-ul {
+.hero-text .fa-ul {
      margin-left: 1px;
 }
 
@@ -198,16 +198,16 @@
      
 }
 
-footer ul {
+footer>ul {
     margin-bottom: 7px !important;
 
 }
- footer p {
+ footer>p {
      margin-top: 7px !important;
      text-align: center;
      line-height: 1 rem;
 }
- footer ul li {
+ footer>ul>li {
      display: inline-block;
      text-decoration: none;
      padding-left: 5%;
@@ -215,7 +215,7 @@ footer ul {
      font-size: 10px;
 }
 
-footer .social-icons a {
+footer .social-icons>a {
 
     padding-right: 10%;
     padding-left: 10%;
@@ -253,13 +253,15 @@ footer .copyright {
 }
 
 .logo-partners {
-    text-align: center !important;
+    text-align: center !important;  
+    padding: 5px;
 }
 
 .logo-partners>img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     margin: 5px;
+  
 }
 
 
@@ -381,7 +383,7 @@ footer .copyright {
  @media (min-width: 1200px) {
    
     
-    .hero-image .hero-text, h4 {
+     .hero-text, h4 {
          font-size: calc(14px + (24 - 14) * ((100vw - 300px) / (1200 - 300)));
          line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1200 - 300)));
     }
@@ -415,7 +417,7 @@ footer .copyright {
          padding-bottom: 60 px;
     }
 
-    .hero-image .hero-text, h4 {
+   .hero-text, h4 {
         font-size: calc(14px + (38 - 14) * ((100vw - 300px) / (1600 - 300)));
         line-height: calc(1.3em + (1.3 - 1.2) * ((100vw - 300px)/(1600 - 300)));
    }
