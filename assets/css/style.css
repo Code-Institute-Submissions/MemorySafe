@@ -229,57 +229,81 @@ footer .social-icons a:hover {
 }
 footer .copyright {
     font-size: 12px;
+    padding-top: 15px;
 }
 
 
 /*about us page-----------------------------*/
 
-.history{
-    padding-top: 30px;
-    margin: 30px;
-}
+
 .founders {
-    margin-left: 30px;
+  margin: 0;
    
 }
-.card {
-    margin: 30px;
-    border:0;
+.founders>.doctor {
+    padding-right: 0;
+    padding-left: 0;
+}
+.doctor{
+    margin-top: 30px;
+    border:none;
+  
 }
 
 .card-body {
+    border: 0px;
     padding-left: 15px;
-    padding-bottom: 40px;
+    padding-right: 10px;
+    margin: 0;
+}
+.logo-partners {
+    margin:0;
+    padding:0;
+}
+
+.card-title, .card-text {
+    padding: 10px;
+
+}
+
+.history-container {
+    padding: 0;
 }
 .doctor>img {
-    width: 180px;
-    height: 180px;
+    width: 140px;
+    height: 140px;
     margin-left: 20px;
 }
 
-.logo-partners {
-    text-align: center !important;
+.partners {
+    margin:0;
+    padding: 0;
 }
+
 
 .logo-partners>img {
-    width: 50px;
+   
     height: 50px;
-    margin: 5px;
+    margin: 10px;
 }
 
-
-.list-logos {
-    margin-right: 0;
-    margin-left: 0;
-    text-align: center !important;
+.custom-logos {
+    padding: 0;
+    margin: 0;
 }
 
-.bio {
-    margin-left: 10px;
-    position: relative;
+.history {
+    font-size: 12px;
 }
 
+.partners-container {
+    padding: 0 !important;
+    margin: 0;
+}
 
+.about-us-title {
+    padding-bottom: 20px;
+}
 
 /*----Media Queries----------------------------------------------------------------*/
 
