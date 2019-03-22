@@ -101,8 +101,12 @@
 }
 .testimonials {
     padding: 30px;
-    margin: 0;
+    margin:0 !important;
 
+}
+.testimonials-row {
+    margin:0 !important;
+    padding:0;
 }
 
 .client {
@@ -309,10 +313,7 @@ footer .copyright {
     margin: 0;
 }
 
-.hero-image-container {
-    padding:0 !important;
-    margin:0 !important;
-}
+
 
 /*----Media Queries----------------------------------------------------------------*/
 
@@ -341,6 +342,9 @@ footer .copyright {
 
     .testimonials .client {
         font-size: 12px;
+    }
+    .client>img {
+        display: none;
     }
     .address-contact {
          font-size: 14px;
