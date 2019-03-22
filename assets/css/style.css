@@ -305,6 +305,15 @@ footer .copyright {
     padding-bottom: 20px;
 }
 
+.hero-text {
+    margin: 0;
+}
+
+.hero-image-container {
+    padding:0 !important;
+    margin:0 !important;
+}
+
 /*----Media Queries----------------------------------------------------------------*/
 
 /* Portrait phones and smaller */
@@ -350,6 +359,9 @@ footer .copyright {
    .hero-text {
     font-size: 18px;
 }
+.hero-image {
+    height: 50%;
+}
 
 
 }
@@ -368,7 +380,7 @@ footer .copyright {
          padding-left: 0;
     }
     .hero-image {
-        height: 50%;
+        height: 70%;
     }
 
     form {
@@ -385,9 +397,10 @@ footer .copyright {
    }
    
   
-  .hero-text {
-      font-size: 28px;
-  }
+   .history {
+    font-size: 80%;
+}
+  
 }
 
 /* Landscape tablets and medium desktops */
