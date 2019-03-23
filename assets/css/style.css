@@ -7,10 +7,12 @@
      font-family: "Montserrat", sans-serif;
 }
 
-.row {
+.row, .container, .container-fluid {
     margin:0;
     padding:0;
 }
+
+
  .page-title {
      text-align: center;
      letter-spacing: 1.6px;
@@ -18,6 +20,7 @@
      margin-top: 70px;
      font-family: "Allerta Stencil", cursive;
 }
+
  .navbar {
      background-color: #06212c;
     
@@ -95,14 +98,7 @@
     background: #40585c9d;
 }
 
-.gap {
 
-    padding: 0 !important;
-}
-
-.gap-two {
-    margin: 0 !important;
-}
 .testimonials {
     padding: 30px;
     margin:0 !important;
@@ -129,9 +125,6 @@
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-.testimonials .client>p {
-    
-}
 /*contact page------------------------------------------------*/
  form {
      margin-top: 30px;
@@ -207,6 +200,7 @@
      
 }
 
+
 footer>ul {
     margin-bottom: 7px !important;
 
@@ -243,15 +237,11 @@ footer .copyright {
 
 /*about us page-----------------------------*/
 
+.history-container {
+    height: 70%;
+    width: 70;
+}
 
-.founders {
-  margin: 0;
-   
-}
-.founders>.doctor {
-    padding-right: 0;
-    padding-left: 0;
-}
 .doctor{
     margin-top: 30px;
     border:none;
@@ -264,58 +254,40 @@ footer .copyright {
     padding-right: 15px;
     margin: 0;
 }
-.logo-partners {
-    margin:0;
-    padding:0;
-}
+
 
 .card-title, .card-text {
     padding: 10px;
 
 }
 
-.history-container {
-    padding: 0;
-}
+
 .doctor>img {
     width: 140px;
     height: 140px;
     margin-left: 20px;
 }
 
-.partners {
-    margin:0;
-    padding: 0;
-}
 
 
 .logo-partners>img {
    
-    height: 50px;
-    margin: 10px;
+height: 60px;
+padding: 10px;
 }
 
-.custom-logos {
-    padding: 0;
-    margin: 0;
-}
+
 
 .history {
     font-size: 12px;
 }
 
-.partners-container {
-    padding: 0 !important;
-    margin: 0;
-}
+
 
 .about-us-title {
     padding-bottom: 20px;
 }
 
-.hero-text {
-    margin: 0;
-}
 
 
 
@@ -364,13 +336,13 @@ footer .copyright {
    }
    .hero-text {
     font-size: 18px;
-}
-.hero-image {
+  }
+   .hero-image {
     height: 50%;
 }
-
-
 }
+
+
 /* Landscape phones and portrait tablets */
  @media (max-width: 767px) {
      .brand-phone {
