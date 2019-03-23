@@ -238,14 +238,7 @@ footer .copyright {
 /*about us page-----------------------------*/
 
 
-.founders {
-  margin: 0;
-   
-}
-.founders>.doctor {
-    padding-right: 0;
-    padding-left: 0;
-}
+
 .doctor{
     margin-top: 30px;
     border:none;
@@ -258,58 +251,41 @@ footer .copyright {
     padding-right: 15px;
     margin: 0;
 }
-.logo-partners {
-    margin:0;
-    padding:0;
-}
+
 
 .card-title, .card-text {
     padding: 10px;
 
 }
 
-.history-container {
-    padding: 0;
-}
+
 .doctor>img {
     width: 140px;
     height: 140px;
     margin-left: 20px;
 }
 
-.partners {
-    margin:0;
-    padding: 0;
-}
 
 
 .logo-partners>img {
    
-    height: 50px;
-    margin: 10px;
+height: 60px;
+padding: 10px;
 }
 
-.custom-logos {
-    padding: 0;
-    margin: 0;
-}
+
 
 .history {
     font-size: 12px;
 }
 
-.partners-container {
-    padding: 0 !important;
-    margin: 0;
-}
+
 
 .about-us-title {
     padding-bottom: 20px;
 }
 
-.hero-text {
-    margin: 0;
-}
+
 
 
 /*----Media Queries----------------------------------------------------------------*/
@@ -364,6 +340,7 @@ footer .copyright {
 
 
 }
+
 
 /* Landscape phones and portrait tablets */
  @media (max-width: 767px) {
