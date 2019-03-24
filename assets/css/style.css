@@ -289,7 +289,39 @@ padding: 10px;
 }
 
 
+/*---HOW IT WORKS PAGE--------------------------*/
 
+
+.hero-image-process {
+   
+    padding-top: 80px;
+
+}
+
+.process-title {
+    font-size: 18px;
+}
+.hero-text-process, .process, .fa-info-circle {
+    font-size: 14px;
+    color: #fafafa;
+}
+
+.hero-text-process {
+    height: 20px;
+    width: 70%;
+    text-align: center;
+   margin: 0 auto;
+   padding-left:0;
+}
+
+.list-process>li {
+    list-style: none;
+}
+
+.list-process {
+    padding:0;
+    margin:0;
+}
 
 /*----Media Queries----------------------------------------------------------------*/
 
