@@ -306,6 +306,10 @@ padding: 10px;
     color: #fafafa;
 }
 
+.fa-info-circle {
+    font-weight: 900;
+}
+
 .hero-text-process {
     height: 20px;
     width: 70%;
