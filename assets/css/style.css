@@ -238,8 +238,9 @@ footer .copyright {
 /*about us page-----------------------------*/
 
 .history-container {
-    height: 70%;
-    width: 70;
+height: 70%;
+  padding: 0;
+ 
 }
 
 .doctor{
@@ -291,23 +292,36 @@ padding: 10px;
 
 /*---HOW IT WORKS PAGE--------------------------*/
 
+.hero-image {
+    text-align: center;
+}
+
+
+.process-container {
+    width: 200px;
+    display: inline-block;
+    
+}
 
 .hero-image-process {
    
-    padding-top: 80px;
+    padding-top: 30px;
 
 }
 
 .process-title {
     font-size: 18px;
 }
-.hero-text-process, .process, .fa-info-circle {
+.hero-text-process, .process {
     font-size: 14px;
     color: #fafafa;
 }
 
-.fa-info-circle {
+.fa-question-circle {
     font-weight: 900;
+    font-size: 25px;
+    color: #fafafa;
+    padding: 10px;
 }
 
 .hero-text-process {
@@ -326,6 +340,8 @@ padding: 10px;
     padding:0;
     margin:0;
 }
+
+
 
 /*----Media Queries----------------------------------------------------------------*/
 
@@ -376,6 +392,13 @@ padding: 10px;
    .hero-image {
     height: 50%;
 }
+
+.hero-image-process {
+    height: 50% !important;
+}
+.fa-question-circle {
+    font-size: 25px;
+}
 }
 
 
@@ -402,6 +425,9 @@ padding: 10px;
        margin-left: 50px;
     }
    
+  .process-title {
+      padding-top: 10px;
+  }
   
 }
 /* Portrait tablets and small desktops */
@@ -428,6 +454,14 @@ padding: 10px;
 }
 .hero-text {
     font-size: 30px;
+}
+
+.hero-image-process {
+    height: 40% !important;
+}
+
+.history-container {
+    padding-top: 50px;
 }
 
 }
