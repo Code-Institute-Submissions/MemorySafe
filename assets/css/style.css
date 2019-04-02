@@ -354,6 +354,10 @@ padding: 10px;
     text-align: center;
 }
 
+.steps {
+    margin-top: 20px;
+}
+
 
 /*----Media Queries----------------------------------------------------------------*/
 
@@ -411,6 +415,12 @@ padding: 10px;
 .fa-question-circle {
     font-size: 25px;
 }
+}
+
+/*404 PAGE------------------*/
+
+.error-page {
+    margin-top: 40%;
 }
 
 
