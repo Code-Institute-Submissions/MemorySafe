@@ -126,7 +126,7 @@
 }
 
 /*contact page------------------------------------------------*/
- form {
+ .contact-form {
      margin-top: 30px;
 }
     .map {
@@ -139,6 +139,9 @@
      padding-right: 10px;
      padding-bottom: 20px;
     
+}
+::placeholder {
+    font-size: 70%;
 }
 
 .address>p {
@@ -418,11 +421,6 @@ padding: 10px;
 }
 }
 
-/*404 PAGE------------------*/
-
-.error-page {
-    margin-top: 40%;
-}
 
 .history-container {
     height: 200px;
@@ -452,10 +450,8 @@ padding: 10px;
          padding-left: 0;
     }
    
-    form {
-        width: 70%;
-         margin-left: 50px;
-    }
+    
+
     .history-container {
         height: 200px;
         width: 350px;
@@ -492,6 +488,11 @@ padding: 10px;
     padding: 5px;
 }
 
+
+.opening-hours>ul {
+padding-left: 20px;
+
+}
 .history-container {
     width: 600px;
 }
@@ -501,11 +502,7 @@ padding: 10px;
     margin-left: 20px;
     margin-right: 20px;
 }
-form {
-      
-    margin-left: 200px;
-    width: 400px;
-}
+
   
 }
 
@@ -519,7 +516,7 @@ form {
     padding-left: 0;
 }
 .hero-text {
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .hero-image-process {
@@ -546,11 +543,7 @@ form {
     height: 80px;
     padding: 5px;
 }
-form {
-      
-    margin-left: 300px;
-    width: 400px;
-}
+
 }
 /* Large desktops and laptops */
  @media (min-width: 1200px) {
@@ -590,11 +583,7 @@ form {
         height: 80px;
         padding: 5px;
     }
-    form {
-      
-        margin-left: 400px;
-        width: 500px;
-    }
+
 }
 /*--XL screens------------------*/
  @media screen and (min-width: 1600px) {
@@ -617,7 +606,7 @@ form {
         height: 75px;
     }
 
-    form {
+    .contact-form {
         width: 700px;
         height: 700px;
         margin-left: 900px;
