@@ -147,7 +147,7 @@
 }
  .hero-image {
      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background5.png");
-     height: 50%;
+     height: 70%;
      margin-top:40px;
      width: 100%;
      background-position: center;
@@ -405,6 +405,7 @@ padding: 10px;
    .hero-text {
     font-size: 18px;
   }
+
    .hero-image {
     height: 50%;
 }
@@ -450,10 +451,7 @@ padding: 10px;
          width: 50%;
          padding-left: 0;
     }
-    .hero-image {
-        height: 70%;
-    }
-
+   
     form {
         width: 70%;
        margin-left: 50px;
@@ -476,6 +474,11 @@ padding: 10px;
   .process-title {
       padding-top: 10px;
   }
+
+  .hero-image {
+    height: 90%;
+    margin-top: 20px;
+  }
   
 }
 /* Portrait tablets and small desktops */
@@ -490,9 +493,9 @@ padding: 10px;
 }
 
 .history-container {
-    height: 300px;
-    width: 400px;
+    width: 600px;
 }
+
 .history {
     font-size: 18px;
     margin-left: 20px;
@@ -519,14 +522,16 @@ padding: 10px;
     height: 40% !important;
 }
 
-.history-container {
-    padding-top: 50px;
+.hero-image {
+    height: 70%;
+    margin-top: 10px;
 }
 
 .history-container {
     height: 200px;
     width: 600px;
 }
+
 .history {
     font-size: 18px;
     margin-left: 20px;
@@ -541,11 +546,7 @@ padding: 10px;
 /* Large desktops and laptops */
  @media (min-width: 1200px) {
    
-    
-    .hero-image .hero-text>h4 {
-         font-size: 34px;
-         line-height: 3px;
-    }
+
      .navbar {
          padding-top: 10 px;
          padding-bottom: 10 px;
@@ -566,8 +567,9 @@ padding: 10px;
     }
 
     .history-container {
-        height: 200px;
+        height: 300px;
         width: 600px;
+        padding: 0;
     }
     .history {
         font-size: 20px;
@@ -583,27 +585,51 @@ padding: 10px;
 /*--XL screens------------------*/
  @media screen and (min-width: 1600px) {
      body {
-         font-size: 20px;
-         line-height: 5px;
+         font-size: 30px;
+         line-height: 40px;
     }
      .navbar {
          padding-top: 60 px;
          padding-bottom: 60 px;
     }
 
-    .hero-image .hero-text>h4 {
-        font-size: 36px;
-        line-height: 10px;
-   }
+  
     form>label, .contact-place, .submit-button {
          font-size: 20px;
          line-height: 3px;
     }
+
+    .hero-image {
+        height: 40%;
+    }
    
+    .history-container {
+        height: 400px;
+        width: 1000px;
+    }
+
+    .history, .about-us-title  {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .doctor>img {
+        width: 280px;
+        height: 280px;
+    }
+
+    .card-title {
+      font-size: 35px;
+        }
+    
+    .logo-partners>img {
+        height: 180px;
+        margin: 10px;
+    }
 
     footer .footer-text {
-        font-size: 15px;
-        line-height: 5px;
+        font-size: 30px;
+        line-height: 20px;
     }
 
     .navbar .navbar-brand>img {
@@ -616,5 +642,9 @@ padding: 10px;
    }
    .address {
        padding-left: 105px;
+   }
+   .social-icons {
+       padding-top: 20px;
+       padding-bottom: 20px;
    }
 }
