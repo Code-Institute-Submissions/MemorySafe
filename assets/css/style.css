@@ -383,6 +383,17 @@ padding: 10px;
    .hero-image {
     height: 50%;
 }
+
+.history-container {
+    height: 200px;
+    width: 300px;
+}
+.history {
+    font-size: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 }
 
 
@@ -408,6 +419,20 @@ padding: 10px;
         width: 70%;
        margin-left: 50px;
     }
+    .history-container {
+        height: 200px;
+        width: 350px;
+    }
+    .history {
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .logo-partners>img {
+        height: 70px;
+        padding: 5px;
+    }
    
   
 }
@@ -417,9 +442,9 @@ padding: 10px;
         display: none;
    }
    
-  
-   .history {
-    font-size: 80%;
+   .logo-partners>img {
+    height: 80px;
+    padding: 5px;
 }
   
 }
