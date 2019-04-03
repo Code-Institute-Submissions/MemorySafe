@@ -609,8 +609,9 @@ padding-left: 20px;
         max-width: 50% !important;
         max-height: 80% !important;
       }
-
-
+     #exampleModalLabel {
+         font-size: 35px !important;
+     }
 
     .hero-image {
         height: 40%;
