@@ -129,7 +129,7 @@
  form {
      margin-top: 30px;
 }
- .mx-auto .map {
+    .map {
      width: 150px;
      margin: 15px;
 }
@@ -454,7 +454,7 @@ padding: 10px;
    
     form {
         width: 70%;
-       margin-left: 50px;
+         margin-left: 50px;
     }
     .history-container {
         height: 200px;
@@ -501,7 +501,11 @@ padding: 10px;
     margin-left: 20px;
     margin-right: 20px;
 }
-
+form {
+      
+    margin-left: 200px;
+    width: 400px;
+}
   
 }
 
@@ -542,6 +546,11 @@ padding: 10px;
     height: 80px;
     padding: 5px;
 }
+form {
+      
+    margin-left: 300px;
+    width: 400px;
+}
 }
 /* Large desktops and laptops */
  @media (min-width: 1200px) {
@@ -580,6 +589,11 @@ padding: 10px;
     .logo-partners>img {
         height: 80px;
         padding: 5px;
+    }
+    form {
+      
+        margin-left: 400px;
+        width: 500px;
     }
 }
 /*--XL screens------------------*/
