@@ -423,6 +423,18 @@ padding: 10px;
     margin-top: 40%;
 }
 
+.history-container {
+    height: 200px;
+    width: 300px;
+}
+.history {
+    font-size: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
 
 /* Landscape phones and portrait tablets */
  @media (max-width: 767px) {
@@ -446,6 +458,20 @@ padding: 10px;
         width: 70%;
        margin-left: 50px;
     }
+    .history-container {
+        height: 200px;
+        width: 350px;
+    }
+    .history {
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .logo-partners>img {
+        height: 70px;
+        padding: 5px;
+    }
    
   .process-title {
       padding-top: 10px;
@@ -458,10 +484,21 @@ padding: 10px;
         display: none;
    }
    
-  
-   .history {
-    font-size: 80%;
+   .logo-partners>img {
+    height: 80px;
+    padding: 5px;
 }
+
+.history-container {
+    height: 300px;
+    width: 400px;
+}
+.history {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
   
 }
 
@@ -486,6 +523,20 @@ padding: 10px;
     padding-top: 50px;
 }
 
+.history-container {
+    height: 200px;
+    width: 600px;
+}
+.history {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logo-partners>img {
+    height: 80px;
+    padding: 5px;
+}
 }
 /* Large desktops and laptops */
  @media (min-width: 1200px) {
@@ -512,6 +563,21 @@ padding: 10px;
     }
     .contact-place {
         padding-top: 15px;
+    }
+
+    .history-container {
+        height: 200px;
+        width: 600px;
+    }
+    .history {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .logo-partners>img {
+        height: 80px;
+        padding: 5px;
     }
 }
 /*--XL screens------------------*/
