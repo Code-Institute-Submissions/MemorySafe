@@ -593,10 +593,20 @@ padding: 10px;
          padding-bottom: 60 px;
     }
 
-  
-    form>label, .contact-place, .submit-button {
-         font-size: 20px;
-         line-height: 3px;
+    .nav-item {
+        font-size: 35px;
+        padding-left: 30px;
+    }
+
+    navbar .navbar-brand>img {
+        width: 145px;
+        height: 75px;
+    }
+
+    form {
+        width: 700px;
+        height: 700px;
+        margin-left: 900px;
     }
 
     .hero-image {
@@ -605,12 +615,12 @@ padding: 10px;
    
     .history-container {
         height: 400px;
-        width: 1000px;
+        width: 1200px;
     }
 
-    .history, .about-us-title  {
+    .history, .about-us-title, .contact-us, .envelope, .phone-number {
         font-size: 40px;
-        line-height: 50px;
+        line-height: 60px;
     }
 
     .doctor>img {
@@ -618,8 +628,13 @@ padding: 10px;
         height: 280px;
     }
 
-    .card-title {
+    .founders {
+        margin: 40px;
+    }
+
+    .card-title, .partners, .testimonial-title, .opening-hours, .address, .form-title {
       font-size: 35px;
+      line-height: 60px;
         }
     
     .logo-partners>img {
