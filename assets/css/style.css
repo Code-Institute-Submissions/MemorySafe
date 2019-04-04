@@ -351,9 +351,9 @@ padding: 10px;
          font-size: 1em;
     }
     
-     nav.stroke ul li a:hover:after, nav.stroke ul li a:after {
-         display: none;
-    }
+.navbar-nav {
+    align-items: center;
+}
 
     .carousel-caption {
        padding-bottom: 0;
@@ -394,9 +394,6 @@ padding: 10px;
     height: 50% !important;
 }
 
-
-
-
 .history-container {
     height: 200px;
     width: 300px;
@@ -421,9 +418,10 @@ padding: 10px;
        margin-left: 10%;
     }
    
-     nav.stroke ul li a:hover:after, nav.stroke ul li a:after {
-         display: none;
+    .navbar-nav {
+        align-items: center;
     }
+
      .map {
          width: 50%;
          padding-left: 0;
@@ -471,6 +469,9 @@ padding: 10px;
     padding: 5px;
 }
 
+.navbar-nav {
+    align-items: center;
+}
 
 .opening-hours>ul {
 padding-left: 20px;
