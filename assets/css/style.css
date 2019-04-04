@@ -451,6 +451,10 @@ padding: 10px;
     margin-top: 20px;
   }
   
+  .card-deck-top {
+    margin-bottom: 30px;
+}
+  
 }
 /* Portrait tablets and small desktops */
  @media (min-width: 768px) and (max-width: 991px) {
