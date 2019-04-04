@@ -350,7 +350,9 @@ padding: 10px;
          font-weight: 800;
          font-size: 1em;
     }
-    
+    nav.stroke ul li a:hover:after, nav.stroke ul li a:after {
+        display: none;
+   } 
 .navbar-nav {
     align-items: center;
 }
@@ -366,6 +368,10 @@ padding: 10px;
 
     .testimonials .client {
         font-size: 12px;
+    }
+
+    .client>img {
+        float: none;
     }
   
     .address-contact {
@@ -427,7 +433,9 @@ padding: 10px;
          padding-left: 0;
     }
    
-    
+    nav.stroke ul li a:hover:after, nav.stroke ul li a:after {
+        display: none;
+   }
 
     .history-container {
         height: 200px;
@@ -469,9 +477,7 @@ padding: 10px;
     padding: 5px;
 }
 
-.navbar-nav {
-    align-items: center;
-}
+
 
 .opening-hours>ul {
 padding-left: 20px;
