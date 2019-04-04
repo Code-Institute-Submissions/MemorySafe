@@ -634,7 +634,7 @@ padding-left: 20px;
     }
 
 
-    .carousel-caption {
+    .carousel-caption>h6 {
         font-size: 30px !important;
     }
     .logo-partners>img {
