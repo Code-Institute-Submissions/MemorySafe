@@ -672,5 +672,9 @@ padding-left: 20px;
         padding: 10px 20px;
         font-size: 30px;
 }
+
+.process-steps-title {
+    min-width: 400px;
+}
    }
  
