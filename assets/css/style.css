@@ -547,15 +547,18 @@ padding-left: 20px;
  @media (min-width: 1200px) {
 
     .process-title {
-       
        font-size: 22px !important;
    }
    .process-title {
     width: 200px;
 }
      .navbar {
-         padding-top: 10px;
-         padding-bottom: 10px;
+         padding-top: 5px;
+         padding-bottom: 5px;
+    }
+
+    .nav-item {
+        font-size: 14px;
     }
     footer .footer-text {
         font-size: 15px;
@@ -599,8 +602,8 @@ padding-left: 20px;
          line-height: 40px;
     }
      .navbar {
-         padding-top: 60px;
-         padding-bottom: 60px;
+         padding-top: 15px;
+         padding-bottom: 15px;
     }
 
     .nav-item {
@@ -621,7 +624,7 @@ padding-left: 20px;
      }
 
     .hero-image {
-        height: 40%;
+        height: 60%;
     }
    
     .history-container {
