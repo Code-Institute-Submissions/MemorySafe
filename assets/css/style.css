@@ -6,10 +6,14 @@
      padding: 0;
      font-family: "Montserrat", sans-serif;
 }
+
+
 .row, .container, .container-fluid {
     margin:0;
     padding:0;
 }
+
+
  .page-title {
      text-align: center;
      letter-spacing: 1.6px;
@@ -17,9 +21,10 @@
      margin-top: 70px;
      font-family: "Allerta Stencil", cursive;
 }
+
  .navbar {
-     background-color: #06212c;  
-     padding: 2px 10px; 
+     background-color: #06212c;
+    
 }
  .brand-phone {
      color: #fafafa;
@@ -41,7 +46,6 @@
  .navbar-light .navbar-nav .nav-item .nav-link {
      color: #fafafa;
      font-weight: 600;
-     font-size: 14px;
      padding: 5px 20px;
      border-radius: 4px;
 }
@@ -55,7 +59,7 @@
  nav ul li a, nav ul li a:after, nav ul li a:before {
      transition: all .5s;
 }
-
+/*----nav hover stroke-------------------*/
  nav.stroke ul li a {
      position: relative;
 }
@@ -74,9 +78,7 @@
  nav.stroke ul li a:hover:after {
      width: 70%;
 }
-
 /*--Carousel-------------------------------*/
-
  #braincarousel {
      background-color: transparent;
      display: flex;
@@ -87,30 +89,40 @@
      margin-bottom: 15px;
      margin-top: 15px;
 }
+ 
  .carousel-control-prev-icon, .carousel-control-next-icon {
      width: 10px;
      height: 10px;
 }
+
 .carousel-caption>h6 {
     background: #40585c9d;
 }
+
+
 .testimonials {
     padding: 8px;
     margin:0 !important;
+
 }
 .testimonials-row {
     margin:0 !important;
     padding:0;
 }
+
+
+
 .client {
     margin-top: 20px;
 }
+
 .client>img {
     float: left;
     margin-right: 30px;
     border-radius: 50%;
   }
-hr {
+
+  hr {
     border: 0;
     height: 2px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
@@ -120,7 +132,7 @@ hr {
  .contact-form {
      margin-top: 30px;
 }
-.map {
+    .map {
      width: 150px;
      margin: 15px;
 }
@@ -129,12 +141,15 @@ hr {
      padding-top: 30px;
      padding-right: 10px;
      padding-bottom: 20px;
+    
 }
 ::placeholder {
     font-size: 70%;
 }
+
 .address>p {
     padding-left: 40px;
+
 }
  .hero-image {
      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background5.png");
@@ -161,17 +176,20 @@ hr {
      padding-right: 5%;
      text-align: center;
 }
-.phone-number {
-    padding-left:0;
+ .hero-image .hero-text .fa-ul {
+     margin-left: 1px;
 }
+
 .contact-us {
   margin-bottom: 40px;
 }
+
  .opening-hours>ul>li {
     display: inline-block;
     text-decoration: none;
     padding-left: 0;
 }
+
 .contact-place {
     margin-right:0;
 }
@@ -185,13 +203,18 @@ hr {
      padding-top: 20px;
      padding-bottom: 10px;
      margin-top: 30px;
+     
 }
+
+
 footer>ul {
     margin-bottom: 7px !important;
+
 }
  footer>p {
      margin-top: 7px !important;
      text-align: center;
+
 }
  footer>ul>li {
      display: inline-block;
@@ -200,12 +223,15 @@ footer>ul {
      padding-right: 5%;
      font-size: 10px;
 }
+
 footer .social-icons a {
+
     padding-right: 10%;
     padding-left: 10%;
     font-size: 140%;
     color: rgb(18, 224, 252);
 }
+
 footer .social-icons a:hover {
     color: rgba(53, 206, 226, 0.514);
 }
@@ -213,52 +239,88 @@ footer .copyright {
     font-size: 12px;
     padding-top: 15px;
 }
+
+
 /*--About us page-----------------------------*/
 
 .history-container {
-    height: 70%;
-    padding: 0;
+height: 70%;
+  padding: 0;
+ 
 }
+
+
 .doctor{
     margin-top: 30px;
     border:none;
+  
 }
+
 .card-body {
     border: 0px;
     padding-left: 20px;
     padding-right: 15px;
     margin: 0;
 }
+
+
 .card-title, .card-text {
     padding: 10px;
+
 }
+
+
 .doctor>img {
     width: 140px;
     height: 140px;
     margin-left: 28px;
 }
+
+
+
 .logo-partners>img {
    
-    height: 60px;
-    padding: 10px;
+height: 60px;
+padding: 10px;
 }
+
+
+
 .history {
-    font-size: 12px; 
+    font-size: 12px;
+   
 }
+
+
+
 .about-us-title {
     padding-bottom: 20px;
 }
+
+
 /*--How it works page--------------------------*/
 
 .hero-image {
     text-align: center;
 }
+
+
+
+
 .hero-image-process {
+   
     padding-top: 30px;
+
 }
+
 .process-title {
     font-size: 18px;
 }
+
+
+
+
+
 /*Appointment steps------------------------------*/
 .card-img-top {
     height: 60px;
@@ -266,35 +328,35 @@ footer .copyright {
     margin-left: 20px;
     margin-top: 20px;
 }
+
 .card-deck {
     margin:0;
     padding:0;
     text-align: center;
 }
+
 .steps {
     margin-top: 20px;
 }
 
-/*--Media Queries-------------------------------------------------------------------------*/
+
+/*--Media Queries------------------------------*/
 
 /* Portrait phones and smaller */
  @media (max-width: 480px) {
      .brand-phone {
          display: none;
     }
-
      .navbar-brand {
          font-weight: 800;
          font-size: 1em;
     }
-
     nav.stroke ul li a:hover:after, nav.stroke ul li a:after {
         display: none;
-    } 
-
-    .navbar-nav {
-        align-items: center;
-    }
+   } 
+.navbar-nav {
+    align-items: center;
+}
 
     .carousel-caption {
        padding-bottom: 0;
@@ -302,7 +364,7 @@ footer .copyright {
 
     .carousel-caption h6 {
         font-size: 10px;
-        padding-bottom: 0;
+        padding-bottom: 0px;
     }
 
     .testimonials .client {
@@ -316,7 +378,6 @@ footer .copyright {
     .address-contact {
          font-size: 14px;
     }
-
     .history {
         font-size: 18px !important;
     }
@@ -326,32 +387,31 @@ footer .copyright {
         margin-bottom: 1rem;
         padding-left: 0 !important;
         margin-left: 15px;
-    }
-
+   }
    .opening-hours {
        margin-bottom: 1rem;;
-    }
-
+   }
    .hero-text {
-        font-size: 18px;
-    }
+    font-size: 18px;
+  }
 
    .hero-image {
-        height: 50%;
-    }
+    height: 50%;
+}
 
-    .hero-image-process {
-        height: 50% !important;
-    }
+.hero-image-process {
+    height: 50% !important;
+}
 
-    .history-container {
-        width: 300px;
-    }
-    .history {
-        font-size: 13px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+.history-container {
+    height: 200px;
+    width: 300px;
+}
+.history {
+    font-size: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 }
 
@@ -370,6 +430,7 @@ footer .copyright {
     .navbar-nav {
         align-items: center;
     }
+
      .map {
          width: 50%;
          padding-left: 0;
@@ -377,9 +438,10 @@ footer .copyright {
    
     nav.stroke ul li a:hover:after, nav.stroke ul li a:after {
         display: none;
-    }
+   }
 
     .history-container {
+        height: 200px;
         width: 350px;
     }
     .history {
@@ -395,7 +457,7 @@ footer .copyright {
    
   .process-title {
       padding-top: 10px;
-    }
+  }
 
   .hero-image {
     height: 90%;
@@ -409,15 +471,16 @@ footer .copyright {
 }
 /* Portrait tablets and small desktops */
  @media (min-width: 768px) and (max-width: 991px) {
-
-.brand-phone {
-     display: none;
-}
+    .brand-phone {
+        display: none;
+   }
    
    .logo-partners>img {
     height: 80px;
     padding: 5px;
 }
+
+
 
 .opening-hours>ul {
 padding-left: 20px;
@@ -440,57 +503,56 @@ padding-left: 20px;
 
 /* Landscape tablets and medium desktops */
  @media (min-width: 992px) and (max-width: 1199px) {
-
     .brand-phone {
         display: none;
-    }
-    .map {
-        width: 50%;
-        padding-left: 0;
-    }
-    .hero-text{
-        font-size: 22px;
-    }
+   }
+   .map {
+    width: 50%;
+    padding-left: 0;
+}
+.hero-text{
+    font-size: 22px;
+}
 
-    .hero-image-process {
-        height: 40% !important;
-    }
+.hero-image-process {
+    height: 40% !important;
+}
 
-    .hero-image {
-        height: 70%;
-        margin-top: 10px;
-    }
+.hero-image {
+    height: 70%;
+    margin-top: 10px;
+}
 
-    .history-container {
-        height: 200px;
-        width: 600px;
-    }
+.history-container {
+    height: 200px;
+    width: 600px;
+}
 
-    .history {
-        font-size: 18px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+.history {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
-    .logo-partners>img {
-        height: 80px;
-        padding: 5px;
-    }
-    .card-deck-top {
-        margin-bottom: 30px;
-    }
+.logo-partners>img {
+    height: 80px;
+    padding: 5px;
+}
+.card-deck-top {
+    margin-bottom: 30px;
+}
 
-    }
+}
 /* Large desktops and laptops */
  @media (min-width: 1200px) {
 
     .process-title {
        
        font-size: 22px !important;
-    }
+   }
    .process-title {
     width: 200px;
-    }
+}
      .navbar {
          padding-top: 10px;
          padding-bottom: 10px;
@@ -532,7 +594,6 @@ padding-left: 20px;
 }
 /* XL screens */
  @media screen and (min-width: 1600px) {
-     
      body {
          font-size: 30px;
          line-height: 40px;
@@ -554,10 +615,10 @@ padding-left: 20px;
     .modal-dialog {
         max-width: 50% !important;
         max-height: 80% !important;
-    }
+      }
      #exampleModalLabel {
          font-size: 35px !important;
-    }
+     }
 
     .hero-image {
         height: 40%;
@@ -573,10 +634,13 @@ padding-left: 20px;
         line-height: 60px;
     }
   
+
+   
     .doctor>img {
         width: 280px;
         height: 280px;
     }
+
 
     .founders {
         margin: 40px;
@@ -585,7 +649,7 @@ padding-left: 20px;
     .card-title, .partners, .testimonial-title, .opening-hours, .address, .form-title  {
       font-size: 35px;
       line-height: 60px;
-    }
+        }
 
         
     .page-title-first {
@@ -617,31 +681,31 @@ padding-left: 20px;
     #navbarSupportedContent {
         padding-top: 15px;
         padding-bottom: 15px;
-    }
+   }
 
    .contact-form {
        height: 800px;
-    }
+   }
    .address {
        padding-left: 105px;
-    }
+   }
    .social-icons {
        padding-top: 20px;
        padding-bottom: 20px;
-    }
+   }
 
    .btn-success, .btn-secondary {
     
         padding: 10px 20px;
         font-size: 30px;
-    }
-
-    .process-steps-title {
-        min-width: 400px;
-    }
-
-    .card-deck-top {
-         margin-bottom: 30px;
-    }
 }
+
+.process-steps-title {
+    min-width: 400px;
+}
+
+.card-deck-top {
+    margin-bottom: 30px;
+}
+   }
  
