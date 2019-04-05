@@ -18,7 +18,8 @@
      font-family: "Allerta Stencil", cursive;
 }
  .navbar {
-     background-color: #06212c;   
+     background-color: #06212c;  
+     padding: 2px 10px; 
 }
  .brand-phone {
      color: #fafafa;
@@ -40,6 +41,7 @@
  .navbar-light .navbar-nav .nav-item .nav-link {
      color: #fafafa;
      font-weight: 600;
+     font-size: 14px;
      padding: 5px 20px;
      border-radius: 4px;
 }
@@ -159,10 +161,9 @@ hr {
      padding-right: 5%;
      text-align: center;
 }
- .hero-image .hero-text .fa-ul {
-     margin-left: 1px;
+.phone-number {
+    padding-left:0;
 }
-
 .contact-us {
   margin-bottom: 40px;
 }
