@@ -404,7 +404,6 @@ padding: 10px;
 }
 
 .history-container {
-    height: 200px;
     width: 300px;
 }
 .history {
@@ -441,7 +440,7 @@ padding: 10px;
    }
 
     .history-container {
-        height: 200px;
+       
         width: 350px;
     }
     .history {
