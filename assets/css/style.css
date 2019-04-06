@@ -153,8 +153,7 @@ hr {
 }
  .hero-image {
      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background5.png");
-     height: 70%;
-     margin-top:40px;
+     height: 60%;
      width: 100%;
      background-position: center;
      background-repeat: no-repeat;
@@ -170,7 +169,7 @@ hr {
      color: white;
      font-size: 22px;
 }
- .hero-image .envelope .phonenumber {
+.envelope .phonenumber {
      display: block;
      text-decoration: none;
      padding-right: 5%;
@@ -277,9 +276,7 @@ footer .copyright>p {
 }
 /*--How it works page--*/
 
-.hero-image {
-    text-align: center;
-}
+
 .hero-image-process {
     padding-top: 30px;
 }
@@ -364,17 +361,18 @@ footer .copyright>p {
         font-size: 18px;
     }
 
-   .hero-image {
-        height: 50%;
-    }
-
     .about-us-image {
         height: 60%;
         margin-top: 10px;
     }
 
+    .contact-us-image {
+        height: 40%;
+        margin-top: 0;
+    }
+
     .hero-image-process {
-        height: 50% !important;
+        height: 20%;
     }
 
     .history-container {
@@ -434,7 +432,8 @@ footer .copyright>p {
     margin-bottom: 30px;
 }
 .navbar-light .navbar-nav .nav-item .nav-link {
-    font-size: 13px;
+    font-size: 14px;
+    padding-bottom: 5px;
 }
   
 }
@@ -493,11 +492,6 @@ footer .copyright>p {
 
     .hero-image-process {
         height: 40% !important;
-    }
-
-    .hero-image {
-        height: 70%;
-        margin-top: 10px;
     }
 
     .history-container {
@@ -586,10 +580,6 @@ footer .copyright>p {
     }
      #exampleModalLabel {
          font-size: 35px !important;
-    }
-
-    .hero-image {
-        height: 40%;
     }
    
     .history-container {
