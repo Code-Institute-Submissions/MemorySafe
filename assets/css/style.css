@@ -368,6 +368,11 @@ footer .copyright>p {
         height: 50%;
     }
 
+    .about-us-image {
+        height: 60%;
+        margin-top: 10px;
+    }
+
     .hero-image-process {
         height: 50% !important;
     }
@@ -380,7 +385,6 @@ footer .copyright>p {
         margin-left: 20px;
         margin-right: 20px;
     }
-
 }
 
 
@@ -397,6 +401,7 @@ footer .copyright>p {
    
     .navbar-nav {
         align-items: center;
+        padding-bottom: 12px;
     }
      .map {
          width: 50%;
@@ -424,11 +429,6 @@ footer .copyright>p {
   .process-title {
       padding-top: 10px;
     }
-
-  .hero-image {
-    height: 90%;
-    margin-top: 20px;
-  }
   
   .card-deck-top {
     margin-bottom: 30px;
