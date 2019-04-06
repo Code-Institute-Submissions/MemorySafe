@@ -181,7 +181,24 @@ hr {
 .contact-place {
     margin-right:0;
 }
-/*--Footer--*/
+/*-- Footer ----------------------------------------------------------*/
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+
+  #footer {
+    position: absolute;
+    bottom: 0;
+    margin-top: 30px;
+    width: 100%;
+    height: 5.5rem;            /* Footer height */
+  }
+
  footer {
      position: absolute;
      width: 100%;
@@ -428,7 +445,7 @@ footer .copyright>p {
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link {
-    font-size: 11px;
+    font-size: 14px;
 }
    
    .logo-partners>img {
@@ -508,10 +525,6 @@ footer .copyright>p {
     }
 /* Large desktops and laptops */
  @media (min-width: 1200px) {
-
-    .navbar-light .navbar-nav .nav-item .nav-link {
-        font-size: 10px !important;
-    }
     
     .process-title {
         font-size: 22px !important;
