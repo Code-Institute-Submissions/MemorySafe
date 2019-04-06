@@ -433,6 +433,9 @@ footer .copyright>p {
   .card-deck-top {
     margin-bottom: 30px;
 }
+.navbar-light .navbar-nav .nav-item .nav-link {
+    font-size: 11px;
+}
   
 }
 /* Portrait tablets and small desktops */
@@ -443,7 +446,7 @@ footer .copyright>p {
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link {
-    font-size: 14px;
+    font-size: 13px;
 }
    
    .logo-partners>img {
