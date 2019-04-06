@@ -158,15 +158,18 @@ hr {
      color: white;
      font-size: 22px;
 }
- .hero-image .hero-text>ul>li {
-     display: inline-block;
+ .hero-image .envelope .phonenumber {
+     display: block;
      text-decoration: none;
      padding-right: 5%;
      text-align: center;
 }
+
 .phonenumber {
     padding-left:0;
+    display: inline-block !important;
 }
+
 .contact-us {
   margin-bottom: 40px;
 }
