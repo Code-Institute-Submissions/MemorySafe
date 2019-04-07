@@ -6,21 +6,17 @@
      padding: 0;
      font-family: "Montserrat", sans-serif;
 }
-
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+ body {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
 }
-
-
-.main-content {
-flex: 1;
+ .main-content {
+     flex: 1;
 }
-
-.row, .container, .container-fluid {
-    margin:0;
-    padding:0;
+ .row, .container, .container-fluid {
+     margin:0;
+     padding:0;
 }
  .page-title {
      text-align: center;
@@ -30,8 +26,8 @@ flex: 1;
      font-family: "Allerta Stencil", cursive;
 }
  .navbar {
-     background-color: #06212c;  
-     padding: 2px 10px; 
+     background-color: #06212c;
+     padding: 2px 10px;
 }
  .brand-phone {
      color: #fafafa;
@@ -43,12 +39,10 @@ flex: 1;
      font-weight: 600;
      text-transform: uppercase;
 }
-.custom-toggler.navbar-toggler {
-  border-color: #06212c;
+ .custom-toggler.navbar-toggler {
+     border-color: #06212c;
 }
-
-/*--formula to overwrite bootstrap toggler colour--*/
-
+/* formula to overwrite bootstrap toggler colour */
  .custom-toggler .navbar-toggler-icon {
      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(18, 224, 252, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -69,7 +63,6 @@ flex: 1;
  nav ul li a, nav ul li a:after, nav ul li a:before {
      transition: all .5s;
 }
-
  nav.stroke ul li a {
      position: relative;
 }
@@ -88,9 +81,7 @@ flex: 1;
  nav.stroke ul li a:hover:after {
      width: 70%;
 }
-
-/*--Carousel--*/
-
+/* Carousel */
  #braincarousel {
      background-color: transparent;
      display: flex;
@@ -105,51 +96,50 @@ flex: 1;
      width: 20px;
      height: 20px;
 }
-.carousel-caption>h6 {
-    background: #40585c9d;
+ .carousel-caption>h6 {
+     background: #40585c9d;
 }
-.testimonials {
-    padding: 8px;
-    margin:0 !important;
+ .testimonials {
+     padding: 8px;
+     margin:0 !important;
 }
-.testimonials-row {
-    margin:0 !important;
-    padding:0;
+ .testimonials-row {
+     margin:0 !important;
+     padding:0;
 }
-.client {
-    margin-top: 20px;
+ .client {
+     margin-top: 20px;
 }
-.client>img {
-    width: 55px;
-    float: left;
-    margin-right: 30px;
-    border-radius: 50%;
-  }
-hr {
-    border: 0;
-    height: 2px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+ .client>img {
+     width: 55px;
+     float: left;
+     margin-right: 30px;
+     border-radius: 50%;
 }
-
-/*--Contact Us page--*/
+ hr {
+     border: 0;
+     height: 2px;
+     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+/* Contact Us page */
  .contact-form {
      margin-top: 30px;
 }
-.map {
+ .map {
      width: 150px;
      margin: 15px;
 }
  .address-contact {
-     padding-left: 5px; 
+     padding-left: 5px;
      padding-top: 30px;
      padding-right: 10px;
      padding-bottom: 20px;
 }
-::placeholder {
-    font-size: 70%;
+ ::placeholder {
+     font-size: 70%;
 }
-.address>p {
-    padding-left: 40px;
+ .address>p {
+     padding-left: 40px;
 }
  .hero-image {
      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background5.png");
@@ -169,36 +159,28 @@ hr {
      color: white;
      font-size: 22px;
 }
-.envelope .phonenumber {
+ .envelope .phonenumber {
      display: block;
      text-decoration: none;
      padding-right: 5%;
      text-align: center;
 }
-
-.phonenumber {
-    padding-left:0;
-    display: inline-block !important;
+ .phonenumber {
+     padding-left:0;
+     display: inline-block !important;
 }
-
-.contact-us {
-  margin-bottom: 40px;
+ .contact-us {
+     margin-bottom: 40px;
 }
  .opening-hours>ul>li {
-    display: inline-block;
-    text-decoration: none;
-    padding-left: 0;
+     display: inline-block;
+     text-decoration: none;
+     padding-left: 0;
 }
-.contact-place {
-    margin-right:0;
+ .contact-place {
+     margin-right:0;
 }
-
-
-
 /* Footer */
-
-
-
  footer {
      position: absolute;
      width: 100%;
@@ -209,13 +191,12 @@ hr {
      padding-bottom: 10px;
      margin-top: 30px;
 }
-
-.terms {
-    font-size: 12px;
-    margin-bottom: 5px;
+ .terms {
+     font-size: 12px;
+     margin-bottom: 5px;
 }
-footer>ul {
-    margin-bottom: 7px !important;
+ footer>ul {
+     margin-bottom: 7px !important;
 }
  footer>p {
      margin-top: 7px !important;
@@ -228,80 +209,75 @@ footer>ul {
      padding-right: 5%;
      font-size: 10px;
 }
-footer .social-icons a {
-    padding-right: 9%;
-    padding-left: 9%;
-    font-size: 120%;
-    color: rgb(18, 224, 252);
+ footer .social-icons a {
+     padding-right: 9%;
+     padding-left: 9%;
+     font-size: 120%;
+     color: rgb(18, 224, 252);
 }
-footer .social-icons a:hover {
-    color: rgba(53, 206, 226, 0.514);
+ footer .social-icons a:hover {
+     color: rgba(53, 206, 226, 0.514);
 }
-footer .copyright>p {
-    font-size: 10px;
-    padding-top: 10px;
-    margin-bottom: 6px;
+ footer .copyright>p {
+     font-size: 10px;
+     padding-top: 10px;
+     margin-bottom: 6px;
 }
 /*--About us page--*/
-
-.history-container {
-    height: 70%;
-    padding: 0;
+ .history-container {
+     height: 70%;
+     padding: 0;
 }
-.doctor{
-    margin-top: 30px;
-    border:none;
+ .doctor{
+     margin-top: 30px;
+     border:none;
 }
-.card-body {
-    border: 0px;
-    padding-left: 20px;
-    padding-right: 15px;
-    margin: 0;
+ .card-body {
+     border: 0px;
+     padding-left: 20px;
+     padding-right: 15px;
+     margin: 0;
 }
-.card-title, .card-text {
-    padding: 10px;
+ .card-title, .card-text {
+     padding: 10px;
 }
-.doctor>img {
-    width: 140px;
-    height: 140px;
-    margin-left: 28px;
+ .doctor>img {
+     width: 140px;
+     height: 140px;
+     margin-left: 28px;
 }
-.logo-partners>img {
-   
-    height: 60px;
-    padding: 10px;
+ .logo-partners>img {
+     height: 60px;
+     padding: 10px;
 }
-.history {
-    font-size: 12px; 
+ .history {
+     font-size: 12px;
 }
-.about-us-title {
-    padding-bottom: 20px;
+ .about-us-title {
+     padding-bottom: 20px;
 }
 /*--How it works page--*/
-
-
-.hero-image-process {
-    padding-top: 30px;
+ .hero-image-process {
+     padding-top: 30px;
 }
-.process-title {
-    font-size: 18px;
+ .process-title {
+     font-size: 18px;
 }
 /*Appointment steps--*/
-.card-img-top {
-    height: 60px;
-    width: 60px;
-    margin-left: 20px;
-    margin-top: 20px;
+ .card-img-top {
+     height: 60px;
+     width: 60px;
+     margin-left: 20px;
+     margin-top: 20px;
 }
-.card-deck {
-    margin:0;
-    padding:0;
-    text-align: center;
+ .card-deck {
+     margin:0;
+     padding:0;
+     text-align: center;
 }
-.steps {
-    margin-top: 20px;
+ .steps {
+     margin-top: 20px;
 }
-
 /* Media Queries */
 
 /* Portrait phones and smaller */
@@ -309,401 +285,332 @@ footer .copyright>p {
      .brand-phone {
          display: none;
     }
-
      .navbar-brand {
          font-weight: 800;
          font-size: 1em;
     }
-
-    nav.stroke ul li a:hover:after, nav.stroke ul li a:after {
-        display: none;
-    } 
-
-    .navbar-nav {
-        align-items: center;
+     nav.stroke ul li a:hover:after, nav.stroke ul li a:after {
+         display: none;
     }
-
-    .carousel-caption {
-       padding-bottom: 0;
+     .navbar-nav {
+         align-items: center;
     }
-
-    .carousel-caption h6 {
-        font-size: 10px;
-        padding-bottom: 0;
+     .carousel-caption {
+         padding-bottom: 0;
     }
-
-    .testimonials .client {
-        font-size: 12px;
+     .carousel-caption h6 {
+         font-size: 10px;
+         padding-bottom: 0;
     }
-
-    .error-text {
-        font-size:18px;
-        margin-top: 150px;
+     .testimonials .client {
+         font-size: 12px;
     }
-    .client>img {
-        float: none;
-       text-align: center;
+     .error-text {
+         font-size:18px;
+         margin-top: 150px;
     }
-  
-    .address-contact {
+     .client>img {
+         float: none;
+         text-align: center;
+    }
+     .address-contact {
          font-size: 14px;
     }
-
-    .history {
-        font-size: 18px !important;
+     .history {
+         font-size: 18px !important;
     }
- 
-    .map {
-        width: 60%;
-        margin-bottom: 1rem;
-        padding-left: 0 !important;
-        margin-left: 15px;
+     .map {
+         width: 60%;
+         margin-bottom: 1rem;
+         padding-left: 0 !important;
+         margin-left: 15px;
     }
-
-   .opening-hours {
-       margin-bottom: 1rem;;
+     .opening-hours {
+         margin-bottom: 1rem;
+        ;
     }
-
-   .hero-text {
-        font-size: 18px;
+     .hero-text {
+         font-size: 18px;
     }
-
-    .about-us-image {
-        height: 60%;
-        margin-top: 10px;
+     .about-us-image {
+         height: 60%;
+         margin-top: 10px;
     }
-
-    .contact-us-image {
-        height: 40%;
-        margin-top: 0;
+     .contact-us-image {
+         height: 40%;
+         margin-top: 0;
     }
-
-    .hero-image-process {
-        height: 20%;
+     .hero-image-process {
+         height: 20%;
     }
-
-    .history-container {
-        width: 300px;
+     .history-container {
+         width: 300px;
     }
-    .history {
-        font-size: 13px;
-        margin-left: 20px;
-        margin-right: 20px;
+     .history {
+         font-size: 13px;
+         margin-left: 20px;
+         margin-right: 20px;
     }
 }
-
-
 /* Landscape phones and portrait tablets */
  @media (max-width: 767px) {
      .brand-phone {
          display: none;
     }
-    
-    .contact-form {
-        width: 80%;
-       margin-left: 10%;
+     .contact-form {
+         width: 80%;
+         margin-left: 10%;
     }
-   
-    .navbar-nav {
-        align-items: center;
-        padding-bottom: 12px;
+     .navbar-nav {
+         align-items: center;
+         padding-bottom: 12px;
     }
      .map {
          width: 50%;
          padding-left: 0;
     }
-
-    .error-text {
-        margin-top: 80px;
+     .error-text {
+         margin-top: 80px;
     }
-   
-    nav.stroke ul li a:hover:after, nav.stroke ul li a:after {
-        display: none;
+     nav.stroke ul li a:hover:after, nav.stroke ul li a:after {
+         display: none;
     }
-
-    .history-container {
-        width: 350px;
+     .history-container {
+         width: 350px;
     }
-    .history {
-        font-size: 14px;
-        padding-left: 20px;
-        padding-right: 20px;
+     .history {
+         font-size: 14px;
+         padding-left: 20px;
+         padding-right: 20px;
     }
-
-    .logo-partners>img {
-        height: 70px;
-        padding: 5px;
+     .logo-partners>img {
+         height: 70px;
+         padding: 5px;
     }
-   
-  .process-title {
-      padding-top: 10px;
+     .process-title {
+         padding-top: 10px;
     }
-  
-  .card-deck-top {
-    margin-bottom: 30px;
-}
-.navbar-light .navbar-nav .nav-item .nav-link {
-    font-size: 14px;
-    padding-bottom: 5px;
-}
-  
+     .card-deck-top {
+         margin-bottom: 30px;
+    }
+     .navbar-light .navbar-nav .nav-item .nav-link {
+         font-size: 14px;
+         padding-bottom: 5px;
+    }
 }
 /* Portrait tablets and small desktops */
  @media (min-width: 768px) and (max-width: 991px) {
-
-.brand-phone {
-     display: none;
+     .brand-phone {
+         display: none;
+    }
+     .error-text {
+         font-size: 25px;
+         margin-top: 150px;
+    }
+     .logo-partners>img {
+         height: 80px;
+         padding: 5px;
+    }
+     .opening-hours>ul {
+         padding-left: 20px;
+    }
+     .history-container {
+         width: 600px;
+    }
+     .history {
+         font-size: 18px;
+         margin-left: 20px;
+         margin-right: 20px;
+    }
+     .card-deck-top {
+         margin-bottom: 30px;
+    }
+     footer .copyright>p {
+         margin-bottom: 5px;
+         font-size: 9px;
+    }
+     .terms{
+         font-size: 10px;
+    }
 }
-   
-.error-text {
-    font-size: 25px;
-    margin-top: 150px;
-}
-   .logo-partners>img {
-    height: 80px;
-    padding: 5px;
-}
-
-.opening-hours>ul {
-padding-left: 20px;
-
-}
-.history-container {
-    width: 600px;
-}
-
-.history {
-    font-size: 18px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.card-deck-top {
-    margin-bottom: 30px;
-}
-  
-footer .copyright>p {
-    margin-bottom: 5px;
-    font-size: 9px;
-}
-
-.terms{
-    font-size: 10px;
-}
-}
-
 /* Landscape tablets and medium desktops */
  @media (min-width: 992px) and (max-width: 1199px) {
-
-    .brand-phone {
-        display: none;
+     .brand-phone {
+         display: none;
     }
-    .map {
-        width: 50%;
-        padding-left: 0;
+     .map {
+         width: 50%;
+         padding-left: 0;
     }
-    .hero-text{
-        font-size: 22px;
+     .hero-text{
+         font-size: 22px;
     }
-
-    .hero-image-process {
-        height: 40% !important;
+     .hero-image-process {
+         height: 40% !important;
     }
-
-    .history-container {
-        height: 200px;
-        width: 600px;
+     .history-container {
+         height: 200px;
+         width: 600px;
     }
-
-    .history {
-        font-size: 18px;
-        margin-left: 20px;
-        margin-right: 20px;
+     .history {
+         font-size: 18px;
+         margin-left: 20px;
+         margin-right: 20px;
     }
-
-    .logo-partners>img {
-        height: 80px;
-        padding: 5px;
+     .logo-partners>img {
+         height: 80px;
+         padding: 5px;
     }
-    .card-deck-top {
-        margin-bottom: 30px;
+     .card-deck-top {
+         margin-bottom: 30px;
     }
-
-    .error-text {
-        font-size: 30px;
-        margin-top: 150px;
+     .error-text {
+         font-size: 30px;
+         margin-top: 150px;
     }
-    }
+}
 /* Large desktops and laptops */
  @media (min-width: 1200px) {
-    
-    .process-title {
-        font-size: 22px !important;
+     .process-title {
+         font-size: 22px !important;
     }
-   .process-title {
-    width: 200px;
+     .process-title {
+         width: 200px;
     }
-   
-    footer .footer-text {
-        font-size: 15px;
-        line-height:3px;
+     footer .footer-text {
+         font-size: 15px;
+         line-height:3px;
     }
-    .opening-hours {
-        padding-left: 8%;
+     .opening-hours {
+         padding-left: 8%;
     }
-
-    .address {
-        padding-left: 20px;
+     .address {
+         padding-left: 20px;
     }
-    .contact-place {
-        padding-top: 15px;
+     .contact-place {
+         padding-top: 15px;
     }
-
-    .history-container {
-        height: 300px;
-        width: 600px;
-        padding: 0;
+     .history-container {
+         height: 300px;
+         width: 600px;
+         padding: 0;
     }
-    .history {
-        font-size: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
+     .history {
+         font-size: 20px;
+         margin-left: 20px;
+         margin-right: 20px;
     }
-    
-    .logo-partners>img {
-        height: 80px;
-        padding: 5px;
+     .logo-partners>img {
+         height: 80px;
+         padding: 5px;
     }
-    .card-deck-top {
-        margin-bottom: 30px;
+     .card-deck-top {
+         margin-bottom: 30px;
     }
-
-    .error-text {
-        font-size: 45px;
-        margin-top: 220px;
+     .error-text {
+         font-size: 45px;
+         margin-top: 220px;
     }
 }
 /* XL screens */
  @media screen and (min-width: 1600px) {
-     
      body {
          font-size: 30px;
          line-height: 40px;
     }
-    .navbar-light .navbar-nav .nav-item .nav-link {
-        font-size: 22px;
+     .navbar-light .navbar-nav .nav-item .nav-link {
+         font-size: 22px;
     }
-
-    navbar .navbar-brand>img {
-        width: 145px;
-        height: 75px;
+     navbar .navbar-brand>img {
+         width: 145px;
+         height: 75px;
     }
-    .modal-dialog {
-        max-width: 50% !important;
-        max-height: 80% !important;
+     .modal-dialog {
+         max-width: 50% !important;
+         max-height: 80% !important;
     }
      #exampleModalLabel {
          font-size: 35px !important;
     }
-   
-    .history-container {
-        height: 400px;
-        width: 1200px;
+     .history-container {
+         height: 400px;
+         width: 1200px;
     }
-
-    .history, .about-us-title, .contact-us, .envelope, .phonenumber, .process-title  {
-        font-size: 40px !important;
-        line-height: 60px;
+     .history, .about-us-title, .contact-us, .envelope, .phonenumber, .process-title {
+         font-size: 40px !important;
+         line-height: 60px;
     }
-  
-    .doctor>img {
-        width: 280px;
-        height: 280px;
+     .doctor>img {
+         width: 280px;
+         height: 280px;
     }
-
-    .founders {
-        margin: 40px;
+     .founders {
+         margin: 40px;
     }
-
-    .card-title, .partners, .testimonial-title, .opening-hours, .address, .form-title, .error-text {
-      font-size: 35px;
-      line-height: 60px;
+     .card-title, .partners, .testimonial-title, .opening-hours, .address, .form-title, .error-text {
+         font-size: 35px;
+         line-height: 60px;
     }
-
-        
-    .page-title-first {
-        font-size: 40px;
-        margin-top: 120px;
+     .page-title-first {
+         font-size: 40px;
+         margin-top: 120px;
     }
-
-    .page-title-second {
-        font-size: 40px;
+     .page-title-second {
+         font-size: 40px;
     }
-
-
-    .carousel-caption>h6 {
-        font-size: 30px !important;
+     .carousel-caption>h6 {
+         font-size: 30px !important;
     }
-    .logo-partners>img {
-        height: 180px;
-        margin: 10px;
+     .logo-partners>img {
+         height: 180px;
+         margin: 10px;
     }
-
-    footer .footer-text {
-        font-size: 30px;
-        line-height: 20px;
+     footer .footer-text {
+         font-size: 30px;
+         line-height: 20px;
     }
-
-    .navbar .navbar-brand>img {
-        width: 105px;
-        height: 45px;
+     .navbar .navbar-brand>img {
+         width: 105px;
+         height: 45px;
     }
-    #navbarSupportedContent {
-        padding-top: 15px;
-        padding-bottom: 15px;
+     #navbarSupportedContent {
+         padding-top: 15px;
+         padding-bottom: 15px;
     }
-
-   .contact-form {
-       height: 800px;
+     .contact-form {
+         height: 800px;
     }
-   .address {
-       padding-left: 105px;
+     .address {
+         padding-left: 105px;
     }
-   .social-icons {
-       padding-top: 20px;
-       padding-bottom: 20px;
+     .social-icons {
+         padding-top: 20px;
+         padding-bottom: 20px;
     }
-
-   .btn-success, .btn-secondary {
-    
-        padding: 10px 20px;
-        font-size: 30px;
+     .btn-success, .btn-secondary {
+         padding: 10px 20px;
+         font-size: 30px;
     }
-
-    .process-steps-title {
-        min-width: 400px;
+     .process-steps-title {
+         min-width: 400px;
     }
-
-    .card-deck-top {
+     .card-deck-top {
          margin-bottom: 30px;
     }
-
-    .terms {
-        font-size: 25px;
-        margin-bottom: 5px;
+     .terms {
+         font-size: 25px;
+         margin-bottom: 5px;
     }
-
-    footer .copyright>p {
-        font-size: 18px;
+     footer .copyright>p {
+         font-size: 18px;
     }
-
-    .testimonials-row {
-        padding-left: 60px;
-        padding-right: 60px;
+     .testimonials-row {
+         padding-left: 60px;
+         padding-right: 60px;
     }
-
-    .error-text {
-        font-size: 80px;
-        margin-top: 300px;
-        line-height: 100px;
+     .error-text {
+         font-size: 80px;
+         margin-top: 300px;
+         line-height: 100px;
     }
 }
