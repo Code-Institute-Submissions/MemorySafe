@@ -193,11 +193,6 @@ hr {
     margin-right:0;
 }
 
-/* Error page */
-
-.error-text {
-    
-}
 
 
 /* Footer */
@@ -307,7 +302,7 @@ footer .copyright>p {
     margin-top: 20px;
 }
 
-/*--Media Queries-------------------------------------------------------------------------*/
+/* Media Queries */
 
 /* Portrait phones and smaller */
  @media (max-width: 480px) {
@@ -341,6 +336,10 @@ footer .copyright>p {
         font-size: 12px;
     }
 
+    .error-text {
+        font-size:18px;
+        margin-top: 150px;
+    }
     .client>img {
         float: none;
        text-align: center;
@@ -413,6 +412,10 @@ footer .copyright>p {
          width: 50%;
          padding-left: 0;
     }
+
+    .error-text {
+        margin-top: 80px;
+    }
    
     nav.stroke ul li a:hover:after, nav.stroke ul li a:after {
         display: none;
@@ -452,6 +455,10 @@ footer .copyright>p {
      display: none;
 }
    
+.error-text {
+    font-size: 25px;
+    margin-top: 150px;
+}
    .logo-partners>img {
     height: 80px;
     padding: 5px;
@@ -521,6 +528,10 @@ footer .copyright>p {
         margin-bottom: 30px;
     }
 
+    .error-text {
+        font-size: 30px;
+        margin-top: 150px;
+    }
     }
 /* Large desktops and laptops */
  @media (min-width: 1200px) {
@@ -566,6 +577,10 @@ footer .copyright>p {
         margin-bottom: 30px;
     }
 
+    .error-text {
+        font-size: 45px;
+        margin-top: 220px;
+    }
 }
 /* XL screens */
  @media screen and (min-width: 1600px) {
@@ -616,9 +631,10 @@ footer .copyright>p {
 
         
     .page-title-first {
-        font-size: 60px;
+        font-size: 40px;
         margin-top: 120px;
     }
+
     .page-title-second {
         font-size: 40px;
     }
@@ -683,5 +699,11 @@ footer .copyright>p {
     .testimonials-row {
         padding-left: 60px;
         padding-right: 60px;
+    }
+
+    .error-text {
+        font-size: 80px;
+        margin-top: 300px;
+        line-height: 100px;
     }
 }
