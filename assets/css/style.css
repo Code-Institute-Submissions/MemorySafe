@@ -192,7 +192,15 @@ hr {
 .contact-place {
     margin-right:0;
 }
-/*-- Footer ----------------------------------------------------------*/
+
+/* Error page */
+
+.error-text {
+    
+}
+
+
+/* Footer */
 
 
 
@@ -601,7 +609,7 @@ footer .copyright>p {
         margin: 40px;
     }
 
-    .card-title, .partners, .testimonial-title, .opening-hours, .address, .form-title  {
+    .card-title, .partners, .testimonial-title, .opening-hours, .address, .form-title, .error-text {
       font-size: 35px;
       line-height: 60px;
     }
