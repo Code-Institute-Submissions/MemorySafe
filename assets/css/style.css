@@ -255,11 +255,14 @@
 }
  .about-us-title {
      padding-bottom: 20px;
+
+}
+.about-us-image {
+    height: 50%;
+    margin-top: 10px;
 }
 /*--How it works page--*/
- .hero-image-process {
-     padding-top: 30px;
-}
+ 
  .process-title {
      font-size: 18px;
 }
@@ -332,17 +335,12 @@
      .hero-text {
          font-size: 18px;
     }
-     .about-us-image {
-         height: 60%;
-         margin-top: 10px;
-    }
+
      .contact-us-image {
          height: 40%;
          margin-top: 0;
     }
-     .hero-image-process {
-         height: 20%;
-    }
+    
      .history-container {
          width: 300px;
     }
@@ -448,11 +446,11 @@
         margin-top: 0;
    }
    .about-us-image {
-       height: 40%;
+       height: 50%;
    }
 
    .hero-image-process {
-    height: 30%;
+    height: 35%;
 }
 
 }
