@@ -397,6 +397,17 @@
          font-size: 14px;
          padding-bottom: 5px;
     }
+    .about-us-image {
+        height: 60%;
+        margin-top: 10px;
+   }
+    .contact-us-image {
+        height: 35%;
+        margin-top: 0;
+   }
+    .hero-image-process {
+        height: 30%;
+   }
 }
 /* Portrait tablets and small desktops */
  @media (min-width: 768px) and (max-width: 991px) {
@@ -432,6 +443,18 @@
      .terms{
          font-size: 10px;
     }
+    .contact-us-image {
+        height: 35%;
+        margin-top: 0;
+   }
+   .about-us-image {
+       height: 40%;
+   }
+
+   .hero-image-process {
+    height: 30%;
+}
+
 }
 /* Landscape tablets and medium desktops */
  @media (min-width: 992px) and (max-width: 1199px) {
@@ -445,9 +468,17 @@
      .hero-text{
          font-size: 22px;
     }
-     .hero-image-process {
-         height: 40% !important;
-    }
+    .about-us-image {
+        height: 55%;
+        margin-top: 10px;
+   }
+    .contact-us-image {
+        height: 40%;
+        margin-top: 0;
+   }
+    .hero-image-process {
+        height: 40%;
+   }
      .history-container {
          height: 200px;
          width: 600px;
@@ -547,7 +578,7 @@
      .founders {
          margin: 40px;
     }
-     .card-title, .partners, .testimonial-title, .opening-hours, .address, .form-title, .error-text {
+     .card-title, .partners, .testimonial-title, .opening-hours, .address, .form-title {
          font-size: 35px;
          line-height: 60px;
     }
