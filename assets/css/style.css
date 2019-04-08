@@ -123,6 +123,7 @@ hr {
  .testimonials-row {
      margin:0 !important;
      padding:0;
+     font-size: 14px;
 }
  .client {
      margin-top: 20px;
