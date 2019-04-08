@@ -45,6 +45,7 @@ hr {
      color: #fafafa;
      font-family: "Montserrat", sans-serif;
      padding-left: 15px;
+     font-size: 12px;
 }
  .nav-item {
      font-family: "Raleway", sans-serif;
@@ -105,11 +106,15 @@ hr {
      margin-top: 15px;
 }
  .carousel-control-prev-icon, .carousel-control-next-icon {
-     width: 20px;
-     height: 20px;
+     width: 15px;
+     height: 15px;
 }
- .carousel-caption>h6 {
-     background: #40585c9d;
+ .carousel-caption {
+     background: #40585c73;
+     padding-top: 0;
+     padding-bottom: 0;
+     font-weight: 400;
+     font-size: 12px;
 }
  .testimonials {
      padding: 8px;
@@ -149,7 +154,7 @@ hr {
      font-size: 12px;
 }
  ::placeholder {
-     font-size: 70%;
+     font-size: 60%;
 }
  .address>p {
      padding-left: 40px;
@@ -283,11 +288,8 @@ hr {
     height: 50%;
     margin-top: 10px;
 }
-/*--How it works page--*/
- 
 
-
-/*Appointment steps--*/
+/* How it works page */
  .card-img-top {
      height: 60px;
      width: 60px;
@@ -319,13 +321,6 @@ hr {
      .navbar-nav {
          align-items: center;
     }
-     .carousel-caption {
-         padding-bottom: 0;
-    }
-     .carousel-caption h6 {
-         font-size: 10px;
-         padding-bottom: 0;
-    }
      .testimonials .client {
          font-size: 12px;
     }
@@ -349,7 +344,6 @@ hr {
     }
      .opening-hours {
          margin-bottom: 1rem;
-        ;
     }
 
      .contact-us-image {
@@ -455,12 +449,16 @@ hr {
          font-size: 10px;
     }
 
+
    .about-us-image {
        height: 50%;
    }
 
    .hero-image-process {
     height: 35%;
+}
+.carousel-caption {
+    font-size: 13px;
 }
 
 }
@@ -473,11 +471,8 @@ hr {
          width: 50%;
          padding-left: 0;
     }
-    .about-us-image {
-        height: 55%;
-        margin-top: 10px;
-   }
-    .contact-us-image, .hero-image-process  {
+    
+    .contact-us-image, .hero-image-process, .about-us-image  {
         height: 40%;
    }
     
@@ -548,6 +543,9 @@ hr {
     height: 40%;
     margin-top: 0;
 }
+.carousel-caption {
+    font-size: 14px;
+}
 }
 /* XL screens */
  @media screen and (min-width: 1600px) {
@@ -585,7 +583,7 @@ hr {
          margin: 40px;
     }
      .card-title, .partners, .testimonial-title, .opening-hours, .address, .form-title {
-         font-size: 30px;
+         font-size: 28px;
          line-height: 60px;
     }
      .page-title-first {
@@ -595,8 +593,8 @@ hr {
      .page-title-second {
          font-size: 40px;
     }
-     .carousel-caption>h6 {
-         font-size: 30px !important;
+     .carousel-caption {
+         font-size: 20px;
     }
      .logo-partners>img {
          height: 180px;
@@ -625,8 +623,8 @@ hr {
          padding-bottom: 20px;
     }
      .btn-success, .btn-secondary {
-         padding: 10px 20px;
-         font-size: 30px;
+         padding: 8px 15px;
+         font-size: 18px;
     }
      .process-steps-title {
          min-width: 400px;
