@@ -20,18 +20,21 @@
 }
  .page-title {
      text-align: center;
-     letter-spacing: 1.6px;
-     font-weight: 700;
+     letter-spacing: 1.4px;
      margin-top: 70px;
      font-family: "Allerta Stencil", cursive;
 }
 
 .page-title-first {
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
 }
 
 .page-title-second, .testimonial-title {
     font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
 }
 
 hr {
@@ -94,6 +97,9 @@ hr {
  nav.stroke ul li a:hover:after {
      width: 70%;
 }
+p.font-italic.testimonial-text {
+    font-size: 12px;
+}
 /* Carousel */
  #braincarousel {
      background-color: transparent;
@@ -109,12 +115,13 @@ hr {
      width: 15px;
      height: 15px;
 }
- .carousel-caption {
+ .carousel-caption>p {
      background: #40585c73;
      padding-top: 0;
      padding-bottom: 0;
+     margin: 0;
      font-weight: 400;
-     font-size: 12px;
+     font-size: 11px;
 }
  .testimonials {
      padding: 8px;
@@ -333,9 +340,6 @@ hr {
          float: none;
          text-align: center;
     }
-     .address-contact {
-         font-size: 14px;
-    }
     
      .map {
          width: 60%;
@@ -359,6 +363,9 @@ hr {
          margin-left: 20px;
          margin-right: 20px;
     }
+    .about-us-image {
+        max-height: 40%;
+    }
 }
 /* Landscape phones and portrait tablets */
  @media (max-width: 767px) {
@@ -376,6 +383,9 @@ hr {
      .map {
          width: 40%;
          padding-left: 0;
+    }
+    .page-title-first {
+        min-height: 18px;
     }
      .error-text {
          margin-top: 80px;
@@ -407,7 +417,7 @@ hr {
     }
     .about-us-image {
         height: 60%;
-        margin-top: 10px;
+        margin-top: 30px;
    }
     .contact-us-image {
         height: 35%;
@@ -459,7 +469,7 @@ hr {
     height: 35%;
 }
 .carousel-caption {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 }
@@ -496,6 +506,10 @@ hr {
          font-size: 30px;
          margin-top: 150px;
     }
+
+    .testimonials-row {
+        font-size: 14px;
+    }
 }
 /* Large desktops and laptops */
  @media (min-width: 1200px) {
@@ -512,6 +526,9 @@ hr {
     }
      .address {
          padding-left: 20px;
+    }
+    .address-contact {
+        font-size: 14px;
     }
      .contact-place {
          padding-top: 15px;
