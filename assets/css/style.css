@@ -35,7 +35,7 @@
 }
 
 hr {
-    margin: 0;
+    margin-bottom: 20px;
 }
  .navbar {
      background-color: #06212c;
@@ -146,6 +146,7 @@ hr {
      padding-top: 30px;
      padding-right: 10px;
      padding-bottom: 20px;
+     font-size: 12px;
 }
  ::placeholder {
      font-size: 70%;
@@ -255,11 +256,11 @@ hr {
      margin-bottom: 0;
 }
 
-.card-title {
-    font-size: 16px;
+.card-title, .partners {
+    font-size: 13px;
 }
 .card-text {
-    font-size: 14px;
+    font-size: 12px;
 }
 
  .doctor>img {
@@ -352,8 +353,7 @@ hr {
     }
 
      .contact-us-image {
-         height: 40%;
-         margin-top: 0;
+         height: 30%;
     }
     
      .history-container {
@@ -379,7 +379,7 @@ hr {
          padding-bottom: 12px;
     }
      .map {
-         width: 50%;
+         width: 40%;
          padding-left: 0;
     }
      .error-text {
@@ -416,7 +416,6 @@ hr {
    }
     .contact-us-image {
         height: 35%;
-        margin-top: 0;
    }
     .hero-image-process {
         height: 30%;
@@ -455,10 +454,7 @@ hr {
      .terms{
          font-size: 10px;
     }
-    .contact-us-image {
-        height: 35%;
-        margin-top: 0;
-   }
+
    .about-us-image {
        height: 50%;
    }
@@ -481,13 +477,10 @@ hr {
         height: 55%;
         margin-top: 10px;
    }
-    .contact-us-image {
-        height: 40%;
-        margin-top: 0;
-   }
-    .hero-image-process {
+    .contact-us-image, .hero-image-process  {
         height: 40%;
    }
+    
      .history-container {
          height: 200px;
          width: 600px;
@@ -515,7 +508,7 @@ hr {
          width: 200px;
     }
      footer .footer-text {
-         font-size: 12px;
+         font-size: 11px;
          line-height:3px;
     }
      .opening-hours {
