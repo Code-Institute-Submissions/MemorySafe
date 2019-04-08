@@ -39,21 +39,21 @@
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link quote" href="#" data-toggle="modal" data-target="#exampleModal">Book Here</a>
+                            <a class="nav-link quote" href="#" data-toggle="modal" data-target="#bookingModal">Book Here</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
-
+        <!-- Navbar ends -->
     </header>
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Modal starts -->
+    <div class="modal fade" id="bookingModal" tabindex="-1" role="dialog" aria-labelledby="booking-modal" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Book an assessment</h5>
+                    <h5 class="modal-title" id="bookingModalLabel">Book an assessment</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -61,7 +61,7 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
-                            <label for="name">
+                            <label for="Name">
                                     Name
                                 </label>
                             <input type="text" class="form-control" name="name" placeholder="Name" required />
@@ -73,7 +73,7 @@
                             <input type="email" class="form-control" name="email-address" placeholder="Email address" required />
                         </div>
                         <div class="form-group">
-                            <label for="Phone-number">
+                            <label for="phone-number">
                                     Phone number
                                 </label>
                             <input type="tel" class="form-control" name="phone-number" placeholder="Phone number" required />
@@ -90,7 +90,7 @@
                         </div>
                         <div class="form-group">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
                                 <label class="form-check-label" for="gridCheck">
                                         Do you wish a confirmation of your booking by text?
                                       </label>
@@ -99,7 +99,7 @@
                         <div class="form-group">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" id="gridCheck2">
-                                <label class="form-check-label" for="gridCheck">
+                                <label class="form-check-label" for="gridCheck2">
                                             Do you wish a reminder of your appointment by text with a day before?
                                           </label>
                             </div>
