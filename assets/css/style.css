@@ -239,8 +239,17 @@
      margin: 0;
 }
  .card-title, .card-text {
-     padding: 10px;
+     padding: 5px;
+     margin-bottom: 0;
 }
+
+.card-title {
+    font-size: 16px;
+}
+.card-text {
+    font-size: 14px;
+}
+
  .doctor>img {
      width: 140px;
      height: 140px;
@@ -266,6 +275,7 @@
  .process-title {
      font-size: 16px;
 }
+
 /*Appointment steps--*/
  .card-img-top {
      height: 60px;
@@ -525,7 +535,7 @@
          padding: 0;
     }
      .history {
-         font-size: 20px;
+         font-size: 16px;
          margin-left: 20px;
          margin-right: 20px;
     }
