@@ -270,7 +270,7 @@ p.font-italic.testimonial-text {
 }
 
 .card-title, .partners {
-    font-size: 13px;
+    font-size: 14px;
 }
 .card-text {
     font-size: 12px;
@@ -294,7 +294,6 @@ p.font-italic.testimonial-text {
 }
 .about-us-image {
     height: 50%;
-    margin-top: 10px;
 }
 
 /* How it works page */
@@ -446,6 +445,7 @@ p.font-italic.testimonial-text {
          width: 600px;
     }
      .history {
+         font-size: 14px;
          margin-left: 20px;
          margin-right: 20px;
     }
@@ -462,10 +462,10 @@ p.font-italic.testimonial-text {
 
 
    .about-us-image {
-       height: 50%;
+       height: 40%;
    }
 
-   .hero-image-process {
+   .hero-image-process, .contact-us-image {
     height: 35%;
 }
 .carousel-caption {
