@@ -190,6 +190,10 @@ p.font-italic.testimonial-text {
     font-size: 0.8rem;
 }
 
+.btn-success, .btn-secondary {
+    padding: 3px 8px;
+   font-size: 0.72rem;
+}
 .modal-title {
     font-size: 0.84rem;
 }
@@ -653,7 +657,7 @@ p.font-italic.testimonial-text {
     }
      .btn-success, .btn-secondary {
          padding: 8px 15px;
-        font-size: 0.8rem;
+        font-size: 0.72rem;
     }
      .process-steps-title {
          min-width: 400px;
