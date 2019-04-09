@@ -283,16 +283,16 @@ p.font-italic.testimonial-text {
      padding-right: 15px;
      margin: 0;
 }
- .card-title, .card-text {
+ .card-title, .card-body>.card-text {
      padding: 5px;
      margin-bottom: 0;
 }
 
 .card-title, .partners {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
-.card-text {
-    font-size: 0.7rem;
+.card-body>.card-text {
+    font-size: 0.8rem;
 }
 
  .doctor>img {
@@ -376,7 +376,7 @@ p.font-italic.testimonial-text {
          width: 300px;
     }
      .history {
-         font-size: 0.87rem;
+         font-size: 0.8rem;
          margin-left: 20px;
          margin-right: 20px;
     }
