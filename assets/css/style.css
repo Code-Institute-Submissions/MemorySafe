@@ -4,6 +4,7 @@
      width:100%;
      margin: 0;
      padding: 0;
+     font-size: 1rem;
      font-family: "Montserrat", sans-serif;
 }
  body {
@@ -26,13 +27,12 @@
 }
 
 .page-title-first {
-    font-size: 16px;
     font-weight: 700;
     margin-bottom: 5px;
 }
 
 .page-title-second, .testimonial-title {
-    font-size: 14px;
+   /* font-size: 14px;*/
     font-weight: 500;
     margin-bottom: 5px;
 }
@@ -48,7 +48,7 @@ hr {
      color: #fafafa;
      font-family: "Montserrat", sans-serif;
      padding-left: 15px;
-     font-size: 12px;
+     /*font-size: 12px;*/
 }
  .nav-item {
      font-family: "Raleway", sans-serif;
@@ -61,11 +61,16 @@ hr {
 /* formula to overwrite bootstrap toggler colour */
  .custom-toggler .navbar-toggler-icon {
      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(18, 224, 252, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
+    }
+
+.custom-toggler.navbar-toggler { 
+        outline: none; 
+    }
+
  .navbar-light .navbar-nav .nav-item .nav-link {
      color: #fafafa;
      font-weight: 600;
-     font-size: 14px;
+     /*font-size: 14px;*/
      padding: 5px 20px;
      border-radius: 4px;
 }
@@ -98,7 +103,7 @@ hr {
      width: 70%;
 }
 p.font-italic.testimonial-text {
-    font-size: 12px;
+    /*font-size: 12px;*/
 }
 /* Carousel */
  #braincarousel {
@@ -121,7 +126,7 @@ p.font-italic.testimonial-text {
      padding-bottom: 0;
      margin: 0;
      font-weight: 400;
-     font-size: 11px;
+     /*font-size: 11px;*/
 }
  .testimonials {
      padding: 8px;
@@ -130,7 +135,7 @@ p.font-italic.testimonial-text {
  .testimonials-row {
      margin:0 !important;
      padding:0;
-     font-size: 14px;
+     /*font-size: 14px;*/
 }
  .client {
      margin-top: 20px;
@@ -159,10 +164,10 @@ p.font-italic.testimonial-text {
      padding-top: 30px;
      padding-right: 10px;
      padding-bottom: 20px;
-     font-size: 12px;
+     /*font-size: 12px;*/
 }
  ::placeholder {
-     font-size: 60%;
+     /*font-size: 60%;*/
 }
  .address>p {
      padding-left: 40px;
@@ -183,7 +188,6 @@ p.font-italic.testimonial-text {
      left: 50%;
      transform: translate(-50%, -50%);
      color: white;
-     font-size: 16px;
 }
  .envelope .phonenumber {
      display: block;
@@ -208,17 +212,16 @@ p.font-italic.testimonial-text {
 }
 /* Footer */
  footer {
-     position: absolute;
-     width: 100%;
-     background-color:#06212c;
-     color: white;
-     text-align: center;
-     padding-top: 10px;
-     padding-bottom: 10px;
-     margin-top: 30px;
+    width: 100%;
+    background-color: #06212c;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
 }
  .terms {
-     font-size: 12px;
+     /*font-size: 12px;*/
      margin-bottom: 5px;
 }
  footer>ul {
@@ -233,19 +236,19 @@ p.font-italic.testimonial-text {
      text-decoration: none;
      padding-left: 5%;
      padding-right: 5%;
-     font-size: 10px;
+     /*font-size: 10px;*/
 }
  footer .social-icons a {
      padding-right: 9%;
      padding-left: 9%;
-     font-size: 120%;
+    /* font-size: 120%;*/
      color: rgb(18, 224, 252);
 }
  footer .social-icons a:hover {
      color: rgba(53, 206, 226, 0.514);
 }
  footer .copyright>p {
-     font-size: 10px;
+    /* font-size: 10px;*/
      padding-top: 10px;
      margin-bottom: 6px;
 }
@@ -270,10 +273,10 @@ p.font-italic.testimonial-text {
 }
 
 .card-title, .partners {
-    font-size: 14px;
+    /*font-size: 14px;*/
 }
 .card-text {
-    font-size: 12px;
+    /*font-size: 12px;*/
 }
 
  .doctor>img {
@@ -286,7 +289,7 @@ p.font-italic.testimonial-text {
      padding: 10px;
 }
  .history {
-     font-size: 16px;
+     /*font-size: 16px;*/
 }
  .about-us-title {
      padding-bottom: 20px;
@@ -320,7 +323,7 @@ p.font-italic.testimonial-text {
     }
      .navbar-brand {
          font-weight: 800;
-         font-size: 1em;
+         /*font-size: 1em;*/
     }
      nav.stroke ul li a:hover:after, nav.stroke ul li a:after {
          display: none;
@@ -329,10 +332,10 @@ p.font-italic.testimonial-text {
          align-items: center;
     }
      .testimonials .client {
-         font-size: 12px;
+         /*font-size: 12px;*/
     }
      .error-text {
-         font-size:18px;
+         /*font-size:18px;*/
          margin-top: 150px;
     }
      .client>img {
@@ -358,7 +361,7 @@ p.font-italic.testimonial-text {
          width: 300px;
     }
      .history {
-         font-size: 14px;
+         font-size: 0.87rem;
          margin-left: 20px;
          margin-right: 20px;
     }
@@ -399,7 +402,7 @@ p.font-italic.testimonial-text {
          width: 350px;
     }
      .history {
-         font-size: 14px;
+        /* font-size: 14px;*/
          padding-left: 20px;
          padding-right: 20px;
     }
@@ -414,7 +417,7 @@ p.font-italic.testimonial-text {
          margin-bottom: 30px;
     }
      .navbar-light .navbar-nav .nav-item .nav-link {
-         font-size: 14px;
+        /* font-size: 14px;*/
          padding-bottom: 5px;
     }
     .about-us-image {
@@ -431,7 +434,7 @@ p.font-italic.testimonial-text {
          display: none;
     }
      .error-text {
-         font-size: 25px;
+        /* font-size: 25px;*/
          margin-top: 150px;
     }
      .logo-partners>img {
@@ -445,7 +448,7 @@ p.font-italic.testimonial-text {
          width: 600px;
     }
      .history {
-         font-size: 14px;
+         /*font-size: 14px;*/
          margin-left: 20px;
          margin-right: 20px;
     }
@@ -454,10 +457,10 @@ p.font-italic.testimonial-text {
     }
      footer .copyright>p {
          margin-bottom: 5px;
-         font-size: 9px;
+         /*font-size: 9px;*/
     }
      .terms{
-         font-size: 10px;
+        /* font-size: 10px;*/
     }
 
 
@@ -469,7 +472,7 @@ p.font-italic.testimonial-text {
     height: 35%;
 }
 .carousel-caption {
-    font-size: 12px;
+    /*font-size: 12px;*/
 }
 
 }
@@ -503,12 +506,12 @@ p.font-italic.testimonial-text {
          margin-bottom: 30px;
     }
      .error-text {
-         font-size: 30px;
+        /* font-size: 30px;*/
          margin-top: 150px;
     }
 
     .testimonials-row {
-        font-size: 14px;
+        /*font-size: 14px;*/
     }
 }
 /* Large desktops and laptops */
@@ -518,17 +521,17 @@ p.font-italic.testimonial-text {
          width: 200px;
     }
      footer .footer-text {
-         font-size: 11px;
+         /*font-size: 11px;*/
          line-height:3px;
     }
      .opening-hours {
          padding-left: 8%;
     }
      .address {
-         padding-left: 20px;
+         /*padding-left: 20px;*/
     }
     .address-contact {
-        font-size: 14px;
+       /* font-size: 14px;*/
     }
      .contact-place {
          padding-top: 15px;
@@ -550,7 +553,7 @@ p.font-italic.testimonial-text {
          margin-bottom: 30px;
     }
      .error-text {
-         font-size: 30px;
+        /* font-size: 30px;*/
          margin-top: 220px;
     }
     .about-us-image {
@@ -562,17 +565,14 @@ p.font-italic.testimonial-text {
     margin-top: 0;
 }
 .carousel-caption {
-    font-size: 14px;
+   /* font-size: 14px;*/
 }
 }
 /* XL screens */
  @media screen and (min-width: 1600px) {
-     body {
-         font-size: 30px;
-         line-height: 40px;
-    }
+    
      .navbar-light .navbar-nav .nav-item .nav-link {
-         font-size: 22px;
+        /* font-size: 22px;*/
     }
      navbar .navbar-brand>img {
          width: 145px;
@@ -583,14 +583,14 @@ p.font-italic.testimonial-text {
          max-height: 80% !important;
     }
      #bookingModalLabel {
-         font-size: 28px !important;
+         /*font-size: 28px !important;*/
     }
      .history-container {
          height: 400px;
          width: 1200px;
     }
      .history, .about-us-title, .contact-us, .envelope, .phonenumber, .process-title {
-         font-size: 35px !important;
+         /*font-size: 35px;*/
          line-height: 60px;
     }
      .doctor>img {
@@ -601,25 +601,25 @@ p.font-italic.testimonial-text {
          margin: 40px;
     }
      .card-title, .partners, .testimonial-title, .opening-hours, .address, .form-title {
-         font-size: 28px;
+         /*font-size: 28px;*/
          line-height: 60px;
     }
      .page-title-first {
-         font-size: 40px;
+         /*font-size: 40px;*/
          margin-top: 120px;
     }
      .page-title-second {
-         font-size: 40px;
+         /*font-size: 40px;*/
     }
      .carousel-caption {
-         font-size: 20px;
+         /*font-size: 20px;*/
     }
      .logo-partners>img {
          height: 180px;
          margin: 10px;
     }
      footer .footer-text {
-         font-size: 30px;
+        /* font-size: 30px;*/
          line-height: 20px;
     }
      .navbar .navbar-brand>img {
@@ -642,27 +642,27 @@ p.font-italic.testimonial-text {
     }
      .btn-success, .btn-secondary {
          padding: 8px 15px;
-         font-size: 18px;
+        /* font-size: 18px;
     }
      .process-steps-title {
-         min-width: 400px;
+         min-width: 400px;*/
     }
      .card-deck-top {
          margin-bottom: 30px;
     }
      .terms {
-         font-size: 25px;
+        /* font-size: 25px;*/
          margin-bottom: 5px;
     }
      footer .copyright>p {
-         font-size: 18px;
+        /* font-size: 18px;*/
     }
      .testimonials-row {
          padding-left: 60px;
          padding-right: 60px;
     }
      .error-text {
-         font-size: 80px;
+        /* font-size: 80px;*/
          margin-top: 300px;
          line-height: 100px;
     }
