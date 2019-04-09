@@ -323,7 +323,6 @@ p.font-italic.testimonial-text {
     }
      .navbar-brand {
          font-weight: 800;
-         /*font-size: 1em;*/
     }
      nav.stroke ul li a:hover:after, nav.stroke ul li a:after {
          display: none;
@@ -332,10 +331,10 @@ p.font-italic.testimonial-text {
          align-items: center;
     }
      .testimonials .client {
-         /*font-size: 12px;*/
+         font-size: 0.75rem;
     }
      .error-text {
-         /*font-size:18px;*/
+         font-size: 1.12rem;
          margin-top: 150px;
     }
      .client>img {
@@ -417,7 +416,7 @@ p.font-italic.testimonial-text {
          margin-bottom: 30px;
     }
      .navbar-light .navbar-nav .nav-item .nav-link {
-        /* font-size: 14px;*/
+        font-size: 0.8rem;
          padding-bottom: 5px;
     }
     .about-us-image {
@@ -448,7 +447,7 @@ p.font-italic.testimonial-text {
          width: 600px;
     }
      .history {
-         /*font-size: 14px;*/
+         font-size: 0.8rem;
          margin-left: 20px;
          margin-right: 20px;
     }
@@ -457,10 +456,10 @@ p.font-italic.testimonial-text {
     }
      footer .copyright>p {
          margin-bottom: 5px;
-         /*font-size: 9px;*/
+         font-size: 0.5rem;
     }
      .terms{
-        /* font-size: 10px;*/
+        font-size: 0.6rem;
     }
 
 
@@ -472,7 +471,7 @@ p.font-italic.testimonial-text {
     height: 35%;
 }
 .carousel-caption {
-    /*font-size: 12px;*/
+    font-size: 0.8rem;
 }
 
 }
@@ -521,7 +520,7 @@ p.font-italic.testimonial-text {
          width: 200px;
     }
      footer .footer-text {
-         /*font-size: 11px;*/
+         font-size: 0.6rem;
          line-height:3px;
     }
      .opening-hours {
@@ -531,7 +530,7 @@ p.font-italic.testimonial-text {
          /*padding-left: 20px;*/
     }
     .address-contact {
-       /* font-size: 14px;*/
+       font-size: 0.8rem;
     }
      .contact-place {
          padding-top: 15px;
@@ -553,7 +552,7 @@ p.font-italic.testimonial-text {
          margin-bottom: 30px;
     }
      .error-text {
-        /* font-size: 30px;*/
+         font-size: 1.6rem;
          margin-top: 220px;
     }
     .about-us-image {
@@ -565,7 +564,7 @@ p.font-italic.testimonial-text {
     margin-top: 0;
 }
 .carousel-caption {
-   /* font-size: 14px;*/
+   font-size: 0.8rem;
 }
 }
 /* XL screens */
