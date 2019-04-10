@@ -52,13 +52,24 @@
  .custom-toggler.navbar-toggler {
      outline: none;
 }
+
  .navbar-light .navbar-nav .nav-item .nav-link {
      color: #fafafa;
      font-weight: 600;
-     font-size: .8rem;
+     font-size: .87rem;
      padding: 5px 20px;
      border-radius: 4px;
+     display: inline-block !important; 
 }
+
+ .quote {
+    margin-bottom: 6px;
+}
+
+.nav-item {
+  text-align: center;  
+}
+
  #navbarSupportedContent .nav-item .quote {
      background-color: rgb(18, 224, 252);
 }
@@ -178,8 +189,10 @@
 }
 /* =============================== Contact Us page =============================== */
  .contact-form {
-     margin-top: 30px;
+     margin-top: 30px; 
+     width: 80%;
 }
+
  .map {
      width: 150px;
      margin: 15px;
@@ -360,10 +373,7 @@
          padding: 5px;
     }
      
-    .contact-form {
-         width: 80%;
-         margin-left: 10%;
-    }
+   
      .opening-hours>ul {
          padding-left: 20px;
     }
