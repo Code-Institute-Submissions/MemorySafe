@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700|Gugi:400|Allerta+Stencil:100, 200, 300, 400, 500, 600, 700');
 /* 
-===============================
-    General
-===============================
+=============================== 
+General 
+=============================== 
 */
-
-html {
+ html {
      height: 100%;
      width:100%;
      margin: 0;
@@ -13,37 +12,32 @@ html {
      font-size: 1rem;
      font-family: "Montserrat", sans-serif;
 }
-
-body {
-    padding: 0;
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+ body {
+     padding: 0;
+     margin: 0;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
 }
-
-main {
-    flex: 1;
-    margin-top: 44px;
-    padding-bottom: 30px;
+ main {
+     flex: 1;
+     margin-top: 44px;
+     padding-bottom: 30px;
 }
-
  .row, .container, .container-fluid {
      margin:0;
      padding:0;
 }
-
-hr {
+ hr {
      border: 0;
      height: 2px;
-     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .75), rgba(0, 0, 0, 0)); 
+     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .75), rgba(0, 0, 0, 0));
      margin-bottom: 20px;
 }
-
 /* 
-===============================
-   Navbar
-===============================
+=============================== 
+Navbar
+=============================== 
 */
  .navbar {
      background-color: #06212c;
@@ -67,12 +61,10 @@ hr {
 /* formula to overwrite bootstrap toggler colour */
  .custom-toggler .navbar-toggler-icon {
      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(18, 224, 252, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    }
-
-.custom-toggler.navbar-toggler { 
-        outline: none; 
-    }
-
+}
+ .custom-toggler.navbar-toggler {
+     outline: none;
+}
  .navbar-light .navbar-nav .nav-item .nav-link {
      color: #fafafa;
      font-weight: 600;
@@ -110,63 +102,52 @@ hr {
      width: 70%;
      display: none;
 }
-
 /* 
-===============================
-  Home Page
-===============================
+=============================== 
+Home Page
+=============================== 
 */
-
-.page-title {
-    font-family: 'Allerta Stencil', cursive;
-    padding: 40px 30px;
-    letter-spacing: 1.4px;
+ .page-title {
+     font-family: 'Allerta Stencil', cursive;
+     padding: 40px 30px;
+     letter-spacing: 1.4px;
 }
-
-
-.page-title-first {
-    font-size: 1 rem;
-    font-weight: 700;
-    margin-bottom: 5px;
+ .page-title-first {
+     font-size: 1 rem;
+     font-weight: 700;
+     margin-bottom: 5px;
 }
-
-.page-title-second, .testimonial-title {
-   font-size: .9rem;
-    font-weight: 500;
-    margin-bottom: 5px;
+ .page-title-second, .testimonial-title {
+     font-size: .9rem;
+     font-weight: 500;
+     margin-bottom: 5px;
 }
-
-p.font-italic.testimonial-text {
-    font-size: .7rem;
+ p.font-italic.testimonial-text {
+     font-size: .7rem;
 }
-
-.testimonials-row {
-    margin:0 !important;
-    padding:0;
-   font-size: .8rem;
+ .testimonials-row {
+     margin:0 !important;
+     padding:0;
+     font-size: .8rem;
 }
-
-.testimonials {
-    padding: 8px;
-    margin:0 !important;
+ .testimonials {
+     padding: 8px;
+     margin:0 !important;
 }
-
-.client {
-    margin-top: 20px;
+ .client {
+     margin-top: 20px;
 }
-
-.client>img {
-    width: 55px;
-    float: left;
-    margin-right: 30px;
-    border-radius: 50%;
+ .client>img {
+     width: 55px;
+     float: left;
+     margin-right: 30px;
+     border-radius: 50%;
 }
-
-/* 
-===============================
-   Carousel
-===============================
-*/
+/*
+ =============================== 
+ Carousel
+=============================== 
+  */
  #braincarousel {
      background-color: transparent;
      display: flex;
@@ -189,52 +170,43 @@ p.font-italic.testimonial-text {
      font-weight: 400;
      font-size: .6rem;
 }
-
-
 /* 
-===============================
-  Hero Image
-===============================
+=============================== 
+Hero Image 
+=============================== 
 */
-
-.hero-image {
-    font-size: 1.7vmax;
-    padding: 30px;
-    color: white;
-    min-height: 25vh;
-    width: 100%;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+ .hero-image {
+     font-size: 1.7vmax;
+     padding: 30px;
+     color: white;
+     min-height: 25vh;
+     width: 100%;
+     display: flex;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
 }
-
-.about-us-image {
-    min-height: 45vh;
+ .about-us-image {
+     min-height: 45vh;
 }
-
-.hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background5.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 30px;
+ .hero-image {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background5.png");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 30px;
 }
-
-.hero-text {
-  margin: auto;
+ .hero-text {
+     margin: auto;
 }
-
-
- /* 
-===============================
-    Contact Us page
-===============================
+/* 
+=============================== 
+Contact Us page 
+=============================== 
 */
-
  .contact-form {
      margin-top: 30px;
 }
@@ -255,23 +227,19 @@ p.font-italic.testimonial-text {
  .address>p {
      padding-left: 40px;
 }
-
-.form-title {
-    font-size: .9rem;
+ .form-title {
+     font-size: .9rem;
 }
-
-.form-check-label, .form-control, .form-group {
-    font-size: .8rem;
+ .form-check-label, .form-control, .form-group {
+     font-size: .8rem;
 }
-
-.btn-success, .btn-secondary {
-    padding: 3px 8px;
-   font-size: .72rem;
+ .btn-success, .btn-secondary {
+     padding: 3px 8px;
+     font-size: .72rem;
 }
-.modal-title {
-    font-size: .84rem;
+ .modal-title {
+     font-size: .84rem;
 }
- 
  .envelope .phonenumber {
      display: block;
      text-decoration: none;
@@ -293,12 +261,10 @@ p.font-italic.testimonial-text {
  .contact-place {
      margin-right:0;
 }
-
-
 /* 
-===============================
-  About us page
-===============================
+=============================== 
+About us page 
+=============================== 
 */
  .history-container {
      height: 70%;
@@ -318,14 +284,12 @@ p.font-italic.testimonial-text {
      padding: 5px;
      margin-bottom: 0;
 }
-
-.card-title, .partners {
-    font-size: .85rem;
+ .card-title, .partners {
+     font-size: .85rem;
 }
-.card-body>.card-text {
-    font-size: .8rem;
+ .card-body>.card-text {
+     font-size: .8rem;
 }
-
  .doctor>img {
      width: 140px;
      height: 140px;
@@ -336,20 +300,17 @@ p.font-italic.testimonial-text {
      padding: 10px;
 }
  .history {
-     /*font-size: 16px;*/
+    /*font-size: 16px;
+    */
 }
  .about-us-title {
      padding-bottom: 20px;
-
 }
-
-
-/*
-===============================
+/* 
+=============================== 
 How it works page 
-===============================
+=============================== 
 */
-
  .card-img-top {
      height: 60px;
      width: 60px;
@@ -364,19 +325,17 @@ How it works page
  .steps {
      margin-top: 20px;
 }
-
 /* 
-===============================
-   Footer
-===============================
+=============================== 
+Footer 
+=============================== 
 */
-
-footer {
-    background-color:#06212c;
-    color: #fafafa;
-    text-align: center;
-    padding: 20px 10px;
-    font-size: .8rem;
+ footer {
+     background-color:#06212c;
+     color: #fafafa;
+     text-align: center;
+     padding: 20px 10px;
+     font-size: .8rem;
 }
  .terms {
      font-size: .7rem;
@@ -406,146 +365,119 @@ footer {
      color: rgba(53, 206, 226, 0.514);
 }
  footer .copyright>p {
-    font-size: .6rem;
+     font-size: .6rem;
      padding-top: 10px;
      margin-bottom: 6px;
 }
-
 /* 
-===============================
-   Media Queries
-===============================
+=============================== 
+Media Queries 
+=============================== 
 */
+
 
 /* Portrait phones and smaller */
 
 /* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
-   
-    .contact-form {
-        width: 80%;
-        margin-left: 10%;
-   }
-    .navbar-nav {
-        align-items: center;
-        padding-bottom: 12px;
-   }
-    .map {
-        width: 40%;
-        padding-left: 0;
-   }
-   
-   
-    .history-container {
-        width: 350px;
-   }
-    .history {
-       /* font-size: 14px;*/
-        padding-left: 20px;
-        padding-right: 20px;
-   }
-    .logo-partners>img {
-        height: 70px;
-        padding: 5px;
-   }
-    .process-title {
-        padding-top: 10px;
-   }
-    .card-deck-top {
-        margin-bottom: 30px;
-   }
-    .navbar-light .navbar-nav .nav-item .nav-link {
-       font-size: .8rem;
-        padding-bottom: 5px;
-   }
- 
- 
+
+ @media (max-width: 767px) {
+     .contact-form {
+         width: 80%;
+         margin-left: 10%;
+    }
+     .navbar-nav {
+         align-items: center;
+         padding-bottom: 12px;
+    }
+     .map {
+         width: 40%;
+         padding-left: 0;
+    }
+     .history-container {
+         width: 350px;
+    }
+     .history {
+        /* font-size: 14px;
+        */
+         padding-left: 20px;
+         padding-right: 20px;
+    }
+     .logo-partners>img {
+         height: 70px;
+         padding: 5px;
+    }
+     .process-title {
+         padding-top: 10px;
+    }
+     .card-deck-top {
+         margin-bottom: 30px;
+    }
+     .navbar-light .navbar-nav .nav-item .nav-link {
+         font-size: .8rem;
+         padding-bottom: 5px;
+    }
 }
 /* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
-   
-    .error-text {
-       /* font-size: 25px;*/
-        margin-top: 150px;
-   }
-    .logo-partners>img {
-        height: 80px;
-        padding: 5px;
-   }
-    .opening-hours>ul {
-        padding-left: 20px;
-   }
-    .history-container {
-        width: 600px;
-   }
-    .history {
-        font-size: .8rem;
-        margin-left: 20px;
-        margin-right: 20px;
-   }
-    .card-deck-top {
-        margin-bottom: 30px;
-   }
-    footer .copyright>p {
-        margin-bottom: 5px;
-        font-size: .5rem;
-   }
-    .terms{
-       font-size: .6rem;
-   }
-
-
- 
-
-
+ @media (min-width: 768px) and (max-width: 991px) {
+     .logo-partners>img {
+         height: 80px;
+         padding: 5px;
+    }
+     .opening-hours>ul {
+         padding-left: 20px;
+    }
+     .history-container {
+         width: 600px;
+    }
+     .card-deck-top {
+         margin-bottom: 30px;
+    }
+     footer .copyright>p {
+         margin-bottom: 5px;
+         font-size: .5rem;
+    }
+     .terms{
+         font-size: .6rem;
+    }
 }
-.carousel-caption {
-   font-size: .8rem;
-
-}
-
 /* Large desktops and laptops */
-@media (min-width: 1200px) {
-
-    .process-title {
-        width: 200px;
-   }
-    footer .footer-text {
-        font-size: .6rem;
-        line-height:3px;
-   }
-    .opening-hours {
-        padding-left: 8%;
-   }
-    .address {
-        padding-left: 20px;
-   }
-   .address-contact {
-      font-size: .8rem;
-   }
-    .contact-place {
-        padding-top: 15px;
-   }
-    .history-container {
-        height: 300px;
-        width: 600px;
-        padding: 0;
-   }
-    .history {
-        margin-left: 20px;
-        margin-right: 20px;
-   }
-    .logo-partners>img {
-        height: 80px;
-        padding: 5px;
-   }
-    .card-deck-top {
-        margin-bottom: 30px;
-   }
-    
-
-.carousel-caption {
-  font-size: .8rem;
-}
-
+ @media (min-width: 1200px) {
+     .process-title {
+         width: 200px;
+    }
+     footer .footer-text {
+         font-size: .6rem;
+         line-height:3px;
+    }
+     .opening-hours {
+         padding-left: 8%;
+    }
+     .address {
+         padding-left: 20px;
+    }
+     .address-contact {
+         font-size: .8rem;
+    }
+     .contact-place {
+         padding-top: 15px;
+    }
+     .history-container {
+         height: 300px;
+         width: 600px;
+         padding: 0;
+    }
+     .history {
+         margin-left: 20px;
+         margin-right: 20px;
+    }
+     .logo-partners>img {
+         height: 80px;
+         padding: 5px;
+    }
+     .card-deck-top {
+         margin-bottom: 30px;
+    }
+     .carousel-caption {
+         font-size: .8rem;
+    }
 }
