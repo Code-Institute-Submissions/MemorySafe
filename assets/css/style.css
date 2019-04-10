@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700|Gugi:400|Allerta+Stencil:100, 200, 300, 400, 500, 600, 700');
 /* =============================== General =============================== */
- html {
-     height: 100%;
-     width:100%;
-     margin: 0;
-     padding: 0;
-     font-size: 1rem;
-     font-family: "Montserrat", sans-serif;
-}
+
  body {
      padding: 0;
      margin: 0;
@@ -39,13 +32,15 @@
      color: #fafafa;
      font-family: "Montserrat", sans-serif;
      padding-left: 15px;
-     font-size: .7rem;
+     font-size: .87rem;
      display: none;
 }
  .nav-item {
      font-family: "Raleway", sans-serif;
      font-weight: 600;
      text-transform: uppercase;
+     text-align: centre;
+
 }
  .custom-toggler.navbar-toggler {
      border-color: #06212c;
@@ -110,7 +105,7 @@
      margin-bottom: 5px;
 }
   .font-italic.testimonial-text {
-     font-size: .7rem;
+     font-size: .8rem;
 }
  .testimonials-row {
      margin:0 !important;
@@ -222,9 +217,7 @@
      padding-left:0;
      display: inline-block !important;
 }
- .contact-us {
-     margin-bottom: 40px;
-}
+ 
  .opening-hours>ul>li {
      display: inline-block;
      text-decoration: none;
@@ -234,13 +227,14 @@
      margin-right:0;
 }
 /* =============================== About us page =============================== */
+
  .history-container {
      height: 70%;
      padding: 0;
 }
  .doctor{
      margin-top: 30px;
-     border:none;
+     border: none;
 }
  .card-body {
      border: 0px;
@@ -253,10 +247,11 @@
      margin-bottom: 0;
 }
  .card-title, .partners {
-     font-size: .85rem;
+     font-size: .87rem;
+     font-weight: 600;
 }
  .card-body>.card-text {
-     font-size: .8rem;
+     font-size: .87rem;
 }
  .doctor>img {
      width: 140px;
@@ -271,10 +266,10 @@
  .about-us-title {
      padding-bottom: 20px;
 }
-/* =============================== How it works page =============================== */
+/* =============================== How it works page  Card decks=============================== */
  .card-img-top {
-     height: 60px;
-     width: 60px;
+     height: 50px;
+     width: 50px;
      margin-left: 20px;
      margin-top: 20px;
 }
@@ -333,6 +328,11 @@
 }
 /* =============================== Media Queries =============================== */
   
+
+
+
+
+
 /* Landscape phones and portrait tablets */
  @media screen and (min-width: 768px) {
      
@@ -340,6 +340,10 @@
          align-items: center;
          padding-bottom: 12px;
          padding-top: 12px;
+    }
+
+    .navbar-collapse {
+        text-align: center !important;
     }
      .map {
          width: 40%;
