@@ -40,14 +40,12 @@ hr {
      margin-bottom: 20px;
 }
 
-
-
- .page-title {
-     text-align: center;
-     letter-spacing: 1.4px;
-     margin-top: 70px;
-     font-family: "Allerta Stencil", cursive;
+.page-title {
+    font-family: 'Allerta Stencil', cursive;
+    padding: 40px 30px;
+    letter-spacing: 1.4px;
 }
+
 
 .page-title-first {
     font-size: 1 rem;
@@ -60,7 +58,6 @@ hr {
     font-weight: 500;
     margin-bottom: 5px;
 }
-
 
 
 /* 
