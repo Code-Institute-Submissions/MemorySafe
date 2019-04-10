@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700|Gugi:400|Allerta+Stencil:100, 200, 300, 400, 500, 600, 700');
- body, html {
+/* 
+===============================
+    General
+===============================
+*/
+
+html {
      height: 100%;
      width:100%;
      margin: 0;
@@ -7,18 +13,35 @@
      font-size: 1rem;
      font-family: "Montserrat", sans-serif;
 }
- body {
-     min-height: 100vh;
-     display: flex;
-     flex-direction: column;
+
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
- .main-content {
-     flex: 1;
+
+main {
+    flex: 1;
+    margin-top: 44px;
+    padding-bottom: 30px;
 }
+
  .row, .container, .container-fluid {
      margin:0;
      padding:0;
 }
+
+hr {
+     border: 0;
+     height: 2px;
+     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+     margin-bottom: 20px;
+}
+
+
+
  .page-title {
      text-align: center;
      letter-spacing: 1.4px;
@@ -38,9 +61,13 @@
     margin-bottom: 5px;
 }
 
-hr {
-    margin-bottom: 20px;
-}
+
+
+/* 
+===============================
+   Navbar
+===============================
+*/
  .navbar {
      background-color: #06212c;
      padding: 2px 10px;
@@ -106,7 +133,12 @@ hr {
 p.font-italic.testimonial-text {
     font-size: 0.7rem;
 }
-/* Carousel */
+
+/* 
+===============================
+   Carousel
+===============================
+*/
  #braincarousel {
      background-color: transparent;
      display: flex;
@@ -147,11 +179,7 @@ p.font-italic.testimonial-text {
      margin-right: 30px;
      border-radius: 50%;
 }
- hr {
-     border: 0;
-     height: 2px;
-     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
+ 
 /* Contact Us page */
  .contact-form {
      margin-top: 30px;
@@ -268,7 +296,12 @@ p.font-italic.testimonial-text {
      padding-top: 10px;
      margin-bottom: 6px;
 }
-/*--About us page--*/
+
+/* 
+===============================
+  About us page
+===============================
+*/
  .history-container {
      height: 70%;
      padding: 0;
@@ -315,7 +348,12 @@ p.font-italic.testimonial-text {
     height: 50%;
 }
 
-/* How it works page */
+/*
+===============================
+How it works page 
+===============================
+*/
+
  .card-img-top {
      height: 60px;
      width: 60px;
@@ -337,5 +375,355 @@ p.font-italic.testimonial-text {
 ===============================
 */
 
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .brand-phone {
+        display: none;
+   }
+    .navbar-brand {
+        font-weight: 800;
+   }
+    nav.stroke ul li a:hover:after, nav.stroke ul li a:after {
+        display: none;
+   }
+    .navbar-nav {
+        align-items: center;
+   }
+    .testimonials .client {
+        font-size: 0.75rem;
+   }
+    .error-text {
+        font-size: 1.12rem;
+        margin-top: 150px;
+   }
+    .client>img {
+        float: none;
+        text-align: center;
+   }
+   
+    .map {
+        width: 60%;
+        margin-bottom: 1rem;
+        padding-left: 0 !important;
+        margin-left: 15px;
+   }
+    .opening-hours {
+        margin-bottom: 1rem;
+   }
+
+    .contact-us-image {
+        height: 30%;
+   }
+   
+    .history-container {
+        width: 300px;
+   }
+    .history {
+        font-size: 0.8rem;
+        margin-left: 20px;
+        margin-right: 20px;
+   }
+   .about-us-image {
+       max-height: 40%;
+   }
+   .hero-image-process {
+       max-height: 20%;
+   }
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .brand-phone {
+        display: none;
+   }
+    .contact-form {
+        width: 80%;
+        margin-left: 10%;
+   }
+    .navbar-nav {
+        align-items: center;
+        padding-bottom: 12px;
+   }
+    .map {
+        width: 40%;
+        padding-left: 0;
+   }
+   .page-title-first {
+       min-height: 18px;
+   }
+    .error-text {
+        margin-top: 80px;
+   }
+    nav.stroke ul li a:hover:after, nav.stroke ul li a:after {
+        display: none;
+   }
+    .history-container {
+        width: 350px;
+   }
+    .history {
+       /* font-size: 14px;*/
+        padding-left: 20px;
+        padding-right: 20px;
+   }
+    .logo-partners>img {
+        height: 70px;
+        padding: 5px;
+   }
+    .process-title {
+        padding-top: 10px;
+   }
+    .card-deck-top {
+        margin-bottom: 30px;
+   }
+    .navbar-light .navbar-nav .nav-item .nav-link {
+       font-size: 0.8rem;
+        padding-bottom: 5px;
+   }
+   .about-us-image {
+       height: 60%;
+       margin-top: 40px;
+  }
+   .contact-us-image {
+       height: 35%;
+  }
+}
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .brand-phone {
+        display: none;
+   }
+    .error-text {
+       /* font-size: 25px;*/
+        margin-top: 150px;
+   }
+    .logo-partners>img {
+        height: 80px;
+        padding: 5px;
+   }
+    .opening-hours>ul {
+        padding-left: 20px;
+   }
+    .history-container {
+        width: 600px;
+   }
+    .history {
+        font-size: 0.8rem;
+        margin-left: 20px;
+        margin-right: 20px;
+   }
+    .card-deck-top {
+        margin-bottom: 30px;
+   }
+    footer .copyright>p {
+        margin-bottom: 5px;
+        font-size: 0.5rem;
+   }
+    .terms{
+       font-size: 0.6rem;
+   }
+
+
+  .about-us-image {
+      height: 40%;
+  }
+
+  .hero-image-process, .contact-us-image {
+   height: 35%;
+}
+.carousel-caption {
+   font-size: 0.8rem;
+}
+
+}
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .brand-phone {
+        display: none;
+   }
+    .map {
+        width: 50%;
+        padding-left: 0;
+   }
+   
+   .contact-us-image, .hero-image-process, .about-us-image  {
+       height: 40%;
+  }
+   
+    .history-container {
+        height: 200px;
+        width: 600px;
+   }
+    .history {
+        margin-left: 20px;
+        margin-right: 20px;
+   }
+    .logo-partners>img {
+        height: 80px;
+        padding: 5px;
+   }
+    .card-deck-top {
+        margin-bottom: 30px;
+   }
+    .error-text {
+       font-size: 1.6rem;
+        margin-top: 150px;
+   }
+
+   .testimonials-row {
+       font-size: 0.8rem;
+   }
+}
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    
+    .process-title {
+        width: 200px;
+   }
+    footer .footer-text {
+        font-size: 0.6rem;
+        line-height:3px;
+   }
+    .opening-hours {
+        padding-left: 8%;
+   }
+    .address {
+        padding-left: 20px;
+   }
+   .address-contact {
+      font-size: 0.8rem;
+   }
+    .contact-place {
+        padding-top: 15px;
+   }
+    .history-container {
+        height: 300px;
+        width: 600px;
+        padding: 0;
+   }
+    .history {
+        margin-left: 20px;
+        margin-right: 20px;
+   }
+    .logo-partners>img {
+        height: 80px;
+        padding: 5px;
+   }
+    .card-deck-top {
+        margin-bottom: 30px;
+   }
+    .error-text {
+        font-size: 1.6rem;
+        margin-top: 220px;
+   }
+   .about-us-image {
+       height: 80%;
+       margin-top: 10px;
+  }
+  .contact-us-image {
+   height: 40%;
+   margin-top: 0;
+}
+.carousel-caption {
+  font-size: 0.8rem;
+}
+}
+/* XL screens */
+@media screen and (min-width: 1600px) {
+   
+    .navbar-light .navbar-nav .nav-item .nav-link {
+       /* font-size: 22px;*/
+   }
+    navbar .navbar-brand>img {
+        width: 145px;
+        height: 75px;
+   }
+    .modal-dialog {
+        max-width: 50% !important;
+        max-height: 80% !important;
+   }
+    #bookingModalLabel {
+        /*font-size: 28px !important;*/
+   }
+    .history-container {
+        height: 400px;
+        width: 1200px;
+   }
+    .history, .about-us-title, .contact-us, .envelope, .phonenumber, .process-title {
+        /*font-size: 35px;*/
+        line-height: 60px;
+   }
+    .doctor>img {
+        width: 280px;
+        height: 280px;
+   }
+    .founders {
+        margin: 40px;
+   }
+    .card-title, .partners, .testimonial-title, .opening-hours, .address, .form-title {
+        font-size: 1.6rem;
+        line-height: 60px;
+   }
+    .page-title-first {
+        font-size: 2rem;
+        margin-top: 120px;
+   }
+    .page-title-second {
+       font-size: 1.8rem;
+   }
+    .carousel-caption {
+       font-size: 1.2rem;
+   }
+    .logo-partners>img {
+        height: 180px;
+        margin: 10px;
+   }
+    footer .footer-text {
+        font-size: 1.8rem;
+        line-height: 20px;
+   }
+    .navbar .navbar-brand>img {
+        width: 105px;
+        height: 45px;
+   }
+    #navbarSupportedContent {
+        padding-top: 15px;
+        padding-bottom: 15px;
+   }
+    .contact-form {
+        height: 800px;
+   }
+    .address {
+        padding-left: 105px;
+   }
+    .social-icons {
+        padding-top: 20px;
+        padding-bottom: 20px;
+   }
+    .btn-success, .btn-secondary {
+        padding: 8px 15px;
+       font-size: 0.72rem;
+   }
+    .process-steps-title {
+        min-width: 400px;
+   }
+    .card-deck-top {
+        margin-bottom: 30px;
+   }
+    .terms {
+       font-size: 1.5rem;
+        margin-bottom: 5px;
+   }
+    footer .copyright>p {
+       font-size: 1.1rem;
+   }
+    .testimonials-row {
+        padding-left: 60px;
+        padding-right: 60px;
+   }
+    .error-text {
+       /* font-size: 80px;*/
+        margin-top: 300px;
+        line-height: 100px;
+   }
+}
 
 
