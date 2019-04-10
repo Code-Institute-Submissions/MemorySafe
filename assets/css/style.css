@@ -127,7 +127,7 @@
  .client>img {
      width: 55px;
      float: left;
-     margin-right: 20px;
+     margin-right: 12px;
      border-radius: 50%;
 }
 /* =============================== Carousel =============================== */
@@ -327,7 +327,7 @@
 }
  footer .copyright>p {
      font-size: .6rem;
-     padding-top: 6px;
+     padding-top: 7px;
      padding-bottom: 3px;
    
 }
@@ -336,10 +336,6 @@
 /* Landscape phones and portrait tablets */
  @media screen and (min-width: 768px) {
      
-
-    .brand-phone {
-        display: inline-block;
-    }
      .navbar-nav {
          align-items: center;
          padding-bottom: 12px;
@@ -377,5 +373,12 @@
     }
     nav.stroke ul li a:after,  nav.stroke ul li a:hover:after  {
         display: inline-block;
+    }
+
+    @media screen and (min-width: 992px) {
+
+        .brand-phone {
+            display: inline-block;
+        }
     }
 }
