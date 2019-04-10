@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700|Gugi:400|Allerta+Stencil:100, 200, 300, 400, 500, 600, 700');
-/* 
-=============================== 
-General 
-=============================== 
-*/
+/* =============================== General =============================== */
  html {
      height: 100%;
      width:100%;
@@ -34,11 +30,7 @@ General
      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .75), rgba(0, 0, 0, 0));
      margin-bottom: 20px;
 }
-/* 
-=============================== 
-Navbar
-=============================== 
-*/
+/* =============================== Navbar =============================== */
  .navbar {
      background-color: #06212c;
      padding: 2px 10px;
@@ -102,18 +94,13 @@ Navbar
      width: 70%;
      display: none;
 }
-/* 
-=============================== 
-Home Page
-=============================== 
-*/
+/* =============================== Home Page =============================== */
  .page-title {
      font-family: 'Allerta Stencil', cursive;
      padding: 40px 30px;
      letter-spacing: 1.4px;
 }
  .page-title-first {
-     font-size: 1 rem;
      font-weight: 700;
      margin-bottom: 5px;
 }
@@ -122,7 +109,7 @@ Home Page
      font-weight: 500;
      margin-bottom: 5px;
 }
- p.font-italic.testimonial-text {
+  .font-italic.testimonial-text {
      font-size: .7rem;
 }
  .testimonials-row {
@@ -143,11 +130,7 @@ Home Page
      margin-right: 30px;
      border-radius: 50%;
 }
-/*
- =============================== 
- Carousel
-=============================== 
-  */
+/* =============================== Carousel =============================== */
  #braincarousel {
      background-color: transparent;
      display: flex;
@@ -170,16 +153,12 @@ Home Page
      font-weight: 400;
      font-size: .6rem;
 }
-/* 
-=============================== 
-Hero Image 
-=============================== 
-*/
+/* =============================== Hero Image =============================== */
  .hero-image {
      font-size: 1.7vmax;
      padding: 30px;
      color: white;
-     min-height: 25vh;
+     min-height: 40vh;
      width: 100%;
      display: flex;
      -webkit-box-pack: center;
@@ -202,11 +181,7 @@ Hero Image
  .hero-text {
      margin: auto;
 }
-/* 
-=============================== 
-Contact Us page 
-=============================== 
-*/
+/* =============================== Contact Us page =============================== */
  .contact-form {
      margin-top: 30px;
 }
@@ -215,10 +190,7 @@ Contact Us page
      margin: 15px;
 }
  .address-contact {
-     padding-left: 5px;
-     padding-top: 30px;
-     padding-right: 10px;
-     padding-bottom: 20px;
+     padding-left:30px 10px 20px 5px;
      font-size: .8rem;
 }
  ::placeholder {
@@ -261,11 +233,7 @@ Contact Us page
  .contact-place {
      margin-right:0;
 }
-/* 
-=============================== 
-About us page 
-=============================== 
-*/
+/* =============================== About us page =============================== */
  .history-container {
      height: 70%;
      padding: 0;
@@ -299,18 +267,11 @@ About us page
      height: 60px;
      padding: 10px;
 }
- .history {
-    /*font-size: 16px;
-    */
-}
+
  .about-us-title {
      padding-bottom: 20px;
 }
-/* 
-=============================== 
-How it works page 
-=============================== 
-*/
+/* =============================== How it works page =============================== */
  .card-img-top {
      height: 60px;
      width: 60px;
@@ -325,17 +286,17 @@ How it works page
  .steps {
      margin-top: 20px;
 }
-/* 
-=============================== 
-Footer 
-=============================== 
-*/
+/* =============================== Footer =============================== */
  footer {
      background-color:#06212c;
      color: #fafafa;
      text-align: center;
      padding: 20px 10px;
      font-size: .8rem;
+}
+
+.footer-top {
+    padding-top: 7px;
 }
  .terms {
      font-size: .7rem;
@@ -356,8 +317,8 @@ Footer
      font-size: .6rem;
 }
  footer .social-icons a {
-     padding-right: 9%;
-     padding-left: 9%;
+     padding-right: 5%;
+     padding-left: 5%;
      font-size: 120%;
      color: rgb(18, 224, 252);
 }
@@ -366,39 +327,31 @@ Footer
 }
  footer .copyright>p {
      font-size: .6rem;
-     padding-top: 10px;
-     margin-bottom: 6px;
+     padding-top: 6px;
+     padding-bottom: 3px;
+   
 }
-/* 
-=============================== 
-Media Queries 
-=============================== 
-*/
-
-
-/* Portrait phones and smaller */
-
+/* =============================== Media Queries =============================== */
+  
 /* Landscape phones and portrait tablets */
+ @media screen and (min-width: 768px) {
+     
 
- @media (max-width: 767px) {
-     .contact-form {
-         width: 80%;
-         margin-left: 10%;
+    .brand-phone {
+        display: inline-block;
     }
      .navbar-nav {
          align-items: center;
          padding-bottom: 12px;
+         padding-top: 12px;
     }
      .map {
          width: 40%;
          padding-left: 0;
     }
-     .history-container {
-         width: 350px;
-    }
+    
      .history {
-        /* font-size: 14px;
-        */
+        font-size: .8rem;
          padding-left: 20px;
          padding-right: 20px;
     }
@@ -406,78 +359,23 @@ Media Queries
          height: 70px;
          padding: 5px;
     }
-     .process-title {
-         padding-top: 10px;
-    }
-     .card-deck-top {
-         margin-bottom: 30px;
-    }
-     .navbar-light .navbar-nav .nav-item .nav-link {
-         font-size: .8rem;
-         padding-bottom: 5px;
-    }
-}
-/* Portrait tablets and small desktops */
- @media (min-width: 768px) and (max-width: 991px) {
-     .logo-partners>img {
-         height: 80px;
-         padding: 5px;
+     
+    .contact-form {
+         width: 80%;
+         margin-left: 10%;
     }
      .opening-hours>ul {
          padding-left: 20px;
     }
-     .history-container {
-         width: 600px;
-    }
+     
      .card-deck-top {
          margin-bottom: 30px;
     }
-     footer .copyright>p {
-         margin-bottom: 5px;
-         font-size: .5rem;
-    }
+     
      .terms{
          font-size: .6rem;
     }
-}
-/* Large desktops and laptops */
- @media (min-width: 1200px) {
-     .process-title {
-         width: 200px;
-    }
-     footer .footer-text {
-         font-size: .6rem;
-         line-height:3px;
-    }
-     .opening-hours {
-         padding-left: 8%;
-    }
-     .address {
-         padding-left: 20px;
-    }
-     .address-contact {
-         font-size: .8rem;
-    }
-     .contact-place {
-         padding-top: 15px;
-    }
-     .history-container {
-         height: 300px;
-         width: 600px;
-         padding: 0;
-    }
-     .history {
-         margin-left: 20px;
-         margin-right: 20px;
-    }
-     .logo-partners>img {
-         height: 80px;
-         padding: 5px;
-    }
-     .card-deck-top {
-         margin-bottom: 30px;
-    }
-     .carousel-caption {
-         font-size: .8rem;
+    nav.stroke ul li a:after,  nav.stroke ul li a:hover:after  {
+        display: inline-block;
     }
 }
