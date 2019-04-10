@@ -40,26 +40,6 @@ hr {
      margin-bottom: 20px;
 }
 
-.page-title {
-    font-family: 'Allerta Stencil', cursive;
-    padding: 40px 30px;
-    letter-spacing: 1.4px;
-}
-
-
-.page-title-first {
-    font-size: 1 rem;
-    font-weight: 700;
-    margin-bottom: 5px;
-}
-
-.page-title-second, .testimonial-title {
-   font-size: 0.9rem;
-    font-weight: 500;
-    margin-bottom: 5px;
-}
-
-
 /* 
 ===============================
    Navbar
@@ -95,7 +75,7 @@ hr {
  .navbar-light .navbar-nav .nav-item .nav-link {
      color: #fafafa;
      font-weight: 600;
-     /*font-size: 14px;*/
+     font-size: 0.8rem;
      padding: 5px 20px;
      border-radius: 4px;
 }
@@ -127,8 +107,56 @@ hr {
  nav.stroke ul li a:hover:after {
      width: 70%;
 }
+
+/* 
+===============================
+  Home Page
+===============================
+*/
+
+.page-title {
+    font-family: 'Allerta Stencil', cursive;
+    padding: 40px 30px;
+    letter-spacing: 1.4px;
+}
+
+
+.page-title-first {
+    font-size: 1 rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.page-title-second, .testimonial-title {
+   font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
 p.font-italic.testimonial-text {
     font-size: 0.7rem;
+}
+
+.testimonials {
+    padding: 8px;
+    margin:0 !important;
+}
+
+.testimonials-row {
+    margin:0 !important;
+    padding:0;
+   font-size: 0.8rem;
+}
+
+.client {
+    margin-top: 20px;
+}
+
+.client>img {
+    width: 55px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%;
 }
 
 /* 
@@ -158,26 +186,13 @@ p.font-italic.testimonial-text {
      font-weight: 400;
      font-size: 0.6rem;
 }
- .testimonials {
-     padding: 8px;
-     margin:0 !important;
-}
- .testimonials-row {
-     margin:0 !important;
-     padding:0;
-    font-size: 0.8rem;
-}
- .client {
-     margin-top: 20px;
-}
- .client>img {
-     width: 55px;
-     float: left;
-     margin-right: 30px;
-     border-radius: 50%;
-}
- 
-/* Contact Us page */
+
+ /* 
+===============================
+    Contact Us page
+===============================
+*/
+
  .contact-form {
      margin-top: 30px;
 }
@@ -251,48 +266,7 @@ p.font-italic.testimonial-text {
  .contact-place {
      margin-right:0;
 }
-/* Footer */
- footer {
-    width: 100%;
-    background-color: #06212c;
-    color: white;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 15px;
-}
- .terms {
-     font-size: 0.7rem;
-     margin-bottom: 5px;
-}
- footer>ul {
-     margin-bottom: 7px !important;
-}
- footer>p {
-     margin-top: 7px !important;
-     text-align: center;
-}
- footer>ul>li {
-     display: inline-block;
-     text-decoration: none;
-     padding-left: 5%;
-     padding-right: 5%;
-     font-size: 0.6rem;
-}
- footer .social-icons a {
-     padding-right: 9%;
-     padding-left: 9%;
-     font-size: 120%;
-     color: rgb(18, 224, 252);
-}
- footer .social-icons a:hover {
-     color: rgba(53, 206, 226, 0.514);
-}
- footer .copyright>p {
-    font-size: 0.6rem;
-     padding-top: 10px;
-     margin-bottom: 6px;
-}
+
 
 /* 
 ===============================
@@ -364,6 +338,49 @@ How it works page
 }
  .steps {
      margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background-color: #06212c;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+ .terms {
+     font-size: 0.7rem;
+     margin-bottom: 5px;
+}
+ footer>ul {
+     margin-bottom: 7px !important;
+}
+ footer>p {
+     margin-top: 7px !important;
+     text-align: center;
+}
+ footer>ul>li {
+     display: inline-block;
+     text-decoration: none;
+     padding-left: 5%;
+     padding-right: 5%;
+     font-size: 0.6rem;
+}
+ footer .social-icons a {
+     padding-right: 9%;
+     padding-left: 9%;
+     font-size: 120%;
+     color: rgb(18, 224, 252);
+}
+ footer .social-icons a:hover {
+     color: rgba(53, 206, 226, 0.514);
+}
+ footer .copyright>p {
+    font-size: 0.6rem;
+     padding-top: 10px;
+     margin-bottom: 6px;
 }
 
 /* 
