@@ -97,7 +97,7 @@
 /* =============================== Home Page =============================== */
  .page-title {
      font-family: 'Allerta Stencil', cursive;
-     padding: 40px 30px;
+     padding: 20px 20px 10px 20px;
      letter-spacing: 1.4px;
 }
  .page-title-first {
@@ -127,7 +127,7 @@
  .client>img {
      width: 55px;
      float: left;
-     margin-right: 30px;
+     margin-right: 20px;
      border-radius: 50%;
 }
 /* =============================== Carousel =============================== */
@@ -151,7 +151,7 @@
      padding-bottom: 0;
      margin: 0;
      font-weight: 400;
-     font-size: .6rem;
+     font-size: .8rem;
 }
 /* =============================== Hero Image =============================== */
  .hero-image {
