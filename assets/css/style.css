@@ -360,10 +360,6 @@ Contact Us page
 }
 
 
- .contact-place {
-     margin-right:0;
-}
-
 
 /* 
 =============================== 
@@ -533,13 +529,6 @@ Media Queries
 
 /* Mobile only*/
 
-@media screen and (max-width: 766px) {
-
-    .quote {
-        margin-bottom: 25px;
-   }
-}
-
 
  @media screen and (min-width: 576px) {
      .card-deck-top {
@@ -547,6 +536,18 @@ Media Queries
     }
 }
 
+
+@media screen and (max-width: 766px) {
+
+    .quote {
+        margin-bottom: 25px;
+   }
+
+   .contact-place {
+        margin: auto;
+        max-width: 80%;
+   }
+}
 
 
 /* Landscape phones and portrait tablets */
