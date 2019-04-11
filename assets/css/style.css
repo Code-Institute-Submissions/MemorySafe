@@ -114,6 +114,7 @@
      letter-spacing: 1.4px;
 }
  .page-title-first {
+     font-size: 1.2rem;
      font-weight: 700;
      margin-bottom: 5px;
 }
@@ -345,16 +346,19 @@
      color: rgba(53, 206, 226, 0.514);
 }
  footer .copyright>p {
-     font-size: .6rem;
+     font-size: .65rem;
      padding-top: 10px;
      padding-bottom: 3px;
    
 }
 /* =============================== Media Queries =============================== */
   
-
-
-
+@media screen and (min-width: 576px) {
+ 
+    .card-deck-top {
+        margin-bottom: 30px;
+   }
+}
 
 
 /* Landscape phones and portrait tablets */
@@ -388,10 +392,7 @@
      .opening-hours>ul {
          padding-left: 20px;
     }
-     
-     .card-deck-top {
-         margin-bottom: 30px;
-    }
+    
      
      .terms{
          font-size: .6rem;
