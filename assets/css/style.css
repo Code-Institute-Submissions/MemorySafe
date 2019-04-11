@@ -383,10 +383,11 @@ border-radius: 5px;
     }
     
      .history {
-        font-size: .8rem;
+        font-size: .87rem;
          padding-left: 200px;
          padding-right: 200px;
     }
+
      .logo-partners>img {
          height: 70px;
          padding: 5px;
@@ -405,7 +406,11 @@ border-radius: 5px;
         display: inline-block;
     }
 
-
+ .page-title {
+           padding-top: 40px;
+       }
+ }
+ 
     @media screen and (min-width: 992px) {
 
         .brand-phone {
@@ -415,5 +420,6 @@ border-radius: 5px;
         .opening-hours {
             padding-left: 40px;
        }
+
+      
     }
-}
