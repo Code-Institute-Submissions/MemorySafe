@@ -212,7 +212,7 @@
 }
  .address-contact {
      padding-left:30px 10px 20px 5px;
-     font-size: .8rem;
+     font-size: .87rem;
 }
  ::placeholder {
      font-size: .7rem;
@@ -221,14 +221,14 @@
      padding-left: 40px;
 }
  .form-title {
-     font-size: .9rem;
+     font-size: .95rem;
 }
  .form-check-label, .form-control, .form-group {
-     font-size: .8rem;
+     font-size: .87rem;
 }
  .btn-success, .btn-secondary {
      padding: 3px 8px;
-     font-size: .72rem;
+     font-size: .8rem;
 }
  
  .envelope .phonenumber {
