@@ -307,6 +307,9 @@ Contact Us page
      font-weight: 600;
 }
 
+.contact-us-image * {
+    text-align: center;
+}
 
  .contact-us {
      padding-bottom: 15px;
