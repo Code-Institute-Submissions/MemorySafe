@@ -545,8 +545,7 @@ Media Queries
  @media screen and (min-width: 767px) {
      .navbar-nav {
          align-items: center;
-         padding-bottom: 12px;
-         padding-top: 12px;
+         padding-top: 5px;
     }
 
 
