@@ -288,13 +288,25 @@ Contact Us page
 =============================== 
 */
 
+/*
+
+
+
+
+
+ .address-contact {
+     padding-left:30px 10px 20px 5px;
+     font-size: .87rem;
+}
+*/ 
 
  .contact-form {
      margin-top: 30px;
-     width: 80%;
 }
 
-
+.contact-place {
+    padding-left: 55px;
+}
  form {
      border-radius: 5px;
      background-color: #f2f2f2;
@@ -313,19 +325,6 @@ Contact Us page
  .contact-us {
      padding-bottom: 15px;
 }
-
-
- .map {
-     width: 150px;
-     margin: 15px;
-}
-
-
- .address-contact {
-     padding-left:30px 10px 20px 5px;
-     font-size: .87rem;
-}
-
 
  ::placeholder {
      font-size: .7rem;
@@ -361,6 +360,7 @@ Contact Us page
      display: block;
      text-decoration: none;
      padding-left: 0;
+     margin: auto;
 }
 
 
@@ -390,15 +390,16 @@ About us page
 }
 
 
- .card-body {
+ .card-dr {
      border: 0px;
      padding-left: 20px;
      padding-right: 15px;
      margin: 0;
+     text-align: left !important;
 }
 
 
- .card-title, .card-body>.card-text {
+ .card-title, .card-dr>.card-text {
      padding: 5px;
      margin-bottom: 0;
 }
@@ -410,7 +411,7 @@ About us page
 }
 
 
- .card-body>.card-text {
+ .card-dr>.card-text {
      font-size: .87rem;
 }
 
@@ -439,17 +440,21 @@ How it works page Card decks
 =============================== 
 */
 
-
+.card-main {
+    margin: 0 auto;
+    padding: 5px;
+}
  .card-img-top {
      height: 40px;
      width: 40px;
      margin-left: 20px;
-     margin-top: 15px;
+     margin-top: 35px;
 }
 
  .card {
      text-align: center;
      min-height: 33vh;
+     margin: 7px;
 }
 
  .steps {
@@ -559,11 +564,7 @@ Media Queries
         margin-bottom: 25px;
    }
 
-   
-   .contact-place {
-        margin: auto;
-        max-width: 80%;
-   }
+
 }
 
 
@@ -581,10 +582,7 @@ Media Queries
     }
 
 
-     .map {
-         width: 40%;
-         padding-left: 0;
-    }
+   
 
 
      .history {
@@ -600,11 +598,12 @@ Media Queries
 
      .contact-place {
          margin-top: 30px;
+         padding-left: 30px;
     }
 
 
      .opening-hours>ul {
-         padding-left: 20px;
+         padding-left: 14px;
     }
 
 
@@ -616,7 +615,11 @@ Media Queries
      .page-title {
          padding-top: 40px;
     }
-}
+
+    .card {
+        min-height: 50vh;
+    }
+ }
 /* Desktops and up */
  @media screen and (min-width: 992px) {
      .brand-phone {
@@ -629,7 +632,4 @@ Media Queries
      }
 
 
-     .opening-hours {
-         padding-left: 40px;
-    }
 }
