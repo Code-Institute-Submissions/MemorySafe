@@ -50,7 +50,11 @@ Navbar
      display: none;
 }
 
-
+a.tel>i, a.tel {
+    text-decoration: none;
+    color: #fafafa;
+    font-size: .87rem;
+}
  .nav-item {
      font-family: "Raleway", sans-serif;
      font-weight: 600;
@@ -605,7 +609,12 @@ Media Queries
  @media screen and (min-width: 992px) {
      .brand-phone {
          display: inline-block;
-    }
+         transition:.5s;
+     }
+          
+          .brand-phone:hover {
+          transform:scale(1.1);
+     }
 
 
      .opening-hours {
