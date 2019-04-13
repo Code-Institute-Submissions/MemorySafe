@@ -454,7 +454,6 @@ How it works page Card decks
 
  .steps {
      margin-top: 20px;
-     position: relative;
 }
 
 .step-card {
@@ -526,6 +525,17 @@ Footer
      padding-bottom: 3px;
 }
 
+/* 
+=============================== 
+404 Page 
+=============================== 
+*/
+
+
+.page-wrap {
+    min-height: 100vh;
+    background: #40585c73;
+}
 
 /* 
 =============================== 
