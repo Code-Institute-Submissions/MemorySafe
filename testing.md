@@ -1,8 +1,8 @@
-##### MemorySafe
-###### https://andreeaiosip.github.io/MemorySafe/
+### MemorySafe
+ https://andreeaiosip.github.io/MemorySafe/
 .
-##### TESTING
-###### Client stories from UX section of README.md
+### TESTING
+#### Client stories from UX section of README.md
 1.	*As a general user*, I want to navigate my way easy on the website, so I find the information I need.
 - The layout of the navbar and footer is simple and consistent across all pages;
 - The logo is linked to the home page for an easy access;
@@ -36,26 +36,42 @@
 12.	*As a person who booked*, I want to find their location on the map easily, so I’m not late at the appointment;
 - The Contact Page has the address, contact details and a map with their location. This will be linked to Google Map with Geolocation. 
 
-##### Testing and debugging
+#### Testing and debugging
 I have checked the website on www.responsinator.com. On this website you can see how your website looks on the following screen sizes on one single page:
--iPhone eXpensive portrait · width: 375px, 
+
+-iPhone eXpensive portrait · width: 375px,
+
 -iPhone eXpensive landscape · width: 734px, 
+
 -Android (Pixel 2) portrait · width: 412px,
--Android (Pixel 2) landscape · width: 684px, 
+
+-Android (Pixel 2) landscape · width: 684px,
+
 -iPhone 6-8 portrait · width: 375px, 
+
 -iPhone 6-8 landscape · width: 667px,
+
 -iPhone 6-8 Plump portrait · width: 414px,
+
 -iPhone 6-8 Plump landscape · width: 736px,
+
 -iPad portrait · width: 768px, 
+
 -iPad landscape · width: 1024px
 
 With this tool I have spotted some padding mistakes at the navbar along the way, which I have fixed. The website renders and looks good on all those screens.
 
 I have used Google Chrome DevTools and Firefox DevTools for debugging;
+
 Tested with validator.w3.org and having returned 7 errors related with the modal, which is not implemented fully yet.
+
 I have tested the website on a numerous devices with my friends and family.
+
 I have regularly asked for feedback from my colleagues and my mentor Simen Daehlin.
+
 All photos have been resized through  http://tinypic.com/ for a faster loading time.
+
 I have imported only the font weights that I have actually used. At the beginning of my project I have imported all weights, but I have found out later that it affects the loading time.
+
 I had problems at the beginning with the footer on the home page because the content doesn’t take up the full page. I have managed to fix it.
 
