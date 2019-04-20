@@ -65,23 +65,29 @@ Files saved in a separate folder called [Personas](Personas\).
 ### Wireframes
 I have created wireframes for desktop and mobile with Balsamiq, which are saved in a separate folder called *Wireframes*.
 
-#### Desktop
+#### Desktop view
 [Home](wireframes\home-desk.png)
+
 [About](wireframes\about-desk.png)
+
 [How it works](wireframes\how-desk.png)
+
 [Contact](wireframes\contact-desk.png)
 
-#### Mobile
+#### Mobile view
 [Home](wireframes\home-mob.png)
+
 [About](wireframes\about-mob.png)
+
 [How it works](wireframes\how-mob.png)
+
 [Contact](wireframes\contact-mob.png)
 
 ## Features
 
 ### Existing Features
 
-**Navbar** for an easy navigation displayed on top of each page with a logo on the left hand side, a phone number beside the logo and four tabs: Home, About, Contact, How it works and a call to action button *Book Here* on the right hand side.  
+**Navbar** for an easy navigation displayed on top of each page with a logo on the left hand side, a phone number beside the logo and four tabs: *Home, About, Contact, How it works* and a call to action button *Book Here* on the right hand side.  
 The navbar is responsive –  under 768px width it transforms in a “hamburger” icon on the right hand side, phone number stays in the middle and the logo on the left hand side. The logo is linked to the home page.
 
 **Footer** has four sections composed by Privacy, Terms & Conditions, Copyright and Social media icons (Facebook Twitter, YouTube). Is displayed on each page for the user to read more about the policies they have in place and to visit the social channels.
