@@ -32,9 +32,13 @@ Files saved in a separate folder called [Personas](Personas\).
 
 ### Common characteristics of a client:
 •	Well informed and interested in technology and medicine;
+
 •	They know about the service already from their peers, but they want to find out more;
+
 •	Financially secure;
+
 •	Average age 45 years old;
+
 •	English speaker;
 
 ### Client stories:
