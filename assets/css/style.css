@@ -47,7 +47,7 @@ Navbar
      font-family: "Montserrat", sans-serif;
      padding-left: 15px;
      font-size: .87rem;
-     display: none;
+     display: inline-block;
 }
 
 a.tel>i, a.tel {
@@ -614,7 +614,6 @@ Media Queries
 /* Desktops and up */
  @media screen and (min-width: 992px) {
      .brand-phone {
-         display: inline-block;
          transition:.5s;
      }
           
