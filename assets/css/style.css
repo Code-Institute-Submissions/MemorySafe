@@ -573,9 +573,6 @@ Media Queries
     }
 
 
-   
-
-
      .history {
          font-size: .87rem;
     }
@@ -607,10 +604,9 @@ Media Queries
          padding-top: 40px;
     }
 
-    .card {
-        min-height: 50vh;
-    }
  }
+
+
 /* Desktops and up */
  @media screen and (min-width: 992px) {
      .brand-phone {
