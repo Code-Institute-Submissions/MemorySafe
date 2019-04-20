@@ -96,6 +96,32 @@ The navbar is responsive –  under 768px width it transforms in a “hamburger�
 
 **Footer** has four sections composed by Privacy, Terms & Conditions, Copyright and Social media icons (Facebook Twitter, YouTube). Is displayed on each page for the user to read more about the policies they have in place and to visit the social channels.
 
+**Book Now** modal call to action button.
+
+**Hero image** 
+
+*Home Page*
+
+**Photo Carousel**
+
+**Testimonials section**
+
+*About Page*
+
+**Profile cards**
+
+*How it Works Page*
+
+**Itinerary cards**
+
+*Contact Page*
+
+**Contact Form**
+
+**Map**
+
+
+
 ### Features left to implement
 •	Phone number on the navbar should be made clickable and automatically to connect to skype or another service to facilitate an instant call.
 
@@ -141,7 +167,7 @@ I have created this website with the help of a multiple technologies:
 •	[PhotoPad](https://www.nchsoftware.com/photoeditor/index.html) Photo editor – I have adjusted the color of the icons from the *How it works* page.
 
 ## TESTING 
-###### please click on the separate document [testing.md](testing.md)
+### please click on the separate document [testing.md](testing.md)
 .
 ## Deployment
 This project was developed using Visual Studio Code. It was pushed regularly through Visual Studio Code (Source Control Option) and with GitHub Desktop to GitHub repository and published to GitHub pages.
@@ -162,6 +188,6 @@ The content on the website is all fictional and written by me. For the bios for 
 ## Acknowledgements
 I received inspiration, suggestions and constructive feedback from my colleagues at Code Institute, my friends and my mentor, Simen Daehlin. 
 
-#### Disclaimer
+### Disclaimer
 The content of this Website is for educational purposes only.
 
