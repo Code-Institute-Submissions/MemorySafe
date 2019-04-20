@@ -122,7 +122,7 @@ I have created this website with the help of a multiple technologies:
 
 •	[Visual Studio Code](https://code.visualstudio.com/) as the IDE and pushing to GitHub;
 
-•	[GitHub](https://github.com/) and [GitHub](https://pages.github.com/) Pages for deployment;
+•	[GitHub](https://github.com/) and [GitHub Pages](https://pages.github.com/) for deployment;
 
 •	[GitHub Desktop](https://desktop.github.com/) for pushing to GitHub, comparing the changes  and look at the history of the changes that I’ve made along the way. 
 
