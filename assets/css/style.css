@@ -244,7 +244,9 @@ Hero Image
 =============================== 
 */
 
-
+.card-dr>.card-title {
+    color: #082629;
+}
  .hero-image {
      font-size: 1.7vmax;
      padding: 30px;
@@ -287,18 +289,6 @@ Hero Image
 Contact Us page 
 =============================== 
 */
-
-/*
-
-
-
-
-
- .address-contact {
-     padding-left:30px 10px 20px 5px;
-     font-size: .87rem;
-}
-*/ 
 
  .contact-form {
      margin-top: 30px;
@@ -387,6 +377,7 @@ About us page
  .doctor{
      margin-top: 30px;
      border: none;
+     
 }
 
 
@@ -520,7 +511,7 @@ Footer
 
 
  footer .social-icons a:hover {
-     color: rgba(53, 206, 226, 0.514);
+     color: #087c8bee;
 }
 
 
