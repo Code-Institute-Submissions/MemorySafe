@@ -23,7 +23,7 @@ When people get sick, have Alzheimer, dementia or just simply because we are get
 After pitching my idea and interviewing family and friends with age range 27 years old – 60 years old, I have developed three potential customer personas.
 I wanted to have a better structure and more visual appealing layout for the personas, so I have used https://xtensio.com/.  Please click on each persona to read more details. 
 
-Files saved in a separate folder called [Personas](Personas\).
+Files saved in a separate folder called *Personas*. 
 
 1.	[Susan – The Psychologist](personas\susan.jpg) 
 2.	[Patrick – The Neuroscientist Researcher](personas\patrick.jpg)
