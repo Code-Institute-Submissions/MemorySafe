@@ -25,9 +25,9 @@ I wanted to have a better structure and more visual appealing layout for the per
 
 Files saved in a separate folder called *Personas*. 
 
-1.	[Susan – The Psychologist](personas\susan.jpg) 
-2.	[Patrick – The Neuroscientist Researcher](personas\patrick.jpg)
-3.	[Mary (Patrick’s Mum) – The Modern Upper Class Lady](personas\mary.jpg)
+1.	[Susan – The Psychologist](https://github.com/andreeaiosip/MemorySafe/blob/master/personas/susan.JPG) 
+2.	[Patrick – The Neuroscientist Researcher](https://github.com/andreeaiosip/MemorySafe/blob/master/personas/patrick.JPG)
+3.	[Mary (Patrick’s Mum) – The Modern Upper Class Lady](https://github.com/andreeaiosip/MemorySafe/blob/master/personas/mary.JPG)
 
 
 ### Common characteristics of a client:
@@ -70,22 +70,22 @@ Files saved in a separate folder called *Personas*.
 I have created wireframes for desktop and mobile with Balsamiq, which are saved in a separate folder called *Wireframes*.
 
 #### Desktop view
-[Home](wireframes\home-desk.png)
+[Home](https://github.com/andreeaiosip/MemorySafe/blob/master/wireframes/home-desk.png)
 
-[About](wireframes\about-desk.png)
+[About](https://github.com/andreeaiosip/MemorySafe/blob/master/wireframes/about-desktop.png)
 
-[How it works](wireframes\how-desk.png)
+[How it works](https://github.com/andreeaiosip/MemorySafe/blob/master/wireframes/how-desk.png)
 
-[Contact](wireframes\contact-desk.png)
+[Contact](https://github.com/andreeaiosip/MemorySafe/blob/master/wireframes/contact-desk.png)
 
 #### Mobile view
-[Home](wireframes\home-mob.png)
+[Home](https://github.com/andreeaiosip/MemorySafe/blob/master/wireframes/home-mob.png)
 
-[About](wireframes\about-mob.png)
+[About](https://github.com/andreeaiosip/MemorySafe/blob/master/wireframes/about-mob.png)
 
-[How it works](wireframes\how-mob.png)
+[How it works](https://github.com/andreeaiosip/MemorySafe/blob/master/wireframes/home-mob.png)
 
-[Contact](wireframes\contact-mob.png)
+[Contact](https://github.com/andreeaiosip/MemorySafe/blob/master/wireframes/contact-mob.png)
 
 ## Features
 
