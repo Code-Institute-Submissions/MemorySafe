@@ -119,7 +119,7 @@ For the desktop view, there is a underline hoover effect added to the navitems, 
 
 •	Geolocation for the map;
 
-•	Copyright, Copyright, Privacy, Social media icons and Terms & Conditions linked to the right content.
+•	Copyright, Privacy, Social media icons and Terms & Conditions linked to the right content.
 
 •	Translation option for other languages;
 
