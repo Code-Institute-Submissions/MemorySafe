@@ -425,7 +425,6 @@ How it works page Card decks
  .card {
      text-align: center;
      min-height: 33vh;
-     margin: 7px;
 }
 
  .steps {
