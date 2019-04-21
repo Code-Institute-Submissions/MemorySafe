@@ -37,7 +37,7 @@
 - The **Contact** Page has the address, contact details and a map with their location. This will be linked to Google Map with Geolocation. 
 
 ### Testing and debugging
-I have checked the website on www.responsinator.com. On this website you can see how your website looks on the following screen sizes on one single web page:
+I have checked the website on [Responsinator.com](www.responsinator.com). On this website you can see how your website looks on the following screen sizes on one single web page:
 
 -iPhone eXpensive portrait · width: 375px;
 
@@ -69,7 +69,7 @@ I have tested the website on a numerous devices with my friends and family.
 
 I have regularly asked for feedback from my colleagues and my mentor Simen Daehlin.
 
-All photos have been resized through  http://tinypic.com/ for a faster loading time.
+All photos have been resized through [tinypic.com](http://tinypic.com/) for a faster loading time.
 
 I have imported only the font weights that I have actually used. At the beginning of my project I have imported all weights, but I have found out later that it affects the loading time.
 
