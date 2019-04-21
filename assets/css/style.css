@@ -527,17 +527,19 @@ Media Queries
 
 /* Mobile only*/
 
-/*Bottom margin and padding added to the call to action button on mobile.*/
+/*Next two declaration will add bottom margin and padding to the call to action button on mobile.*/
 
 @media screen and (max-width: 766px) {
 
     .quote {
         margin-bottom: 25px; 
+        
+   }
+
+   #navbarSupportedContent .nav-item .quote {   
         padding-left: 10px;
         padding-right: 10px;
-   }
-   /*The below code gives the turqouise color */
- 
+  }
 }
 
 
