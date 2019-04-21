@@ -7,9 +7,9 @@
 - The layout of the navbar and footer is simple and consistent across all pages;
 - The logo is linked to the home page for an easy access;
 
-2.	*As a general user*, I want to find out how this process works, so I know what to expect if I decide to book and appointment. 
+2.	*As a general user*, I want to find out how this process works, so I know what to expect if I decide to book an appointment. 
 3.	*As a medical practitioner*, I want to find out how this works, so I can recommend this service to my patients.
-- There is a dedicated page called *How it works* where people can go and read about the process and what are the steps. These are broken down and include icons to make it easy to read.
+- There is a dedicated page called *How it works* where people can go and read about the process and what are the steps. These are broken down in 6 steps and include icons to make it easy to scan the page.
 
 4.	*As a general user*, I want to get the contact details easily, so I don’t have to browse too much on the website. 
 5.	*As a person who booked*, I want to find their contact details easily, so I can get in touch if I have any questions.
@@ -37,7 +37,7 @@
 - The **Contact** Page has the address, contact details and a map with their location. This will be linked to Google Map with Geolocation. 
 
 ### Testing and debugging
-I have checked the website on www.responsinator.com. On this website you can see how your website looks on the following screen sizes on one single page:
+I have checked the website on www.responsinator.com. On this website you can see how your website looks on the following screen sizes on one single web page:
 
 -iPhone eXpensive portrait · width: 375px;
 
