@@ -158,19 +158,19 @@ I have created this website with the help of a multiple technologies:
 .
 ## Deployment
 This project was developed using the Visual Studio Code, committed to git and pushed to GitHub using GitHub Desktop.
-To deploy MemorySafe to GitHub Pages from its [GitHub repository](https://github.com/andreeaiosip/MemorySafe), the following steps were taken:
+To deploy MemorySafe to GitHub Pages from its GitHub repository, the following steps were taken:
 1.	Log into [GitHub](https://github.com/).
 2.	From the list of repositories on the screen, select [andreeaiosip/MemorySafe](https://github.com/andreeaiosip/MemorySafe).
-3.	From the menu items near the top of the page, select **Settings**.
+3.	From the menu items near the top of the page, select *Settings*.
 4.	Scroll down to the GitHub Pages section.
-5.	Under Source click the drop-down menu labelled **None** and select **Master Branch**
+5.	Under Source click the drop-down menu labelled None and select *Master Branch*
 6.	On selecting Master Branch the page is automatically refreshed, MemorySafe is now deployed.
 7.	Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
 
 #### How to run this project locally
 To clone this project from GitHub:
 1.	Follow this link to the [MemorySafe GitHub repository](https://github.com/andreeaiosip/MemorySafe).
-2.	Under the repository name, click **"Clone or download"**.
+2.	Under the repository name, click *Clone or download*.
 3.	In the Clone with HTTPs section, copy the clone URL for the repository.
 4.	In your local IDE open Git Bash.
 5.	Change the current working directory to the location where you want the cloned directory to be made.
@@ -185,6 +185,7 @@ To change the colour of the navbar “hamburger” icon, I had to overwrite Boot
 
 The hoover underline effect for the navbar tabs, I got the inspiration from a [Youtube](https://www.youtube.com/watch?v=IYTBAQRBsw0) video.
 
+My mentor, Simen Daehlin helped me to implement the *Book Now* modal into the navbar.
 
 ## Credit
 
