@@ -15,7 +15,7 @@
      flex-direction: column;
 }
 
-
+/* The below code helped me to fix the footer, because on the Home page was not enough text to cover the full screen*/
  main {
      flex: 1;
      margin-top: 44px;
@@ -44,17 +44,19 @@ Navbar
 
  .brand-phone {
      color: #fafafa;
-     font-family: "Montserrat", sans-serif;
+     font-family: "Arial", sans-serif;
      padding-left: 15px;
      font-size: .87rem;
      display: inline-block;
 }
 
+/*The code below styles the phone number on the navbar*/
 a.tel>i, a.tel {
     text-decoration: none;
     color: #fafafa;
     font-size: .87rem;
 }
+
  .nav-item {
      font-family: "Raleway", sans-serif;
      font-weight: 600;
@@ -63,17 +65,12 @@ a.tel>i, a.tel {
 }
 
 
- .custom-toggler.navbar-toggler {
-     border-color: #06212c;
-}
-
-
-/* formula to overwrite bootstrap toggler colour */
+/* The code below is a formula to overwrite bootstrap toggler colour taken from GiHub*/
  .custom-toggler .navbar-toggler-icon {
      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(18, 224, 252, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-
+/*The code below is removing the outline from the toggler from Bootstrap's navbar template*/
  .custom-toggler.navbar-toggler {
      outline: none;
 }
@@ -93,12 +90,12 @@ a.tel>i, a.tel {
      text-align: center;
 }
 
-
+/*The below code gives the turquise color to the Book Now button on the navbar*/
  #navbarSupportedContent .nav-item .quote {
      background-color: rgb(18, 224, 252);
 }
 
-
+/*The below code gives the turquise color to the active tab */
  .active .nav-link {
      color:rgb(18, 224, 252) !important;
      font-weight: 700 !important;
@@ -357,7 +354,7 @@ Contact Us page
 
 /* 
 =============================== 
-About us page 
+About page 
 =============================== 
 */
 
