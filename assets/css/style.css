@@ -81,7 +81,6 @@ a.tel>i, a.tel {
      color: #fafafa;
      font-weight: 600;
      font-size: .87rem;
-     padding: 5px 20px;
      border-radius: 4px;
      display: inline-block !important;
 }
@@ -548,6 +547,7 @@ Media Queries
          align-items: center;
          padding-top: 5px;
          padding-bottom: 5px;
+         padding-right: 5px;
     }
 
 
