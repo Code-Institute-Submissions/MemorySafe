@@ -21,7 +21,7 @@ When people get sick, have Alzheimer, dementia or just simply because we are get
 
 ## UX
 After pitching my idea and interviewing family and friends with age range 27 years old – 60 years old, I have developed three potential customer personas.
-I wanted to have a better structure and more visual appealing layout for the personas, so I have used https://xtensio.com/.  Please click on each persona to read more details. 
+I wanted to have a better structure and more visual appealing layout for the personas, so I have used [Xtensio.com](https://xtensio.com/).  Please click on each persona to read more details. 
 
 Files saved in a separate folder called *Personas*. 
 
@@ -147,13 +147,13 @@ I have created this website with the help of a multiple technologies:
 
 •	[Visual Studio Code](https://code.visualstudio.com/) as the IDE;
 
-•	[GitHub](https://github.com/) and [GitHub](https://pages.github.com/) Pages for deployment;
+•	[GitHub](https://github.com/) and [GitHub Pages](https://pages.github.com/) for deployment;
 
 •	[GitHub Desktop](https://desktop.github.com/) for pushing to GitHub, comparing the changes  and look at the history of the changes that I’ve made along the way. 
 
 •	[Bootstrap](https://getbootstrap.com/) for adding responsive elements;
 
-•	[FontAwesome](https://fontawesome.com/icons?d=gallery) icons that I have used on the site;
+•	[FontAwesome](https://fontawesome.com/icons?d=gallery) was used to add the icons that I have used on the site;
 
 •	[Google Fonts](https://fonts.google.com/) for adding two font families: Raleway and Allerta Stencil;
 
@@ -169,18 +169,23 @@ I have created this website with the help of a multiple technologies:
 ###### please click on the separate document [TESTING.md](TESTING.md)
 .
 ## Deployment
-This project was developed using Visual Studio Code. It was pushed regularly through Visual Studio Code (Source Control Option) and with GitHub Desktop to GitHub repository and published to GitHub pages.
+This project was developed using Visual Studio Code. It was pushed regularly via Visual Studio Code (Source Control Option) and with GitHub Desktop to GitHub repository and published to GitHub pages.
 
 There are no differences between the deployed version and the development version.
 
-## Credits
+## Code
 To change the colour of the navbar “hamburger” icon, I had to overwrite Bootstrap rules and I have found a [code](https://github.com/css/csso/issues/377) on GitHub that helped me to solve that bug.
 
+The hoover underline effect for the navbar tabs, I got the inspiration from a [Youtube](https://www.youtube.com/watch?v=IYTBAQRBsw0) video.
+
+
+## Credit
+
 ## Content
-The content on the website is all fictional and written by me. For the bios for the founders, I researched for a more medical wording and I’ve got my inspiration from ww.psychologytoday.com.
+The content on the website is all fictional and written by me. For the bios for the founders, I researched for a more medical wording and I’ve got my inspiration from [psychologytoday.com](https://www.psychologytoday.com/ie).
 
 ## Media
-•	I have sourced photos that don’t need copyright, from Google pictures and from Unsplash.com.
+•	I have sourced photos that don’t need copyright, from Google pictures and from [Unsplash](https://unsplash.com/).
 
 •	For the icons on the How it works page, I have sourced them on Google pictures and recoloured them in Photo Editor, PhotoPad, so they will match the colour scheme of the website.
 
