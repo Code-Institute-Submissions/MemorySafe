@@ -135,7 +135,7 @@ The navbar is responsive –  under 768px width it transforms in a “hamburger�
 
 •	Geolocation for the map;
 
-•	Copyright, Privacy and Terms & Conditions linked to the right content.
+•	Copyright, Privacy, Social media icons and Terms & Conditions linked to the right content.
 
 •	Translation option for other languages;
 
@@ -154,7 +154,7 @@ I have created this website with the help of a multiple technologies:
 
 •	[Bootstrap 4](https://getbootstrap.com/) for adding responsive elements;
 
-•	[FontAwesome](https://fontawesome.com/icons?d=gallery) icons that I have used on the site;
+•	[FontAwesome](https://fontawesome.com/icons?d=gallery) was used to add icons that I have used on the site;
 
 •	[Google Fonts](https://fonts.google.com/) for adding two font families: Raleway and Allerta Stencil;
 
@@ -167,7 +167,7 @@ I have created this website with the help of a multiple technologies:
 •	[PhotoPad](https://www.nchsoftware.com/photoeditor/index.html) Photo editor – I have adjusted the color of the icons from the *How it works* page.
 
 ## TESTING 
-### please click on the separate document [testing.md](testing.md)
+### please click on the separate document [TESTING.md](TESTING.md)
 .
 ## Deployment
 This project was developed using Visual Studio Code. It was pushed regularly through Visual Studio Code (Source Control Option) and with GitHub Desktop to GitHub repository and published to GitHub pages.
@@ -183,7 +183,7 @@ The content on the website is all fictional and written by me. For the bios for 
 ## Media
 •	I have sourced photos that don’t need copyright, from Google pictures and from Unsplash.com.
 
-•	For the icons on the How it works page, I have sourced them on Google pictures and recoloured them in Photo Editor, PhotoPad, so they will match the colour scheme of the website.
+•	For the icons on the *How it works* page, I have sourced them on Google pictures and recoloured them in Photo Editor, PhotoPad, so they will match the colour scheme of the website.
 
 ## Acknowledgements
 I received inspiration, suggestions and constructive feedback from my colleagues at Code Institute, my friends and my mentor, Simen Daehlin. 
