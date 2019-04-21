@@ -89,8 +89,8 @@ a.tel>i, a.tel {
 /*The below code gives the turquise color and padding to the Book Now button on the navbar*/
  #navbarSupportedContent .nav-item .quote {
      background-color: rgb(18, 224, 252);
-     padding-right: 10px;
      padding-left: 10px;
+     padding-right: 10px;
 }
 
 /*The below code gives the turquise color to the active tab */
@@ -534,7 +534,6 @@ Media Queries
         margin-bottom: 25px;
    }
 
-
 }
 
 
@@ -544,6 +543,8 @@ Media Queries
          align-items: center;
          padding-top: 5px;
     }
+
+    
 
     a.tel>i, a.tel {
         font-size: .87rem;
