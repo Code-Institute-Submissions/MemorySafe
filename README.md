@@ -102,23 +102,13 @@ The navbar is responsive –  under 768px width it transforms in a “hamburger�
 
 *Home Page*
 
-**Photo Carousel**
-
 **Testimonials section**
 
 *About Page*
 
 **Profile cards**
 
-*How it Works Page*
 
-**Itinerary cards**
-
-*Contact Page*
-
-**Contact Form**
-
-**Map**
 
 
 
@@ -147,9 +137,7 @@ I have created this website with the help of a multiple technologies:
 
 •	[Visual Studio Code](https://code.visualstudio.com/) as the IDE;
 
-•	[GitHub](https://github.com/) and [GitHub Pages](https://pages.github.com/) for deployment;
-
-•	[GitHub Desktop](https://desktop.github.com/) for pushing to GitHub, comparing the changes  and look at the history of the changes that I’ve made along the way. 
+•	[GitHub Desktop](https://desktop.github.com/) for pushing to [GitHub](https://github.com/andreeaiosip/MemorySafe), comparing the changes  and look at the history of the changes that I’ve made along the way. 
 
 •	[Bootstrap](https://getbootstrap.com/) for adding responsive elements;
 
@@ -169,9 +157,26 @@ I have created this website with the help of a multiple technologies:
 ###### please click on the separate document [TESTING.md](TESTING.md)
 .
 ## Deployment
-This project was developed using Visual Studio Code. It was pushed regularly via Visual Studio Code (Source Control Option) and with GitHub Desktop to GitHub repository and published to GitHub pages.
+This project was developed using the Visual Studio Code, committed to git and pushed to GitHub using GitHub Desktop.
+To deploy MemorySafe to GitHub Pages from its [GitHub repository](https://github.com/andreeaiosip/MemorySafe), the following steps were taken:
+1.	Log into [GitHub](https://github.com/).
+2.	From the list of repositories on the screen, select [andreeaiosip/MemorySafe](https://github.com/andreeaiosip/MemorySafe).
+3.	From the menu items near the top of the page, select **Settings**.
+4.	Scroll down to the GitHub Pages section.
+5.	Under Source click the drop-down menu labelled **None** and select **Master Branch**
+6.	On selecting Master Branch the page is automatically refreshed, MemorySafe is now deployed.
+7.	Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
 
-There are no differences between the deployed version and the development version.
+#### How to run this project locally
+To clone this project from GitHub:
+1.	Follow this link to the [MemorySafe GitHub repository](https://github.com/andreeaiosip/MemorySafe).
+2.	Under the repository name, click **"Clone or download"**.
+3.	In the Clone with HTTPs section, copy the clone URL for the repository.
+4.	In your local IDE open Git Bash.
+5.	Change the current working directory to the location where you want the cloned directory to be made.
+6.	Type git clone, and then paste the URL you copied in Step 3.
+     git clone https://github.com/USERNAME/REPOSITORY
+7.	Press Enter. Your local clone will be created.
 
 ## Code
 To change the colour of the navbar “hamburger” icon, I had to overwrite Bootstrap rules and I have found a [code](https://github.com/css/csso/issues/377) on GitHub that helped me to solve that bug.
