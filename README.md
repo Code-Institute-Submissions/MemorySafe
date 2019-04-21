@@ -178,6 +178,8 @@ To clone this project from GitHub:
      git clone https://github.com/USERNAME/REPOSITORY
 7.	Press Enter. Your local clone will be created.
 
+There are no differences between the deployed version and the development version.
+
 ## Code
 To change the colour of the navbar “hamburger” icon, I had to overwrite Bootstrap rules and I have found a [code](https://github.com/css/csso/issues/377) on GitHub that helped me to solve that bug.
 
