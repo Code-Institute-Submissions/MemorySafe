@@ -99,6 +99,7 @@ a.tel>i, a.tel {
      font-weight: 700 !important;
 }
 
+
 /* The next four declarations are for the hoover effect underline for the navbar tabs - displayed only to the screens above 768px width. Code found on YouTube https://www.youtube.com/watch?v=IYTBAQRBsw0 */
  nav ul li a, nav ul li a:after, nav ul li a:before {
      transition: all .5s;
@@ -528,14 +529,17 @@ Media Queries
 
 /* Mobile only*/
 
-/*Bottom margin added to the call to action button on mobile for a better visual layout.*/
+/*Bottom margin and padding added to the call to action button on mobile.*/
 
 @media screen and (max-width: 766px) {
 
     .quote {
-        margin-bottom: 25px;
+        margin-bottom: 25px; 
+        padding-left: 10px;
+        padding-right: 10px;
    }
-
+   /*The below code gives the turqouise color */
+ 
 }
 
 
