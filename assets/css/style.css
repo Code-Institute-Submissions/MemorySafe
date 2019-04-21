@@ -39,7 +39,6 @@ Navbar
 
  .navbar {
      background-color: #06212c;
-     padding: 2px 10px;
 }
 
 
@@ -47,7 +46,6 @@ Navbar
      color: #fafafa;
      font-family: "Arial", sans-serif;
      padding-left: 15px;
-     font-size: .87rem;
      display: inline-block;
 }
 
@@ -55,7 +53,6 @@ Navbar
 a.tel>i, a.tel {
     text-decoration: none;
     color: #fafafa;
-    font-size: .87rem;
 }
 
  .nav-item {
@@ -80,7 +77,6 @@ a.tel>i, a.tel {
  .navbar-light .navbar-nav .nav-item .nav-link {
      color: #fafafa;
      font-weight: 600;
-     font-size: .87rem;
      border-radius: 4px;
      display: inline-block !important;
 }
@@ -90,9 +86,11 @@ a.tel>i, a.tel {
      text-align: center;
 }
 
-/*The below code gives the turquise color to the Book Now button on the navbar*/
+/*The below code gives the turquise color and padding to the Book Now button on the navbar*/
  #navbarSupportedContent .nav-item .quote {
      background-color: rgb(18, 224, 252);
+     padding-right: 10px;
+     padding-left: 10px;
 }
 
 /*The below code gives the turquise color to the active tab */
@@ -545,9 +543,12 @@ Media Queries
  @media screen and (min-width: 767px) {
      .navbar-nav {
          align-items: center;
+         padding-right: 20px;
          padding-top: 5px;
-         padding-bottom: 5px;
-         padding-right: 5px;
+    }
+
+    a.tel>i, a.tel {
+        font-size: .87rem;
     }
 
 
