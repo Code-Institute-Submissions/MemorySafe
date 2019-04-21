@@ -89,8 +89,6 @@ a.tel>i, a.tel {
 /*The below code gives the turqouise color and padding to the Book Now button on the navbar*/
  #navbarSupportedContent .nav-item .quote {
      background-color: rgb(18, 224, 252);
-     padding-left: 10px;
-     padding-right: 10px;
 }
 
 /*The below code gives the turqouise color to the active tab */
