@@ -13,6 +13,7 @@
      min-height: 100vh;
      display: flex;
      flex-direction: column;
+     font-size: 1rem;
 }
 
 /* The below code helped me to fix the footer, because on the Home page was not enough text to cover the full screen*/
@@ -155,7 +156,6 @@ Home Page
 
 
  .page-title-second, .testimonial-title {
-     font-size: .9rem;
      font-weight: 500;
      margin-bottom: 5px;
 }
@@ -169,15 +169,9 @@ Home Page
 }
 
 
- .font-italic.testimonial-text {
-     font-size: .8rem;
-}
-
-
  .testimonials-row {
      margin:0 !important;
      padding:0;
-     font-size: .8rem;
 }
 
 
@@ -245,7 +239,6 @@ Hero Image
     color: #082629;
 }
  .hero-image {
-     font-size: 1.7vmax;
      padding: 30px;
      margin-bottom: 20px;
      color: white;
@@ -366,7 +359,7 @@ About page
 
 
  .history {
-     max-width: 60%;
+     max-width: 70%;
      margin: auto;
 }
 
@@ -374,7 +367,6 @@ About page
  .doctor{
      margin-top: 30px;
      border: none;
-     
 }
 
 
@@ -394,13 +386,7 @@ About page
 
 
  .card-title, .partners {
-     font-size: .87rem;
      font-weight: 600;
-}
-
-
- .card-dr>.card-text {
-     font-size: .87rem;
 }
 
 
@@ -474,7 +460,7 @@ Footer
 
 
  .terms {
-     font-size: .7rem;
+     font-size: .9rem;
      margin-bottom: 10px;
 }
 
@@ -495,14 +481,14 @@ Footer
      text-decoration: none;
      padding-left: 5%;
      padding-right: 5%;
-     font-size: .6rem;
+     font-size: .8rem;
 }
 
 
  footer .social-icons a {
      padding-right: 5%;
      padding-left: 5%;
-     font-size: 120%;
+     font-size: 160%;
      color: rgb(18, 224, 252);
 }
 
@@ -513,7 +499,7 @@ Footer
 
 
  footer .copyright>p {
-     font-size: .65rem;
+     font-size: .85rem;
      padding-top: 10px;
      padding-bottom: 3px;
 }
@@ -570,14 +556,9 @@ Media Queries
     }
 
 
-     .history {
-         font-size: .87rem;
-    }
-
-
      .logo-partners>img {
-         height: 70px;
-         padding: 5px;
+         height: 100px;
+         padding: 5px 10px 5px 10px;
     }
 
 
