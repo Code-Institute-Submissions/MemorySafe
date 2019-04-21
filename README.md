@@ -8,7 +8,7 @@ Nowadays we can record and take pictures, but this will bring back only visual e
 The business is 2 years old, so the reach is still restricted and mainly known in their industry – medicine and technology.
 
 ### The need: 
-When people get sick, have Alzheimer, dementia or just simply because we are getting old, and memory is not as good, we lose important memories; e.g. how we felt on our first day in school, our first kiss, when our baby was born or in worse cases, we can’t recognize family members.
+When people get sick, have Alzheimer, dementia or just simply because we are getting old, and memory is not as good, we lose important memories; e.g. how we felt on our first day in school, our first kiss, how it felt when our baby was born or in worse cases, we can’t recognize family members.
 
 ### The goals of this website are:
 •	Promote their service;
@@ -96,7 +96,7 @@ The navbar is responsive –  under 768px width it transforms in a “hamburger�
 
 **Footer** has four sections composed by Privacy, Terms & Conditions, Copyright and Social media icons (Facebook Twitter, YouTube). Is displayed on each page for the user to read more about the policies they have in place and to visit the social channels.
 
-**Book Now** modal call to action button.
+**Book Now** call to action button.
 
 **Hero image** 
 
@@ -125,17 +125,16 @@ The navbar is responsive –  under 768px width it transforms in a “hamburger�
 ### Features left to implement
 •	Phone number on the navbar should be made clickable and automatically to connect to skype or another service to facilitate an instant call.
 
-•	GDPR Modal pop up window;
 
 •	Useful FAQ about the service and process;
 
 •	Q&A section;
 
-•	Form to connect to PHP;
+•	Make the contact form work;
 
 •	Geolocation for the map;
 
-•	Copyright, Privacy, Social media icons and Terms & Conditions linked to the right content.
+•	Copyright, Copyright, Privacy, Social media icons and Terms & Conditions linked to the right content.
 
 •	Translation option for other languages;
 
@@ -146,15 +145,15 @@ I have created this website with the help of a multiple technologies:
 
 •	CSS – to add styling to the HTML structure;
 
-•	[Visual Studio Code](https://code.visualstudio.com/) as the IDE and pushing to GitHub;
+•	[Visual Studio Code](https://code.visualstudio.com/) as the IDE;
 
-•	[GitHub](https://github.com/) and [GitHub Pages](https://pages.github.com/) for deployment;
+•	[GitHub](https://github.com/) and [GitHub](https://pages.github.com/) Pages for deployment;
 
 •	[GitHub Desktop](https://desktop.github.com/) for pushing to GitHub, comparing the changes  and look at the history of the changes that I’ve made along the way. 
 
-•	[Bootstrap 4](https://getbootstrap.com/) for adding responsive elements;
+•	[Bootstrap](https://getbootstrap.com/) for adding responsive elements;
 
-•	[FontAwesome](https://fontawesome.com/icons?d=gallery) was used to add icons that I have used on the site;
+•	[FontAwesome](https://fontawesome.com/icons?d=gallery) icons that I have used on the site;
 
 •	[Google Fonts](https://fonts.google.com/) for adding two font families: Raleway and Allerta Stencil;
 
@@ -167,7 +166,7 @@ I have created this website with the help of a multiple technologies:
 •	[PhotoPad](https://www.nchsoftware.com/photoeditor/index.html) Photo editor – I have adjusted the color of the icons from the *How it works* page.
 
 ## TESTING 
-### please click on the separate document [TESTING.md](TESTING.md)
+###### please click on the separate document [TESTING.md](TESTING.md)
 .
 ## Deployment
 This project was developed using Visual Studio Code. It was pushed regularly through Visual Studio Code (Source Control Option) and with GitHub Desktop to GitHub repository and published to GitHub pages.
@@ -183,11 +182,11 @@ The content on the website is all fictional and written by me. For the bios for 
 ## Media
 •	I have sourced photos that don’t need copyright, from Google pictures and from Unsplash.com.
 
-•	For the icons on the *How it works* page, I have sourced them on Google pictures and recoloured them in Photo Editor, PhotoPad, so they will match the colour scheme of the website.
+•	For the icons on the How it works page, I have sourced them on Google pictures and recoloured them in Photo Editor, PhotoPad, so they will match the colour scheme of the website.
 
 ## Acknowledgements
 I received inspiration, suggestions and constructive feedback from my colleagues at Code Institute, my friends and my mentor, Simen Daehlin. 
 
-### Disclaimer
+#### Disclaimer
 The content of this Website is for educational purposes only.
 
