@@ -252,6 +252,7 @@ Hero Image
      align-items: center;
 }
 
+
 /*For the About page - hero image, there was need for a larger hero image.*/
  .about-us-image {
      min-height: 45vh;
@@ -283,9 +284,12 @@ Contact Us page
      margin-top: 30px;
 }
 
+
 .contact-place {
     padding-left: 55px;
 }
+
+
  form {
      border-radius: 5px;
      background-color: #f2f2f2;
@@ -320,6 +324,7 @@ Contact Us page
      padding: 5px 9px;
      font-size: .8rem;
 }
+
 
 /*Styling for the Font Awesome icons on the hero image.*/
  .envelope .phonenumber {
