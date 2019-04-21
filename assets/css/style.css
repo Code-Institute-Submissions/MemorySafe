@@ -569,7 +569,7 @@ Media Queries
          padding-left: 14px;
     }
 
-
+/*Underline hoover effect for the navbar items displayed.*/
      nav.stroke ul li a:after, nav.stroke ul li a:hover:after {
          display: inline-block;
     }
@@ -584,12 +584,14 @@ Media Queries
 
 /* Desktops and up */
  @media screen and (min-width: 992px) {
+
+    /*Hoover effect added to the phone number on the navbar.*/
      .brand-phone {
          transition:.5s;
      }
           
-          .brand-phone:hover {
-          transform:scale(1.1);
+     .brand-phone:hover {
+         transform:scale(1.1);
      }
 
 
